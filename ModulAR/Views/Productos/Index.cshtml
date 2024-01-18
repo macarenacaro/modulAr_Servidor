@@ -18,8 +18,11 @@
             <th>
                 @Html.DisplayNameFor(model => model.Texto)
             </th>
-            <th>
+           @* <th>
                 @Html.DisplayNameFor(model => model.Precio)
+                        </th> *@
+            <th>
+                @Html.DisplayNameFor(model => model.PrecioCadena)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Stock)
@@ -45,9 +48,12 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Texto)
             </td>
-            <td>
+            @* <td>
                 @Html.DisplayFor(modelItem => item.Precio)
-            </td>
+            </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.PrecioCadena)
+                </td>
 
             <td>
                 @Html.DisplayFor(modelItem => item.Stock)
