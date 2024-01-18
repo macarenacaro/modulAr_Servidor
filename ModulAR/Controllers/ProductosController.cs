@@ -180,6 +180,8 @@ namespace ModulAR.Controllers
             }
             return View(producto);
         }
+
+
         // POST: Productos/CambiarImagen/5
         [HttpPost]
         [ValidateAntiForgeryToken]
