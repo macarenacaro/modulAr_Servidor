@@ -1,0 +1,82 @@
+﻿@model IEnumerable<ModulAR.Models.Producto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Productos</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Descripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Texto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Precio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Stock)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Escaparate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Imagen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Categoria)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Texto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Precio)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Stock)
+            </td>
+            <td>
+                <div class="si-no-display">
+                @if (item.Escaparate == true) {
+                  <span class="si">Sí  </span>
+                   <input type="radio" value="true" checked="@item.Escaparate" readonly="readonly" disabled />
+
+                } else {
+                    <span class="no">No  </span>
+                   <input type="radio" value="false" disabled />
+                }
+            </div>
+            </td>
+            <td>
+                    <img src="~/imagenes/@item.Imagen" width="40" height="40" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Categoria.Descripcion)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
+                <a asp-action="CambiarImagen" asp-route-id="@item.Id">Cambiar Imagen</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
