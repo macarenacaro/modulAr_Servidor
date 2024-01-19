@@ -1,0 +1,22 @@
+﻿<!-- Views/Escaparate/AgregarCarrito.cshtml -->
+@model ModulAR.Models.Producto
+
+<h2>@Model.Descripcion</h2>
+
+<div>
+    <img src="@Model.Imagen" style="max-width: 100%; max-height: 200px;" />
+</div>
+
+<p>@Model.Descripcion</p>
+<p>Categoría: @Model.Categoria.Descripcion</p>
+<p>Stock: @Model.Stock</p>
+<p>Precio: @Model.PrecioCadena</p>
+
+<form asp-action="AgregarCarrito" asp-controller="Escaparate" method="post">
+    <input type="hidden" name="id" value="@Model.Id" />
+    <div class="form-group">
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" name="cantidad" class="form-control" value="1" min="1" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Añadir al Carrito</button>
+</form>

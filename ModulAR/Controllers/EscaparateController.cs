@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ModulAR.Data;
+using ModulAR.Models;
 
 namespace ModulAR.Controllers
 {
@@ -34,6 +35,75 @@ namespace ModulAR.Controllers
             ViewData["Productos"] = productos; // Agregar esta línea
 
             return View(productos);
+        }
+
+
+        [HttpGet]
+        public async Task<IActionResult> AgregarCarrito(int id)
+        {
+            var producto = await _context.Productos.FindAsync(id);
+
+            if (producto == null)
+            {
+                return NotFound();
+            }
+
+            return View(producto);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AgregarCarritos(int id)
+        {
+            var producto = await _context.Productos.FindAsync(id);
+
+            if (producto == null)
+            {
+                return NotFound();
+            }
+
+            string numPedido = HttpContext.Session.GetString("NumPedido");
+
+            if (string.IsNullOrEmpty(numPedido))
+            {
+                var nuevoPedido = new Pedido
+                {
+                    Fecha = DateTime.Now,
+                    Confirmado = null,
+                    Preparado = null,
+                    Enviado = null,
+                    Cobrado = null,
+                    Devuelto = null,
+                    Anulado = null,
+                    ClienteId = 2, // Considera obtener el ClienteId de la sesión o de alguna otra manera
+                    EstadoId = 1
+                };
+
+                if (ModelState.IsValid)
+                {
+                    _context.Add(nuevoPedido);
+                    await _context.SaveChangesAsync();
+                }
+
+                HttpContext.Session.SetString("NumPedido", nuevoPedido.Id.ToString());
+                numPedido = nuevoPedido.Id.ToString();
+            }
+
+            var nuevoDetalle = new Detalle
+            {
+                PedidoId = Convert.ToInt32(numPedido),
+                ProductoId = id,
+                Cantidad = 1,
+                Precio = producto.Precio,
+                Descuento = 0
+            };
+
+            if (ModelState.IsValid)
+            {
+                _context.Add(nuevoDetalle);
+                await _context.SaveChangesAsync();
+            }
+
+            return RedirectToAction(nameof(Index));
         }
     }
 }
