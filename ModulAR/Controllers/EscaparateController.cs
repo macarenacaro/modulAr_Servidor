@@ -41,7 +41,9 @@ namespace ModulAR.Controllers
         [HttpGet]
         public async Task<IActionResult> AgregarCarrito(int id)
         {
-            var producto = await _context.Productos.FindAsync(id);
+            var producto = await _context.Productos
+                .Include(p => p.Categoria)  // Asegúrate de incluir la categoría en la consulta
+                .FirstOrDefaultAsync(p => p.Id == id);
 
             if (producto == null)
             {

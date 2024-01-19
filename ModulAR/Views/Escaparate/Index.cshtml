@@ -37,11 +37,8 @@
                     <!-- Precio del producto -->
                     <p>Precio: @producto.PrecioCadena</p>
 
-                    <!-- Botón para añadir al carrito (puedes ajustar el enlace o el formulario según tus necesidades) -->
-                    <form method="post" action="/Carrito/Agregar">
-                        <input type="hidden" name="productoId" value="@producto.Id" />
-                        <input type="submit" value="Añadir al carrito" />
-                    </form>
+                    <!-- Botón para añadir al carrito (puedes ajustar el enlace según tus necesidades) -->
+                    <a asp-action="AgregarCarrito" asp-controller="Escaparate" asp-route-id="@producto.Id" class="btn btn-primary">Añadir al carrito</a>
 
                 </div>
             }
