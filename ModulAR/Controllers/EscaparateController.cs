@@ -2,6 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 using ModulAR.Data;
 using ModulAR.Models;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace ModulAR.Controllers
 {
@@ -54,7 +57,7 @@ namespace ModulAR.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AgregarCarritos(int id)
+        public async Task<IActionResult> AgregarCarritos(int id, int cantidad)
         {
             var producto = await _context.Productos.FindAsync(id);
 
@@ -63,10 +66,12 @@ namespace ModulAR.Controllers
                 return NotFound();
             }
 
+            // Recuperar el número de pedido de la sesión
             string numPedido = HttpContext.Session.GetString("NumPedido");
 
             if (string.IsNullOrEmpty(numPedido))
             {
+                // Crear un nuevo pedido si no hay un número de pedido en la sesión
                 var nuevoPedido = new Pedido
                 {
                     Fecha = DateTime.Now,
@@ -86,15 +91,17 @@ namespace ModulAR.Controllers
                     await _context.SaveChangesAsync();
                 }
 
+                // Asignar el número de pedido a la variable de sesión
                 HttpContext.Session.SetString("NumPedido", nuevoPedido.Id.ToString());
                 numPedido = nuevoPedido.Id.ToString();
             }
 
+            // Crear un nuevo detalle y agregarlo a la base de datos
             var nuevoDetalle = new Detalle
             {
                 PedidoId = Convert.ToInt32(numPedido),
                 ProductoId = id,
-                Cantidad = 1,
+                Cantidad = cantidad, // Usar la cantidad proporcionada en el formulario
                 Precio = producto.Precio,
                 Descuento = 0
             };
