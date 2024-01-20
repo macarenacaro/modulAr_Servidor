@@ -4,15 +4,19 @@
     var categoriasCount = (ViewData["Categorias"] as List<ModulAR.Models.Categoria>)?.Count ?? 0;
     var productosCount = (ViewData["Productos"] as List<ModulAR.Models.Producto>)?.Count ?? 0;
 }
-<h1>Escaparate</h1><br />
+
+<h1>Escaparate</h1>
+<br />
+
 <div style="display: flex;">
+
     <!-- Lateral izquierdo con categorías -->
     <div style="flex: 1; padding: 10px; background-color: #f0f0f0;">
         <h4>Categorías</h4>
         <ul>
             @foreach (var categoria in ViewData["Categorias"] as List<ModulAR.Models.Categoria>)
             {
-                    <li><a href="?categoryId=@categoria.Id">@categoria.Descripcion</a></li>
+                <li><a href="?categoryId=@categoria.Id">@categoria.Descripcion</a></li>
             }
         </ul>
     </div>
@@ -37,8 +41,42 @@
                     <!-- Precio del producto -->
                     <p>Precio: @producto.PrecioCadena</p>
 
-                    <!-- Botón para añadir al carrito (puedes ajustar el enlace según tus necesidades) -->
-                    <a asp-action="AgregarCarrito" asp-controller="Escaparate" asp-route-id="@producto.Id" class="btn btn-primary">Añadir al carrito</a>
+                    <!-- Botón para añadir al carrito (modal) -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCarrito-@producto.Id">
+                        Añadir al carrito
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalCarrito-@producto.Id" tabindex="-1" aria-labelledby="modalCarritoLabel-@producto.Id" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modalCarritoLabel-@producto.Id">Añadir al Carrito</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Contenido del modal -->
+                                    <img src="~/imagenes/@producto.Imagen" style="max-width: 100%; max-height: 200px;" />
+                                    <p>Descripción: @producto.Descripcion</p>
+                                    <p>Texto: @producto.Texto</p>
+                                    <p>Stock: @producto.Stock</p>
+                                    <p>Precio: @producto.PrecioCadena</p>
+                                    <p>Categoría: @producto.Categoria.Descripcion</p>
+
+                                    <form asp-action="AgregarCarritos" asp-controller="Escaparate" method="post">
+                                        <input type="hidden" name="id" value="@producto.Id" />
+                                        <div class="form-group">
+                                            <label for="cantidad">Cantidad:</label>
+                                            <input type="number" name="cantidad" width="30" class=" form-control" value="1" min="1" required />
+                                        </div>
+                                        <br />
+                                        <button type="submit" class="btn btn-primary">Añadir al Carrito</button>
+                                    </form>
+                                    <!-- Fin del contenido del modal -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             }

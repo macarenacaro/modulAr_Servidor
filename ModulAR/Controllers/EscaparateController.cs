@@ -37,12 +37,12 @@ namespace ModulAR.Controllers
             return View(productos);
         }
 
-
+        //SE MODIFICÓ PARA VENTANA EMERGENTE
         [HttpGet]
         public async Task<IActionResult> AgregarCarrito(int id)
         {
             var producto = await _context.Productos
-                .Include(p => p.Categoria)  // Asegúrate de incluir la categoría en la consulta
+                .Include(p => p.Categoria)
                 .FirstOrDefaultAsync(p => p.Id == id);
 
             if (producto == null)
@@ -50,7 +50,7 @@ namespace ModulAR.Controllers
                 return NotFound();
             }
 
-            return View(producto);
+            return PartialView("AgregarCarrito", producto);
         }
 
         [HttpPost]
