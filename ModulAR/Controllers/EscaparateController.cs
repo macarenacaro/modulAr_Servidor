@@ -35,12 +35,11 @@ namespace ModulAR.Controllers
 
             var productos = await productosQuery.ToListAsync();
 
-            ViewData["Productos"] = productos; // Agregar esta línea
+            ViewData["Productos"] = productos;
 
             return View(productos);
         }
 
-        //SE MODIFICÓ PARA VENTANA EMERGENTE
         [HttpGet]
         public async Task<IActionResult> AgregarCarrito(int id)
         {
@@ -57,7 +56,7 @@ namespace ModulAR.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AgregarCarritos(int id, int cantidad)
+        public async Task<IActionResult> AgregarCarrito(int id, int cantidad)
         {
             var producto = await _context.Productos.FindAsync(id);
 
@@ -101,9 +100,8 @@ namespace ModulAR.Controllers
             {
                 PedidoId = Convert.ToInt32(numPedido),
                 ProductoId = id,
-                Cantidad = cantidad, // Usar la cantidad proporcionada en el formulario
-                Precio = producto.Precio,
-                Descuento = 0
+                Cantidad = cantidad,
+                Precio = producto.Precio
             };
 
             if (ModelState.IsValid)

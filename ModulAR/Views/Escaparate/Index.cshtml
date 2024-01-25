@@ -41,6 +41,7 @@
                     <!-- Precio del producto -->
                     <p>Precio: @producto.PrecioCadena</p>
 
+
                     <!-- Botón para añadir al carrito (modal) -->
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCarrito-@producto.Id">
                         Añadir al carrito
@@ -63,7 +64,7 @@
                                     <p>Precio: @producto.PrecioCadena</p>
                                     <p>Categoría: @producto.Categoria.Descripcion</p>
 
-                                    <form asp-action="AgregarCarritos" asp-controller="Escaparate" method="post">
+                                    <form asp-action="AgregarCarrito" asp-controller="Escaparate" method="post">
                                         <input type="hidden" name="id" value="@producto.Id" />
                                         <div class="form-group">
                                             <label for="cantidad">Cantidad:</label>

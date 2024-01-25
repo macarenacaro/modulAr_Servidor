@@ -1,0 +1,82 @@
+﻿@model ModulAR.Models.Pedido
+
+@{
+    var detalles = ViewData["Detalles"] as List<Detalle>;
+    var pedido = ViewData["Pedido"] as Pedido;
+}
+
+<h1>Carrito de la Compra</h1>
+
+@if (detalles.Count == 0)
+{
+    <p>Su carrito está vacío.</p>
+    <p> <a asp-controller="Escaparate"
+       asp-action="Index">Ir al escaparate</a>
+    </p>
+}
+else
+{
+    <h2>Pedido: @pedido.Id</h2>
+    <div>
+        <!-- Mostrar detalles del pedido -->
+        <h3>Detalles de Pedido</h3>
+        <ul>
+            <li>Número de Pedido: @pedido.Id</li>
+            <li>Fecha: @pedido.Fecha</li>
+            <li>Confirmado: @pedido.Confirmado</li>
+            <li>Preparado: @pedido.Preparado</li>
+            <li>Enviado: @pedido.Enviado</li>
+            <li>Cobrado: @pedido.Cobrado</li>
+            <li>Devuelto: @pedido.Devuelto</li>
+            <li>Anulado: @pedido.Anulado</li>
+            <li>Cliente: @pedido.Cliente.Nombre</li>
+            <li>Estado: @pedido.Estado</li>
+
+            <!-- Agrega más detalles según sea necesario -->
+        </ul>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id Producto</th>
+                <th>Descripción</th>
+                <th>Cantidad</th>
+                <th>Precio</th>
+                <th>Descuento</th>
+                <th>Total</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var detalle in detalles)
+            {
+                <tr>
+                    <td>@detalle.Producto.Id</td>
+                    <td>@detalle.Producto.Descripcion</td>
+                    <td style="display:flex; flex-direction:row"><form method="post" asp-action="MasCantidad" asp-route-id="@detalle.Id">
+                            <button type="submit">+</button>
+                        </form>
+                        @detalle.Cantidad
+                        <form method="post" asp-action="MenosCantidad" asp-route-id="@detalle.Id">
+                            <button type="submit">-</button>
+                        </form></td>
+                    <td>@detalle.Precio</td>
+                    <td>@detalle.Descuento</td>
+                    <td>@(detalle.Cantidad * detalle.Precio - detalle.Descuento)</td>
+                    <td>
+                        <form method="post" asp-action="EliminarLinea" asp-route-id="@detalle.Id">
+                            <button type="submit">Eliminar</button>
+                        </form>
+                        
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <p>Total: @(detalles.Sum(d => d.Cantidad * d.Precio - d.Descuento))</p>
+    <form method="post" asp-action="ConfirmarPedido" asp-route-id="@pedido.Id">
+        <button type="submit">Confirmar Pedido</button>
+    </form>
+    <p><a asp-action="CarritoVacio">Vaciar Carrito</a></p>
+}
