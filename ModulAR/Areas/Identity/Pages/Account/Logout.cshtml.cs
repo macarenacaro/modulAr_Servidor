@@ -25,6 +25,12 @@ namespace ModulAR.Areas.Identity.Pages.Account
 
         public async Task<IActionResult> OnPost(string returnUrl = null)
         {
+
+
+            // Limpiar la sesión del carrito al cerrar sesión
+            HttpContext.Session.Remove("NumPedido");
+
+            // Cerrar la sesión usando SignInManager
             await _signInManager.SignOutAsync();
             _logger.LogInformation("User logged out.");
             if (returnUrl != null)
@@ -35,7 +41,11 @@ namespace ModulAR.Areas.Identity.Pages.Account
             {
                 // This needs to be a redirect so that the browser performs a new
                 // request and the identity for the user gets updated.
-                return RedirectToPage();
+               
+                // return RedirectToPage(); //original
+
+                // Redirigir a la página de inicio o a donde sea apropiado en tu aplicación.
+                return RedirectToPage("/Index");
             }
         }
     }

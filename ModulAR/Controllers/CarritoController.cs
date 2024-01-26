@@ -26,7 +26,6 @@ namespace ModulAR.Controllers
         {
             var userEmail = User.Identity.Name;
             var cliente = await _context.Clientes.SingleOrDefaultAsync(c => c.Email == userEmail);
-
             if (cliente == null)
             {
                 // Manejar el caso cuando el cliente no existe
@@ -34,6 +33,7 @@ namespace ModulAR.Controllers
             }
 
             var numPedido = HttpContext.Session.GetString("NumPedido");
+
 
             if (string.IsNullOrEmpty(numPedido))
             {
@@ -61,25 +61,28 @@ namespace ModulAR.Controllers
         public async Task<IActionResult> IniciarCarrito()
         {
             // Limpiar la variable de sesión NumPedido al iniciar el carrito
-            HttpContext.Session.Remove("NumPedido");
-            var userEmail = User.Identity.Name;
-            var cliente = await _context.Clientes.SingleOrDefaultAsync(c => c.Email == userEmail);
+           // HttpContext.Session.Remove("NumPedido");
 
-            if (cliente == null)
+            // Verificar si hay un usuario autenticado
+            if (User.Identity.IsAuthenticated)
             {
-                // Manejar el caso cuando el cliente no existe
-                return RedirectToAction("Create", "MisDatos");
-            }
+                var userEmail = User.Identity.Name;
 
-            // Verificar si el cliente ya tiene un carrito existente
-            var numPedido = HttpContext.Session.GetString("NumPedido");
+                // Agregar un mensaje de depuración para verificar el userEmail
+                Console.WriteLine($"User Email: {userEmail}");
 
-            if (string.IsNullOrEmpty(numPedido))
-            {
-                // No hay carrito existente, crear uno nuevo
+                var cliente = await _context.Clientes.SingleOrDefaultAsync(c => c.Email == userEmail);
+
+                if (cliente == null)
+                {
+                    // Manejar el caso cuando el cliente no existe
+                    return RedirectToAction("Create", "MisDatos");
+                }
+
+                // Crear un nuevo pedido y asociarlo con el cliente actual
                 var nuevoPedido = new Pedido
                 {
-                    ClienteId = cliente.Id,
+                    Cliente = cliente,
                     EstadoId = 1, // Estado inicial (En carrito)
                     Fecha = DateTime.Now
                 };
@@ -91,9 +94,11 @@ namespace ModulAR.Controllers
                 HttpContext.Session.SetString("NumPedido", nuevoPedido.Id.ToString());
             }
 
-            // Redirigir a la página del carrito
-            return RedirectToAction("Index");
+            // Manejar el caso cuando no hay un usuario autenticado
+            return RedirectToAction("Index", "Home");
         }
+
+
 
         [HttpPost]
         public async Task<IActionResult> ConfirmarPedido(int id)
