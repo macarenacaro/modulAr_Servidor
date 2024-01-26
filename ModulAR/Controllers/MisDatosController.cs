@@ -19,15 +19,21 @@ namespace ModulAR.Controllers
         // GET: MisDatos/Create
         public IActionResult Create()
         {
-            return View();
+            var cliente = new Cliente();  // Crea una nueva instancia de Cliente
+            // Asigna valores según sea necesario
+            cliente.Email = User.Identity.Name;
+            return View(cliente);
         }
-        // POST: MisDatos/Create
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nombre,Email,Telefono,Direccion,Poblacion,CodidoPostal,Nif")] Cliente cliente)
         {
-            // Asignar el Email y el Nombre del usuario actual
-            cliente.Email = User.Identity.Name;
+            if (cliente == null)
+            {
+                // Manejar el caso cuando el modelo es nulo
+                return BadRequest();
+            }
 
             // Obtener el nombre del usuario actual y asignarlo al campo Nombre del cliente
             var claimsIdentity = User.Identity as ClaimsIdentity;
@@ -46,6 +52,7 @@ namespace ModulAR.Controllers
 
             return View(cliente);
         }
+
 
         //codigo de edicion añadido
         // GET: MisDatos/Edit
