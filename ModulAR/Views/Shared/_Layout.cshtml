@@ -39,7 +39,9 @@
                                asp-action="Edit">Mis Datos</a>
                                 </li>
 
-                                <a class="nav-link text-dark" asp-controller="Carrito" asp-action="Index">Carrito</a>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-controller="Carrito" asp-action="Index">Carrito</a>
+                                </li>
                             }
                             @if (User.IsInRole("Administrador"))
                             {

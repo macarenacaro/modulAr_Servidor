@@ -1,5 +1,4 @@
-﻿//carrito 4.0
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -95,7 +94,7 @@ namespace ModulAR.Controllers
             }
 
             // Manejar el caso cuando no hay un usuario autenticado
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index", "Carrito");
         }
 
 
