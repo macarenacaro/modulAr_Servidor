@@ -47,9 +47,19 @@ namespace ModulAR.Controllers
         }
 
         // GET: Detalles/Create
-        public IActionResult Create()
+    public async Task<IActionResult> Create()
         {
-            ViewData["PedidoId"] = new SelectList(_context.Pedidos, "Id", "Id");
+            var emailUsuario = User.Identity.Name;
+            var cliente = await _context.Clientes.SingleOrDefaultAsync(c => c.Email == emailUsuario);
+
+            if (cliente == null)
+            {
+                // Si el cliente no existe, puedes manejarlo de acuerdo a tus necesidades
+                // Por ejemplo, redireccionar a la acción de creación del cliente
+                return RedirectToAction("Create", "MisDatos");
+            }
+
+            ViewData["PedidoId"] = cliente.Id; // Asignar el Id del cliente al ViewData
             ViewData["ProductoId"] = new SelectList(_context.Productos, "Id", "Descripcion");
             return View();
         }
@@ -57,16 +67,27 @@ namespace ModulAR.Controllers
         // POST: Detalles/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: Detalles/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,PedidoId,ProductoId,Cantidad,Precio,Descuento")] Detalle detalle)
         {
+            // Obtener el cliente correspondiente al usuario actual
+            var userEmail = User.Identity.Name;
+            var cliente = await _context.Clientes.FirstOrDefaultAsync(c => c.Email == userEmail);
+
+            if (cliente != null)
+            {
+                detalle.PedidoId = cliente.Id; // Asignar el Id del cliente al PedidoId del detalle
+            }
+
             if (ModelState.IsValid)
             {
                 _context.Add(detalle);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
             ViewData["PedidoId"] = new SelectList(_context.Pedidos, "Id", "Id", detalle.PedidoId);
             ViewData["ProductoId"] = new SelectList(_context.Productos, "Id", "Descripcion", detalle.ProductoId);
             return View(detalle);

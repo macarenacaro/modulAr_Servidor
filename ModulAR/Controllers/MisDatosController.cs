@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using ModulAR.Data;
 using ModulAR.Models;
 using System.Data;
+using System.Security.Claims;
 
 namespace ModulAR.Controllers
 {
@@ -25,8 +26,16 @@ namespace ModulAR.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nombre,Email,Telefono,Direccion,Poblacion,CodidoPostal,Nif")] Cliente cliente)
         {
-            // Asignar el Email del usuario actual
+            // Asignar el Email y el Nombre del usuario actual
             cliente.Email = User.Identity.Name;
+
+            // Obtener el nombre del usuario actual y asignarlo al campo Nombre del cliente
+            var claimsIdentity = User.Identity as ClaimsIdentity;
+            var claim = claimsIdentity?.FindFirst(ClaimTypes.Name);
+            if (claim != null)
+            {
+                cliente.Nombre = claim.Value;
+            }
 
             if (ModelState.IsValid)
             {

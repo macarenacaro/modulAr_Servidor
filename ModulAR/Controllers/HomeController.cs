@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ModulAR.Data;
 using ModulAR.Models;
@@ -33,10 +35,20 @@ namespace ModulAR.Controllers
             return View();
         }
 
-
-        public IActionResult Privacy()
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Logout()
         {
-            return View();
+            Console.WriteLine("Cerrando sesión del usuario...");
+
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+
+            // Limpiar la variable de sesión NumPedido al cerrar sesión
+            HttpContext.Session.Remove("NumPedido");
+
+            Console.WriteLine("Sesión cerrada correctamente.");
+
+            return RedirectToAction(nameof(Index));
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

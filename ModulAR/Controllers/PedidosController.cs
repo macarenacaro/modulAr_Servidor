@@ -50,26 +50,46 @@ namespace ModulAR.Controllers
         }
 
         // GET: Pedidos/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
-            ViewData["ClienteId"] = new SelectList(_context.Clientes, "Id", "Nombre");
+            var emailUsuario = User.Identity.Name;
+            var cliente = await _context.Clientes.SingleOrDefaultAsync(c => c.Email == emailUsuario);
+
+            if (cliente == null)
+            {
+                // Si el cliente no existe, puedes manejarlo de acuerdo a tus necesidades
+                // Por ejemplo, redireccionar a la acción de creación del cliente
+                return RedirectToAction("Create", "MisDatos");
+            }
+
+            ViewData["ClienteId"] = cliente.Id; // Asignar el Id del cliente al ViewData
             ViewData["EstadoId"] = new SelectList(_context.Estados, "Id", "Descripcion");
             return View();
         }
 
-        // POST: Pedidos/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Fecha,Confirmado,Preparado,Enviado,Cobrado,Devuelto,Anulado,ClienteId,EstadoId")] Pedido pedido)
         {
+            // Asignar el Email del usuario actual
+            var userEmail = User.Identity.Name;
+
+            // Obtener el cliente correspondiente al usuario actual
+            var cliente = await _context.Clientes.FirstOrDefaultAsync(c => c.Email == userEmail);
+
+            if (cliente != null)
+            {
+                pedido.ClienteId = cliente.Id;
+            }
+
             if (ModelState.IsValid)
             {
                 _context.Add(pedido);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
             ViewData["ClienteId"] = new SelectList(_context.Clientes, "Id", "Nombre", pedido.ClienteId);
             ViewData["EstadoId"] = new SelectList(_context.Estados, "Id", "Descripcion", pedido.EstadoId);
             return View(pedido);

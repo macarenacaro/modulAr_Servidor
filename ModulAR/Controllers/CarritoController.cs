@@ -24,11 +24,21 @@ namespace ModulAR.Controllers
 
         public async Task<IActionResult> Index()
         {
+            var userEmail = User.Identity.Name;
+            var cliente = await _context.Clientes.SingleOrDefaultAsync(c => c.Email == userEmail);
+
+            if (cliente == null)
+            {
+                // Manejar el caso cuando el cliente no existe
+                return RedirectToAction("Create", "MisDatos");
+            }
+
             var numPedido = HttpContext.Session.GetString("NumPedido");
 
-          if (string.IsNullOrEmpty(numPedido))
+            if (string.IsNullOrEmpty(numPedido))
             {
-                return RedirectToAction(nameof(CarritoVacio));
+                // Si no hay número de pedido en la sesión, redirigir a la acción IniciarCarrito
+                return RedirectToAction(nameof(IniciarCarrito));
             }
 
             var detalles = await _context.Detalles
@@ -40,11 +50,49 @@ namespace ModulAR.Controllers
                 .Include(p => p.Cliente)
                 .FirstOrDefaultAsync(p => p.Id == int.Parse(numPedido));
 
-            //mostrar los detalles y pedido
+            // Mostrar los detalles y pedido
             ViewData["Detalles"] = detalles;
             ViewData["Pedido"] = pedido;
 
             return View();
+        }
+
+
+        public async Task<IActionResult> IniciarCarrito()
+        {
+            // Limpiar la variable de sesión NumPedido al iniciar el carrito
+            HttpContext.Session.Remove("NumPedido");
+            var userEmail = User.Identity.Name;
+            var cliente = await _context.Clientes.SingleOrDefaultAsync(c => c.Email == userEmail);
+
+            if (cliente == null)
+            {
+                // Manejar el caso cuando el cliente no existe
+                return RedirectToAction("Create", "MisDatos");
+            }
+
+            // Verificar si el cliente ya tiene un carrito existente
+            var numPedido = HttpContext.Session.GetString("NumPedido");
+
+            if (string.IsNullOrEmpty(numPedido))
+            {
+                // No hay carrito existente, crear uno nuevo
+                var nuevoPedido = new Pedido
+                {
+                    ClienteId = cliente.Id,
+                    EstadoId = 1, // Estado inicial (En carrito)
+                    Fecha = DateTime.Now
+                };
+
+                _context.Pedidos.Add(nuevoPedido);
+                await _context.SaveChangesAsync();
+
+                // Almacenar el Id del nuevo pedido en la variable de sesión
+                HttpContext.Session.SetString("NumPedido", nuevoPedido.Id.ToString());
+            }
+
+            // Redirigir a la página del carrito
+            return RedirectToAction("Index");
         }
 
         [HttpPost]
