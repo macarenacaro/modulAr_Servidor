@@ -1,0 +1,49 @@
+﻿@model IEnumerable<ModulAR.Models.Pedido>
+
+<h2>Mis Pedidos</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Fecha)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EstadoId)
+            </th>
+            <th>
+                @Html.DisplayName("Total")
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Fecha)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EstadoId)
+                </td>
+                <td>
+                    @{
+                        // Calcular la suma del total del pedido
+                        var totalPedido = item.Detalles.Sum(d => d.Cantidad * d.Precio - d.Descuento);
+                    }
+                    @totalPedido
+                </td>
+                <td>
+                    @Html.ActionLink("Detalles", "Detalles", new { id = item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

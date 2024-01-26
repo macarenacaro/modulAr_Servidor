@@ -1,0 +1,91 @@
+﻿@model ModulAR.Models.Pedido
+@{
+    ViewData["Title"] = "Detalles";
+}
+
+<h2>Detalles del Pedido</h2>
+
+<div>
+    <h4>Pedido</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Fecha)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Fecha)
+        </dd>
+
+        <!-- Agrega aquí más propiedades del pedido según tus necesidades -->
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Cliente.Nombre)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Cliente.Nombre)
+        </dd>
+
+        <dt class="col-sm-2">
+            Dirección de envío:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Cliente.Direccion),
+            @Html.DisplayFor(model => model.Cliente.Poblacion),
+            @Html.DisplayFor(model => model.Cliente.CodigoPostal)
+        </dd>
+    </dl>
+</div>
+
+<div>
+    <h4>Detalles del Pedido</h4>
+    <hr />
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Producto
+                </th>
+                <th>
+                    Cantidad
+                </th>
+                <th>
+                    Precio
+                </th>
+                <th>
+                    Descuento
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var detalle in ViewData["Detalles"] as List<ModulAR.Models.Detalle>)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => detalle.Producto.Descripcion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => detalle.Cantidad)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => detalle.Precio)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => detalle.Descuento)
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" style="text-align:right"><b>Total:</b></td>
+                <td>
+                    @{
+                        // Calcular la suma de los totales de los detalles
+                        var sumaTotal = (ViewData["Detalles"] as List<ModulAR.Models.Detalle>).Sum(d => d.Cantidad * d.Precio - d.Descuento);
+                    }
+                    @sumaTotal
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
