@@ -29,15 +29,15 @@ namespace ModulAR.Controllers
             var productosQuery = _context.Productos.Where(p => p.Escaparate == true) // Solo productos con Escaparate = true
             .AsQueryable();
 
-            if (categoryId.HasValue)
+            if (categoryId.HasValue) //cuando se selecciona la categoria que coincide con el producto
             {
                 productosQuery = productosQuery.Where(p => p.CategoriaId == categoryId);
             }
             var productos = await productosQuery.ToListAsync();
 
-            ViewData["Productos"] = productos;
+            ViewData["Productos"] = productos;//mostrar productos
 
-            return View(productos);
+            return View(productos); //pasar a la vista
         }
 
         [HttpGet]
