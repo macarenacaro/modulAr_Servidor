@@ -26,13 +26,13 @@ namespace ModulAR.Controllers
             ViewData["Categorias"] = categorias;
 
             // Cargar datos de los productos
-            var productosQuery = _context.Productos.AsQueryable();
+            var productosQuery = _context.Productos.Where(p => p.Escaparate == true) // Solo productos con Escaparate = true
+            .AsQueryable();
 
             if (categoryId.HasValue)
             {
                 productosQuery = productosQuery.Where(p => p.CategoriaId == categoryId);
             }
-
             var productos = await productosQuery.ToListAsync();
 
             ViewData["Productos"] = productos;
