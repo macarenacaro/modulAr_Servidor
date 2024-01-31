@@ -16,21 +16,22 @@
 }
 else
 {
-    <h2>Pedido: @pedido.Id</h2>
+   @*<h2>Pedido: @pedido.Id</h2>*@
+    <h2>Detalles de Pedido</h2>
     <div>
         <!-- Mostrar detalles del pedido -->
-        <h3>Detalles de Pedido</h3>
+        @*<h2>Detalles de Pedido</h2>*@
         <ul>
             <li>Número de Pedido: @pedido.Id</li>
             <li>Fecha: @pedido.Fecha</li>
-            <li>Confirmado: @pedido.Confirmado</li>
+           @*<li>Confirmado: @pedido.Confirmado</li>
             <li>Preparado: @pedido.Preparado</li>
             <li>Enviado: @pedido.Enviado</li>
             <li>Cobrado: @pedido.Cobrado</li>
             <li>Devuelto: @pedido.Devuelto</li>
-            <li>Anulado: @pedido.Anulado</li>
+            <li>Anulado: @pedido.Anulado</li>*@
             <li>Cliente: @pedido.Cliente.Nombre</li>
-            <li>Estado: @pedido.Estado</li>
+            <li>Estado: @pedido.Estado.Descripcion</li>
 
             <!-- Agrega más detalles según sea necesario -->
         </ul>

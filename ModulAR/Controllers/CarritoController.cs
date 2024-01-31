@@ -47,6 +47,7 @@ namespace ModulAR.Controllers
                 .ToListAsync();
 
             var pedido = await _context.Pedidos
+                .Include(p => p.Estado)  // Asegúrate de incluir el Estado
                 .Include(p => p.Cliente)
                 .FirstOrDefaultAsync(p => p.Id == int.Parse(numPedido));
 
@@ -82,6 +83,7 @@ namespace ModulAR.Controllers
                 /*agregado recien*/
                 // Verificar si ya existe un pedido en estado "En carrito" para este cliente
                 var pedidoExistente = await _context.Pedidos
+                    .Include(p => p.Estado)  // Asegúrate de incluir el Estado
                     .Where(p => p.ClienteId == cliente.Id && p.EstadoId == 1)
                     .OrderByDescending(p => p.Id)  //para que seleccione el ultimo primero
                     .FirstOrDefaultAsync();
@@ -131,6 +133,7 @@ namespace ModulAR.Controllers
 
             // Confirmar el pedido
             pedido.EstadoId = 2; // Cambiar el estado a "Confirmado"
+            pedido.Fecha = DateTime.Now;
             pedido.Confirmado = DateTime.Now;
 
             await _context.SaveChangesAsync();

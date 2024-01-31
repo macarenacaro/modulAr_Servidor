@@ -9,7 +9,7 @@
     <h4>Pedido</h4>
     <hr />
     <dl class="row">
-        <dt class="col-sm-2">
+        <dt class="col-sm-10">
             @Html.DisplayNameFor(model => model.Fecha)
         </dt>
         <dd class="col-sm-10">
@@ -18,20 +18,26 @@
 
         <!-- Agrega aquí más propiedades del pedido según tus necesidades -->
 
-        <dt class="col-sm-2">
+        <dt class="col-sm-10">
             @Html.DisplayNameFor(model => model.Cliente.Nombre)
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Cliente.Nombre)
         </dd>
 
-        <dt class="col-sm-2">
+        <dt class="col-sm-10">
             Dirección de envío:
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Cliente.Direccion),
             @Html.DisplayFor(model => model.Cliente.Poblacion),
             @Html.DisplayFor(model => model.Cliente.CodigoPostal)
+        </dd>
+        <dt class="col-sm-10">
+            Estado:
+        </dt>
+                <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Estado.Descripcion)
         </dd>
     </dl>
 </div>

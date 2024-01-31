@@ -12,7 +12,7 @@
                 @Html.DisplayNameFor(model => model.Id)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.EstadoId)
+                @Html.DisplayNameFor(model => model.Estado.Descripcion)
             </th>
             <th>
                 @Html.DisplayName("Total")
@@ -31,7 +31,7 @@
                     @Html.DisplayFor(modelItem => item.Id)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.EstadoId)
+                    @Html.DisplayFor(modelItem => item.Estado.Descripcion)
                 </td>
                 <td>
                     @{
