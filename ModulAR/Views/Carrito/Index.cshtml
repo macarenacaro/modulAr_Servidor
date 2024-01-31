@@ -9,10 +9,9 @@
 
 @if (detalles.Count == 0)
 {
-    <p>Su carrito está vacío.</p>
-    <p> <a asp-controller="Escaparate"
-       asp-action="Index">Ir al escaparate</a>
-    </p>
+    <script>
+        window.location.href = '@Url.Action("CarritoVacio", "Carrito")';
+    </script>
 }
 else
 {
