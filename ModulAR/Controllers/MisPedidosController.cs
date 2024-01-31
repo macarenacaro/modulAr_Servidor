@@ -37,10 +37,10 @@ namespace ModulAR.Controllers
             }
 
             var pedidos = await _context.Pedidos
-                .Include(p => p.Detalles) // Asegúrate de incluir los detalles
+                .Include(p => p.Detalles) // incluir los detalles
                 .Include(p => p.Cliente)
                 .Include(p => p.Estado)
-                .Where(p => p.ClienteId == cliente.Id)
+                .Where(p => p.ClienteId == cliente.Id & p.EstadoId != 1) //Para que se vean los clientes con el id y estado confimado
                 .ToListAsync();
 
             return View(pedidos);
