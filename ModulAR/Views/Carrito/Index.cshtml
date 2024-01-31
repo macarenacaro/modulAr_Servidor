@@ -61,7 +61,8 @@ else
                         @detalle.Cantidad
                         <form method="post" asp-action="MenosCantidad" asp-route-id="@detalle.Id">
                             <button type="submit">-</button>
-                        </form></td>
+                        </form>                       
+                    </td>
                     <td>@detalle.Precio</td>
                     <td>@detalle.Descuento</td>
                     <td>@(detalle.Cantidad * detalle.Precio - detalle.Descuento)</td>
@@ -76,8 +77,15 @@ else
         </tbody>
     </table>
     <p>Total: @(detalles.Sum(d => d.Cantidad * d.Precio - d.Descuento))</p>
+ 
     <form method="post" asp-action="ConfirmarPedido" asp-route-id="@pedido.Id">
         <button type="submit">Confirmar Pedido</button>
     </form>
     
+    @if (TempData["ErrorStock"] != null)
+    {
+        <br>
+
+        <p class="text-danger">@TempData["ErrorStock"]</p>
+    }
 }

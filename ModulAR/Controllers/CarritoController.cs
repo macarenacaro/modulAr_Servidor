@@ -168,10 +168,21 @@ namespace ModulAR.Controllers
         [HttpPost]
         public async Task<IActionResult> MasCantidad(int id)
         {
-            var detalle = await _context.Detalles.FindAsync(id);
+            var detalle = await _context.Detalles
+           .Include(d => d.Producto)  // Asegúrate de incluir el Producto
+           .FirstOrDefaultAsync(d => d.Id == id);
 
             if (detalle != null)
             {
+                // Verificar si la cantidad deseada es mayor que el stock disponible
+                if (detalle.Cantidad + 1 > detalle.Producto.Stock)
+                {
+                    // Puedes manejar el caso de que la cantidad deseada sea mayor que el stock disponible.
+                    // En este ejemplo, simplemente redirigimos a la página del carrito con un mensaje de error.
+                    TempData["ErrorStock"] = $"La cantidad deseada ({detalle.Cantidad + 1}) es mayor que el stock disponible ({detalle.Producto.Stock}).";
+                    return RedirectToAction(nameof(Index));
+                }
+
                 detalle.Cantidad++;
                 await _context.SaveChangesAsync();
             }
