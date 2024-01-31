@@ -135,6 +135,7 @@ namespace ModulAR.Controllers
             pedido.EstadoId = 2; // Cambiar el estado a "Confirmado"
             pedido.Fecha = DateTime.Now;
             pedido.Confirmado = DateTime.Now;
+            pedido.Cobrado= DateTime.Now;
 
             await _context.SaveChangesAsync();
 
