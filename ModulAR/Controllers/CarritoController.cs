@@ -83,7 +83,8 @@ namespace ModulAR.Controllers
                 // Verificar si ya existe un pedido en estado "En carrito" para este cliente
                 var pedidoExistente = await _context.Pedidos
                     .Where(p => p.ClienteId == cliente.Id && p.EstadoId == 1)
-                    .FirstOrDefaultAsync();// debo cambiar por el LASTDEFAULT!
+                    .OrderByDescending(p => p.Id)  //para que seleccione el ultimo primero
+                    .FirstOrDefaultAsync();
 
 
                 if (pedidoExistente == null)
