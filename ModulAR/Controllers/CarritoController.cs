@@ -39,6 +39,7 @@ namespace ModulAR.Controllers
                 // Si no hay número de pedido en la sesión, redirigir a la acción IniciarCarrito
                 return RedirectToAction(nameof(IniciarCarrito));
             }
+            else { 
 
             var detalles = await _context.Detalles
                 .Include(d => d.Producto)
@@ -52,7 +53,7 @@ namespace ModulAR.Controllers
             // Mostrar los detalles y pedido
             ViewData["Detalles"] = detalles;
             ViewData["Pedido"] = pedido;
-
+            }
             return View();
         }
 
@@ -78,19 +79,36 @@ namespace ModulAR.Controllers
                     return RedirectToAction("Create", "MisDatos");
                 }
 
-                // Crear un nuevo pedido y asociarlo con el cliente actual
-                var nuevoPedido = new Pedido
-                {
-                    Cliente = cliente,
-                    EstadoId = 1, // Estado inicial (En carrito)
-                    Fecha = DateTime.Now
-                };
+                /*agregado recien*/
+                // Verificar si ya existe un pedido en estado "En carrito" para este cliente
+                var pedidoExistente = await _context.Pedidos
+                    .Where(p => p.ClienteId == cliente.Id && p.EstadoId == 1)
+                    .FirstOrDefaultAsync();// debo cambiar por el LASTDEFAULT!
 
-                _context.Pedidos.Add(nuevoPedido);
-                await _context.SaveChangesAsync();
 
-                // Almacenar el Id del nuevo pedido en la variable de sesión
-                HttpContext.Session.SetString("NumPedido", nuevoPedido.Id.ToString());
+                if (pedidoExistente == null)
+                { //si no tiene ningun pedido, lo creamos!
+                    // Crear un nuevo pedido y asociarlo con el cliente actual
+                    var nuevoPedido = new Pedido
+                    {
+                        Cliente = cliente,
+                        EstadoId = 1, // Estado inicial (En carrito)
+                        Fecha = DateTime.Now
+                    };
+
+                    _context.Pedidos.Add(nuevoPedido);
+                    await _context.SaveChangesAsync();
+
+                    // Almacenar el Id del nuevo pedido en la variable de sesión
+                    HttpContext.Session.SetString("NumPedido", nuevoPedido.Id.ToString());
+                }
+                else {
+
+                    // Si ya existe un pedido en estado "En carrito", usar su Id
+                    HttpContext.Session.SetString("NumPedido", pedidoExistente.Id.ToString());
+                }
+
+
             }
 
             // Manejar el caso cuando no hay un usuario autenticado
