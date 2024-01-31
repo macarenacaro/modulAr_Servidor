@@ -41,6 +41,9 @@
                     <!-- Precio del producto -->
                     <p>Precio: @producto.PrecioCadena</p>
 
+                    <!-- Descripción del producto -->
+                    <p>Stock: @producto.Stock</p>
+
 
                     <!-- Botón para añadir al carrito (modal) -->
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCarrito-@producto.Id">
@@ -66,11 +69,14 @@
 
                                     <form asp-action="AgregarCarrito" asp-controller="Escaparate" method="post">
                                         <input type="hidden" name="id" value="@producto.Id" />
+                                        <input type="hidden" name="stock" value="@producto.Stock" />
+
                                         <div class="form-group">
                                             <label for="cantidad">Cantidad:</label>
-                                            <input type="number" name="cantidad" width="30" class=" form-control" value="1" min="1" required />
+                                            <input type="number" name="cantidad" class="form-control" value="1" min="1" max="@producto.Stock" required />
+                                            <small class="text-muted">Máximo Disponible: @producto.Stock</small>
                                         </div>
-                                        <br />
+
                                         <button type="submit" class="btn btn-primary">Añadir al Carrito</button>
                                     </form>
                                     <!-- Fin del contenido del modal -->
