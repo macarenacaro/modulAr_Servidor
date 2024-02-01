@@ -25,12 +25,22 @@ namespace ModulAR.Controllers
         }
 
         // GET: Categorias
-        public async Task<IActionResult> Index(int? page)
+        public async Task<IActionResult> Index(int? page, string searchString)
         {
             var pageNumber = page ?? 1;
             var pageSize = 7; // Número de elementos por página
 
-            var categorias = await _context.Categorias.ToPagedListAsync(pageNumber, pageSize);
+        //    var categorias = await _context.Categorias.ToPagedListAsync(pageNumber, pageSize);
+            //SECCION NUEVA PARA BUSQUEDA:
+            ViewBag.CurrentFilter = searchString;
+
+            var categorias = string.IsNullOrEmpty(searchString)
+          ? await _context.Categorias.ToPagedListAsync(pageNumber, pageSize)
+          : await _context.Categorias
+              .Where(c => c.Descripcion.Contains(searchString) || c.Id.ToString().Contains(searchString))
+              .ToPagedListAsync(pageNumber, pageSize);
+
+
 
             return View(categorias);
         }
