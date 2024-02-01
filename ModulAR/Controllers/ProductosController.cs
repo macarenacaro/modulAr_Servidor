@@ -58,16 +58,33 @@ namespace ModulAR.Controllers
             return View();
         }
 
-        
+
         // POST: Productos/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Descripcion,Texto,Precio,PrecioCadena,Stock,Escaparate,Imagen,CategoriaId")] Producto producto)
+        public async Task<IActionResult> Create([Bind("Id,Descripcion,Texto,Precio,PrecioCadena,Stock,Escaparate,Imagen,CategoriaId")] Producto producto, IFormFile imagen)
         {
             if (ModelState.IsValid)
             {
+                // Verificar si se ha proporcionado una imagen
+                if (imagen != null && imagen.Length > 0)
+                {
+                    // Copiar archivo de imagen
+                    string strRutaImagenes = Path.Combine(_webHostEnvironment.WebRootPath, "imagenes");
+                    string strExtension = Path.GetExtension(imagen.FileName);
+                    string strNombreFichero = Guid.NewGuid().ToString() + strExtension;
+                    string strRutaFichero = Path.Combine(strRutaImagenes, strNombreFichero);
+                    using (var fileStream = new FileStream(strRutaFichero, FileMode.Create))
+                    {
+                        imagen.CopyTo(fileStream);
+                    }
+
+                    // Asignar el nombre del archivo al producto
+                    producto.Imagen = strNombreFichero;
+                }
+
                 _context.Add(producto);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
