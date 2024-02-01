@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ModulAR.Data;
 using ModulAR.Models;
+using X.PagedList;
 
 namespace ModulAR.Controllers
 {
@@ -26,10 +27,30 @@ namespace ModulAR.Controllers
         }
 
         // GET: Productos
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString, int? page)
         {
-            var mvcTiendaContexto = _context.Productos.Include(p => p.Categoria);
-            return View(await mvcTiendaContexto.ToListAsync());
+            // Filtro de búsqueda
+            ViewData["CurrentFilter"] = searchString;
+
+            var productos = from p in _context.Productos.Include(p => p.Categoria)
+                            select p;
+
+            // Aplicar el filtro de búsqueda
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                productos = productos.Where(p =>
+                    p.Descripcion.Contains(searchString) ||
+                    p.Id.ToString().Contains(searchString) ||
+                    p.PrecioCadena.Contains(searchString)
+                );
+            }
+
+            // Paginación
+            int pageSize = 7; // Número de productos por página
+            int pageNumber = (page ?? 1);
+
+            // Devolver la vista con la lista paginada de productos
+            return View(await productos.ToPagedListAsync(pageNumber, pageSize));
         }
 
         // GET: Productos/Details/5
