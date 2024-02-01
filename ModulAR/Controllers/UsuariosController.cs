@@ -5,6 +5,7 @@ using ModulAR.Data;
 using ModulAR.Models;
 using System.Data;
 using ModulAR.Areas.Identity.Pages.Account;
+using X.PagedList;
 
 namespace ModulAR.Controllers
 {
@@ -19,8 +20,10 @@ UserManager<IdentityUser> userManager)
             _context = context;
             _userManager = userManager;
         }
-        public IActionResult Index()
+        public IActionResult Index(string searchString, int? page)
         {
+            ViewData["CurrentFilter"] = searchString;
+
             var usuarios = from user in _context.Users
                            join userRoles in _context.UserRoles on user.Id equals userRoles.UserId
                            join role in _context.Roles on userRoles.RoleId equals role.Id
@@ -30,7 +33,20 @@ UserManager<IdentityUser> userManager)
                                NombreUsuario = user.UserName,
                                RolDeUsuario = role.Name
                            };
-            return View(usuarios.ToList());
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                usuarios = usuarios.Where(u =>
+                    u.Email.Contains(searchString) ||
+                    u.NombreUsuario.Contains(searchString) ||
+                    u.RolDeUsuario.Contains(searchString)
+                );
+            }
+
+            int pageSize = 7; // ajusta el tamaño de la página según tus necesidades
+            int pageNumber = page ?? 1;
+
+            return View(usuarios.ToPagedList(pageNumber, pageSize));
         }
 
         // GET: Usuarios/Create

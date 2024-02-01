@@ -1,4 +1,6 @@
-﻿@model IEnumerable<ModulAR.Models.ViewUsuarioConRol>
+﻿@using X.PagedList.Mvc.Core
+
+@model X.PagedList.IPagedList<ModulAR.Models.ViewUsuarioConRol>
 
 @{
 ViewData["Title"] = "Index";
@@ -9,6 +11,18 @@ Layout = "~/Views/Shared/_Layout.cshtml";
 <p>
     <a asp-action="Create">Nuevo Administrador</a>
 </p>
+
+@*BUSQUEDAS *@
+<div class="row mb-3">
+    <div class="col-md-6">
+        <form asp-action="Index" method="get" class="form-inline">
+            <div class="form-group" style="display:flex; flex-direction:row">
+                <input type="text" name="searchString" value="@ViewBag.CurrentFilter" placeholder="Buscar" class="form-control" />
+                <button type="submit" class="btn btn-primary" style="margin-left:15px">Buscar</button>
+            </div>          
+        </form>
+    </div>
+</div>
 <table class="table">
     <tr>
         <th>
@@ -36,3 +50,31 @@ Layout = "~/Views/Shared/_Layout.cshtml";
         </tr>
     }
 </table>
+
+@*PAGINACION!*@
+<div class="pagination justify-content-center">
+    <nav aria-label="Page navigation">
+        <ul class="pagination">
+            @if (Model.HasPreviousPage)
+            {
+                <li class="page-item">
+                    <a class="page-link" href="@Url.Action("Index", new { page = Model.PageNumber - 1 })">&lt;</a>
+                </li>
+            }
+
+            @for (int i = 1; i <= Model.PageCount; i++)
+            {
+                <li class="page-item @(i == Model.PageNumber ? "active" : "")">
+                    <a class="page-link" href="@Url.Action("Index", new { page = i })">@i</a>
+                </li>
+            }
+
+            @if (Model.HasNextPage)
+            {
+                <li class="page-item">
+                    <a class="page-link" href="@Url.Action("Index", new { page = Model.PageNumber + 1 })">&gt;</a>
+                </li>
+            }
+        </ul>
+    </nav>
+</div>
