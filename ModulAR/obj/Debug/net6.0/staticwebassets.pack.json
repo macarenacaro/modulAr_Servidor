@@ -13,6 +13,82 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular\\modulAr_Servidor\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\.DS_Store",
+      "PackagePath": "staticwebassets\\fonts\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular\\modulAr_Servidor\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GALANO-GROTESQUE-LIGHT.woff",
+      "PackagePath": "staticwebassets\\fonts\\GALANO-GROTESQUE-LIGHT.woff"
+    },
+    {
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular\\modulAr_Servidor\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GALANO-GROTESQUE-MEDIUM.woff",
+      "PackagePath": "staticwebassets\\fonts\\GALANO-GROTESQUE-MEDIUM.woff"
+    },
+    {
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular\\modulAr_Servidor\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GALANO-GROTESQUE-SEMI-BOLD.woff",
+      "PackagePath": "staticwebassets\\fonts\\GALANO-GROTESQUE-SEMI-BOLD.woff"
+    },
+    {
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular\\modulAr_Servidor\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GALANO-GROTESQUE-THIN.woff",
+      "PackagePath": "staticwebassets\\fonts\\GALANO-GROTESQUE-THIN.woff"
+    },
+    {
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular\\modulAr_Servidor\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesque-Bold.woff",
+      "PackagePath": "staticwebassets\\fonts\\GalanoGrotesque-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular\\modulAr_Servidor\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesque-Bold.woff2",
+      "PackagePath": "staticwebassets\\fonts\\GalanoGrotesque-Bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular\\modulAr_Servidor\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Black.woff",
+      "PackagePath": "staticwebassets\\fonts\\GalanoGrotesqueAlt-Black.woff"
+    },
+    {
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular\\modulAr_Servidor\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Black.woff2",
+      "PackagePath": "staticwebassets\\fonts\\GalanoGrotesqueAlt-Black.woff2"
+    },
+    {
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular\\modulAr_Servidor\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Light.woff",
+      "PackagePath": "staticwebassets\\fonts\\GalanoGrotesqueAlt-Light.woff"
+    },
+    {
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular\\modulAr_Servidor\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Light.woff2",
+      "PackagePath": "staticwebassets\\fonts\\GalanoGrotesqueAlt-Light.woff2"
+    },
+    {
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular\\modulAr_Servidor\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Medium.woff",
+      "PackagePath": "staticwebassets\\fonts\\GalanoGrotesqueAlt-Medium.woff"
+    },
+    {
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular\\modulAr_Servidor\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Medium.woff2",
+      "PackagePath": "staticwebassets\\fonts\\GalanoGrotesqueAlt-Medium.woff2"
+    },
+    {
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular\\modulAr_Servidor\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\NexaSlabDemo-Bold.woff",
+      "PackagePath": "staticwebassets\\fonts\\NexaSlabDemo-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular\\modulAr_Servidor\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\NexaSlabDemo-Bold.woff2",
+      "PackagePath": "staticwebassets\\fonts\\NexaSlabDemo-Bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular\\modulAr_Servidor\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\NexaSlabDemo-Regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\NexaSlabDemo-Regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular\\modulAr_Servidor\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\NexaSlabDemo-Regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\NexaSlabDemo-Regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular\\modulAr_Servidor\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\1.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular\\modulAr_Servidor\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\2.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\2.jpg"
+    },
+    {
       "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular\\modulAr_Servidor\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\58759020-9624-46c0-a8de-7919317f558f.jpg",
       "PackagePath": "staticwebassets\\imagenes\\58759020-9624-46c0-a8de-7919317f558f.jpg"
     },

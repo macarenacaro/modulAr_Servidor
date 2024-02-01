@@ -4,6 +4,52 @@
     var categoriasCount = (ViewData["Categorias"] as List<ModulAR.Models.Categoria>)?.Count ?? 0;
     var productosCount = (ViewData["Productos"] as List<ModulAR.Models.Producto>)?.Count ?? 0;
 }
+<style>
+
+
+  .box2 {
+    display:flex;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+    min-height: 230px;
+    width: 200px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(14, 23, 38)
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
+.box2 h4 {
+margin-top:10px;
+ font-size: 23px;
+color: white;
+text-shadow: 2px 2px 4px rgb(0, 51, 102);
+border-radius: 5px;}
+
+.box2 p{font-weight:500}
+
+
+#btnBox{
+    margin-top:auto;
+    margin-bottom:10px
+}
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
 
 <h1>Escaparate</h1>
 <br />
@@ -16,37 +62,37 @@
         <ul>
             @foreach (var categoria in ViewData["Categorias"] as List<ModulAR.Models.Categoria>)
             {
-                <li><a href="?categoryId=@categoria.Id">@categoria.Descripcion</a></li>
+                <li style="list-style:none"><a href="?categoryId=@categoria.Id">@categoria.Descripcion</a></li>
             }
         </ul>
     </div>
 
     <!-- Sección central con productos -->
-    <div style="flex: 3; padding: 10px;">
+    <div style="flex: 3; padding: 10px; overflow-y: auto;"> @*PARA AGREGAR OVERFLOW*@
 
         <h2>Productos</h2>
 
-        <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+        <div id="SeccionPaginacion" style="display: flex; flex-wrap: wrap; gap: 20px;">
 
             @foreach (var producto in ViewData["Productos"] as List<ModulAR.Models.Producto>)
             {
-                <div style="border: 1px solid #ddd; padding: 10px; width: 200px; text-align: center;">
+                <div class="box2" style="background-image: url('@Url.Content("~/imagenes/" + producto.Imagen)'); background-size: cover">
 
                     <!-- Imagen del producto -->
-                    <img src="~/imagenes/@producto.Imagen" alt="@producto.Descripcion" style="max-width: 100%; max-height: 100px;">
+                    @*<img src="~/imagenes/@producto.Imagen" alt="@producto.Descripcion" style="max-width: 100%; max-height: 100px;">*@
 
                     <!-- Descripción del producto -->
-                    <p>@producto.Descripcion</p>
-
+                    <h4>@producto.Descripcion</h4>
+                    
                     <!-- Precio del producto -->
-                    <p>Precio: @producto.PrecioCadena</p>
+                    <p>Precio: @producto.PrecioCadena €</p>
 
                     <!-- Descripción del producto -->
-                    <p>Stock: @producto.Stock</p>
+                    @*Stock: @producto.Stock*@
 
 
                     <!-- Botón para añadir al carrito (modal) -->
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCarrito-@producto.Id">
+                    <button id="btnBox" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCarrito-@producto.Id">
                         Añadir al carrito
                     </button>
 
@@ -92,5 +138,14 @@
             }
 
         </div>
+
+        <!--1--> <!--2-->
+
+
+
+
+
+
+
     </div>
 </div>
