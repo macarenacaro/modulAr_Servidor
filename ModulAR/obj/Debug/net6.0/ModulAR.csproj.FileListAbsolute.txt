@@ -1025,3 +1025,6 @@ C:\Users\mcaro\OneDrive\Documentos\2.IES MARE NOSTRUM\1.ENTORNO DESARROLLO SERVI
 C:\Users\mcaro\OneDrive\Documentos\2.IES MARE NOSTRUM\1.ENTORNO DESARROLLO SERVIDOR\macarenacaro\Modular\modulAr_Servidor\modulAr_Servidor\ModulAR\obj\Debug\net6.0\ModulAR.pdb
 C:\Users\mcaro\OneDrive\Documentos\2.IES MARE NOSTRUM\1.ENTORNO DESARROLLO SERVIDOR\macarenacaro\Modular\modulAr_Servidor\modulAr_Servidor\ModulAR\obj\Debug\net6.0\ModulAR.genruntimeconfig.cache
 C:\Users\mcaro\OneDrive\Documentos\2.IES MARE NOSTRUM\1.ENTORNO DESARROLLO SERVIDOR\macarenacaro\Modular\modulAr_Servidor\modulAr_Servidor\ModulAR\obj\Debug\net6.0\ref\ModulAR.dll
+C:\Users\mcaro\OneDrive\Documentos\2.IES MARE NOSTRUM\1.ENTORNO DESARROLLO SERVIDOR\macarenacaro\Modular\modulAr_Servidor\modulAr_Servidor\ModulAR\bin\Debug\net6.0\JetBrains.Annotations.dll
+C:\Users\mcaro\OneDrive\Documentos\2.IES MARE NOSTRUM\1.ENTORNO DESARROLLO SERVIDOR\macarenacaro\Modular\modulAr_Servidor\modulAr_Servidor\ModulAR\bin\Debug\net6.0\X.PagedList.dll
+C:\Users\mcaro\OneDrive\Documentos\2.IES MARE NOSTRUM\1.ENTORNO DESARROLLO SERVIDOR\macarenacaro\Modular\modulAr_Servidor\modulAr_Servidor\ModulAR\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll

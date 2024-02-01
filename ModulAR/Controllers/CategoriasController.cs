@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ModulAR.Data;
 using ModulAR.Models;
+using X.PagedList;
+
 
 namespace ModulAR.Controllers
 {
@@ -23,11 +25,14 @@ namespace ModulAR.Controllers
         }
 
         // GET: Categorias
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? page)
         {
-              return _context.Categorias != null ? 
-                          View(await _context.Categorias.ToListAsync()) :
-                          Problem("Entity set 'MvcTiendaContexto.Categorias'  is null.");
+            var pageNumber = page ?? 1;
+            var pageSize = 7; // Número de elementos por página
+
+            var categorias = await _context.Categorias.ToPagedListAsync(pageNumber, pageSize);
+
+            return View(categorias);
         }
 
         // GET: Categorias/Details/5
