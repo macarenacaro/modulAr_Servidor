@@ -32,6 +32,7 @@ namespace ModulAR.Models
         }
         public int? Stock { get; set; }
         public bool? Escaparate { get; set; }
+        [Required(ErrorMessage = "La imagen es requerida.")]
         public string? Imagen { get; set; }
         public int CategoriaId { get; set; }
         public Categoria? Categoria { get; set; }

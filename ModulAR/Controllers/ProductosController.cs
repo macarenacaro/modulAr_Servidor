@@ -217,6 +217,7 @@ namespace ModulAR.Controllers
             var producto = await _context.Productos
             .Include(p => p.Categoria)
             .FirstOrDefaultAsync(m => m.Id == id);
+
             if (producto == null)
             {
                 return NotFound();
@@ -234,45 +235,57 @@ namespace ModulAR.Controllers
             {
                 return NotFound();
             }
+
             var producto = await _context.Productos.FindAsync(id);
+
             if (producto == null)
             {
                 return NotFound();
             }
-            if (imagen == null)
-            {
-                return NotFound();
-            }
+
+            // Actualizar producto solo si la imagen es válida
             if (ModelState.IsValid)
             {
-                // Copiar archivo de imagen
-                string strRutaImagenes = Path.Combine(_webHostEnvironment.WebRootPath, "imagenes");
-                string strExtension = Path.GetExtension(imagen.FileName);
-                string strNombreFichero = producto.Id.ToString() + strExtension;
-                string strRutaFichero = Path.Combine(strRutaImagenes, strNombreFichero);
-                using (var fileStream = new FileStream(strRutaFichero, FileMode.Create))
+                if (imagen != null && imagen.Length > 0)
                 {
-                    imagen.CopyTo(fileStream);
-                }
-                // Actualizar producto con nueva imagen
-                producto.Imagen = strNombreFichero;
-                try
-                {
-                    _context.Update(producto);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!ProductoExists(producto.Id))
+                    // Copiar archivo de imagen
+                    string strRutaImagenes = Path.Combine(_webHostEnvironment.WebRootPath, "imagenes");
+                    string strExtension = Path.GetExtension(imagen.FileName);
+                    string strNombreFichero = producto.Id.ToString() + strExtension;
+                    string strRutaFichero = Path.Combine(strRutaImagenes, strNombreFichero);
+
+                    using (var fileStream = new FileStream(strRutaFichero, FileMode.Create))
                     {
-                        return NotFound();
+                        imagen.CopyTo(fileStream);
                     }
-                    else
+
+                    // Actualizar producto con nueva imagen
+                    producto.Imagen = strNombreFichero;
+
+                    try
                     {
-                        throw;
+                        _context.Update(producto);
+                        await _context.SaveChangesAsync();
                     }
+                    catch (DbUpdateConcurrencyException)
+                    {
+                        if (!ProductoExists(producto.Id))
+                        {
+                            return NotFound();
+                        }
+                        else
+                        {
+                            throw;
+                        }
+                    }
+                }
+                else
+                {
+                    // Agregar error de modelo si no se proporcionó una imagen
+                    ModelState.AddModelError("Imagen", "La imagen es requerida.");
                 }
             }
+
             return View(producto);
         }
 
