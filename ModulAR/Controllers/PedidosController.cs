@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ModulAR.Data;
 using ModulAR.Models;
+using X.PagedList;
 
 namespace ModulAR.Controllers
 {
@@ -23,10 +24,29 @@ namespace ModulAR.Controllers
         }
 
         // GET: Pedidos
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString, int? page)
         {
-            var mvcTiendaContexto = _context.Pedidos.Include(p => p.Cliente).Include(p => p.Estado);
-            return View(await mvcTiendaContexto.ToListAsync());
+            ViewData["CurrentFilter"] = searchString;
+
+            var pedidos = from p in _context.Pedidos
+                          .Include(p => p.Cliente)
+                          .Include(p => p.Estado)
+                          select p;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                pedidos = pedidos.Where(p =>
+                    p.Fecha.ToString().Contains(searchString) ||
+                    p.Id.ToString().Contains(searchString) ||
+                    p.Estado.Descripcion.Contains(searchString) ||
+                    p.Cliente.Id.ToString().Contains(searchString)
+                );
+            }
+
+            int pageSize = 7; // ajusta el tamaño de la página según tus necesidades
+            int pageNumber = page ?? 1;
+
+            return View(await pedidos.ToPagedListAsync(pageNumber, pageSize));
         }
 
         // GET: Pedidos/Details/5
@@ -162,29 +182,52 @@ namespace ModulAR.Controllers
                 .Include(p => p.Cliente)
                 .Include(p => p.Estado)
                 .FirstOrDefaultAsync(m => m.Id == id);
+
             if (pedido == null)
             {
                 return NotFound();
             }
 
+            // Verificar si el pedido está asociado a un cliente
+            if (PedidoAsociadoACliente(pedido))
+            {
+                // Si está asociado, mostrar un mensaje de error
+                TempData["ErrorMessage"] = "No se puede eliminar este pedido porque está asociado a un cliente.";
+              // return RedirectToAction(nameof(Index));
+            }
+
             return View(pedido);
         }
 
+        // Método auxiliar para verificar si un pedido está asociado a un cliente
+        private bool PedidoAsociadoACliente(Pedido pedido)
+        {
+            return _context.Clientes.Any(c => c.Pedidos.Any(p => p.Id == pedido.Id));
+        }
+
         // POST: Pedidos/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.Pedidos == null)
             {
                 return Problem("Entity set 'MvcTiendaContexto.Pedidos'  is null.");
             }
+
             var pedido = await _context.Pedidos.FindAsync(id);
+
+            // Verificar nuevamente antes de eliminar
+            if (PedidoAsociadoACliente(pedido))
+            {
+                // Si está asociado, mostrar un mensaje de error
+                TempData["ErrorMessage"] = "No se puede eliminar este pedido porque está asociado a un cliente.";
+                return RedirectToAction(nameof(Index));
+            }
+
             if (pedido != null)
             {
                 _context.Pedidos.Remove(pedido);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }

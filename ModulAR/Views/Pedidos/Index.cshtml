@@ -1,4 +1,6 @@
-﻿@model IEnumerable<ModulAR.Models.Pedido>
+﻿@using X.PagedList.Mvc.Core
+
+@model X.PagedList.IPagedList<ModulAR.Models.Pedido>
 
 @{
     ViewData["Title"] = "Index";
@@ -7,37 +9,52 @@
 <h1>Pedidos</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Crear Nuevo</a>
 </p>
+
+@*BUSQUEDAS *@
+<div class="row mb-3">
+    <div class="col-md-6">
+        <form asp-action="Index" method="get" class="form-inline">
+            <div class="form-group" style="display:flex; flex-direction:row">
+                <input type="text" name="searchString" value="@ViewBag.CurrentFilter" placeholder="Buscar por fecha, Id, Estado o Id de Cliente " class="form-control" />
+                <button type="submit" class="btn btn-primary" style="margin-left:15px">Buscar</button>
+            </div>          
+        </form>
+    </div>
+</div>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Fecha)
+               Id
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Confirmado)
+               Fecha
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Preparado)
+                Confirmado
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Enviado)
+              Preparado
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Cobrado)
+               Enviado
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Devuelto)
+              Cobrado
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Anulado)
+                Devuelto
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Cliente)
+              Anulado
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Estado)
+                Cliente
+            </th>
+            <th>
+                Estado
             </th>
             <th></th>
         </tr>
@@ -45,6 +62,9 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Fecha)
             </td>
@@ -73,11 +93,38 @@
                 @Html.DisplayFor(modelItem => item.Estado.Descripcion)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                    @*   <a asp-action="Details" asp-route-id="@item.Id">Details</a> |*@
+                <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+@*PAGINACION!*@
+<div class="pagination justify-content-center">
+    <nav aria-label="Page navigation">
+        <ul class="pagination">
+            @if (Model.HasPreviousPage)
+            {
+                        <li class="page-item">
+                            <a class="page-link" href="@Url.Action("Index", new { page = Model.PageNumber - 1 })">&lt;</a>
+                        </li>
+            }
+
+            @for (int i = 1; i <= Model.PageCount; i++)
+            {
+                        <li class="page-item @(i == Model.PageNumber ? "active" : "")">
+                            <a class="page-link" href="@Url.Action("Index", new { page = i })">@i</a>
+                        </li>
+            }
+
+            @if (Model.HasNextPage)
+            {
+                        <li class="page-item">
+                            <a class="page-link" href="@Url.Action("Index", new { page = Model.PageNumber + 1 })">&gt;</a>
+                        </li>
+            }
+        </ul>
+    </nav>
+</div>

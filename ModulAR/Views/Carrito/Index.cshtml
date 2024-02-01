@@ -5,8 +5,6 @@
     var pedido = ViewData["Pedido"] as Pedido;
 }
 
-<h1>Carrito de la Compra</h1>
-
 @if (detalles.Count == 0)
 {
     <script>
@@ -15,6 +13,8 @@
 }
 else
 {
+    <h1>Carrito de la Compra</h1>
+
    @*<h2>Pedido: @pedido.Id</h2>*@
     <h2>Detalles de Pedido</h2>
     <div>

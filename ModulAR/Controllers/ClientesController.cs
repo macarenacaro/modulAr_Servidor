@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ModulAR.Data;
 using ModulAR.Models;
+using X.PagedList;
 
 namespace ModulAR.Controllers
 {
@@ -23,11 +24,25 @@ namespace ModulAR.Controllers
         }
 
         // GET: Clientes
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString, int? page)
         {
-              return _context.Clientes != null ? 
-                          View(await _context.Clientes.ToListAsync()) :
-                          Problem("Entity set 'MvcTiendaContexto.Clientes'  is null.");
+            var clientes = from c in _context.Clientes select c;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                clientes = clientes.Where(c =>
+                    c.Nombre.Contains(searchString) ||
+                    c.Email.Contains(searchString) ||
+                    c.Direccion.Contains(searchString) ||
+                    c.Nif.Contains(searchString) ||
+                    c.Id.ToString().Contains(searchString)
+                );
+            }
+
+            int pageSize = 7; // ajusta el tamaño de la página según tus necesidades
+            int pageNumber = page ?? 1;
+
+            return View(await clientes.ToPagedListAsync(pageNumber, pageSize));
         }
 
         // GET: Clientes/Details/5
@@ -131,30 +146,42 @@ namespace ModulAR.Controllers
 
             var cliente = await _context.Clientes
                 .FirstOrDefaultAsync(m => m.Id == id);
+
             if (cliente == null)
             {
                 return NotFound();
             }
 
+            // Verificar si el cliente tiene pedidos asociados
+            ViewBag.HasOrders = _context.Pedidos.Any(p => p.ClienteId == id);
+
             return View(cliente);
         }
 
-        // POST: Clientes/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.Clientes == null)
             {
-                return Problem("Entity set 'MvcTiendaContexto.Clientes'  is null.");
+                return Problem("Entity set 'MvcTiendaContexto.Clientes' is null.");
             }
+
             var cliente = await _context.Clientes.FindAsync(id);
+
+            // Verificar si el cliente tiene pedidos asociados
+            if (_context.Pedidos.Any(p => p.ClienteId == id))
+            {
+                ModelState.AddModelError(string.Empty, "No se puede eliminar el cliente porque tiene pedidos asociados.");
+                return View(cliente);
+            }
+
             if (cliente != null)
             {
                 _context.Clientes.Remove(cliente);
+                await _context.SaveChangesAsync();
             }
-            
-            await _context.SaveChangesAsync();
+
             return RedirectToAction(nameof(Index));
         }
 
