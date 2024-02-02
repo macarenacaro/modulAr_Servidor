@@ -329,6 +329,7 @@ label {
 
 button {
   border-radius: 0;
+  background-color:red;
 }
 
 button:focus:not(:focus-visible) {

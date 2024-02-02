@@ -179,7 +179,8 @@ namespace ModulAR.Controllers
                 {
                     // Puedes manejar el caso de que la cantidad deseada sea mayor que el stock disponible.
                     // En este ejemplo, simplemente redirigimos a la página del carrito con un mensaje de error.
-                    TempData["ErrorStock"] = $"La cantidad deseada ({detalle.Cantidad + 1}) es mayor que el stock disponible ({detalle.Producto.Stock}).";
+                    TempData["ErrorStock"] = $"La cantidad excede el stock";
+
                     return RedirectToAction(nameof(Index));
                 }
 

@@ -30,24 +30,40 @@ FONTS
 
 
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
-.imagen-redondeada {
-    border-radius: 50%;
+.btn-primary, .btn, .btn-carrito {
+    background-color: rgb(0, 51, 102) !important; /* El !important puede ser necesario para anular estilos de Bootstrap */
+    color: white !important;
+    border: none;
+    border-radius:5px;
+}
+
+.btn-primary:hover, .btn:hover {
+   background-color: white !important; /* El !important puede ser necesario para anular estilos de Bootstrap */
+   color: rgb(0, 203, 152) !important;
+   border: solid 0.5px rgb(168, 168, 168) !important;
+}
+
+.cantidad {
+    font-size: 13px;
+    color: red;
+    margin-bottom:0px;
+    margin-top:0px;
 }

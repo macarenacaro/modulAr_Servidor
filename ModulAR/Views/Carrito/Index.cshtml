@@ -20,7 +20,7 @@ else
     <div>
         <!-- Mostrar detalles del pedido -->
         @*<h2>Detalles de Pedido</h2>*@
-        <ul>
+        <ul style="list-style:none">
             <li>Número de Pedido: @pedido.Id</li>
             <li>Fecha: @pedido.Fecha</li>
            @*<li>Confirmado: @pedido.Confirmado</li>
@@ -54,39 +54,54 @@ else
                 <tr>
                     <td>@detalle.Producto.Id</td>
                     <td>@detalle.Producto.Descripcion</td>
-                    <td style="display:flex; flex-direction:row"><form method="post" asp-action="MasCantidad" asp-route-id="@detalle.Id">
-                            <button type="submit">+</button>
-                        </form>
+                    <td style="display:flex; flex-direction:row">
+                    
+                
+                            <form method="post" asp-action="MasCantidad" asp-route-id="@detalle.Id">
+                               <button class="btn-carrito" type="submit">+</button>
+                            </form>
+
                         @detalle.Cantidad
-                        <form method="post" asp-action="MenosCantidad" asp-route-id="@detalle.Id">
-                            <button type="submit">-</button>
-                        </form>                       
+
+                        <form  method="post" asp-action="MenosCantidad" asp-route-id="@detalle.Id">
+                            <button class="btn-carrito" type="submit">-</button>
+                        </form>
+  
+    
                     </td>
                     <td>@detalle.Precio</td>
                     <td>@detalle.Descuento</td>
                     <td>@(detalle.Cantidad * detalle.Precio - detalle.Descuento)</td>
                     <td>
                         <form method="post" asp-action="EliminarLinea" asp-route-id="@detalle.Id">
-                            <button type="submit">Eliminar</button>
+                            <button class="btn-carrito" type="submit">Eliminar</button>
                         </form>
                         
                     </td>
+
+
                 </tr>
             }
         </tbody>
     </table>
-    <p>Total: @(detalles.Sum(d => d.Cantidad * d.Precio - d.Descuento))</p>
- 
-    <form method="post" asp-action="ConfirmarPedido" asp-route-id="@pedido.Id">
-        <button type="submit">Confirmar Pedido</button>
-    </form>
-    
-    @if (TempData["ErrorStock"] != null)
-    {
-        <br>
 
-        <p class="text-danger">@TempData["ErrorStock"]</p>
-    }
+    <p style="font-weight:600">Total: @(detalles.Sum(d => d.Cantidad * d.Precio - d.Descuento))</p>
+
+
+ 
+   <div style="display:flex;flex-direction:row">
+    <form method="post" asp-action="ConfirmarPedido" asp-route-id="@pedido.Id">
+        <button class="btn" type="submit">Confirmar Pedido</button>
+    </form>
+    <div style="margin-left:10px">
+            @if (TempData["ErrorStock"] != null)
+            {
+                <p class="cantidad">@TempData["ErrorStock"]</p>
+            }
+    </div>
+
+    </div>
+    
 
     <p>
         <a asp-controller="Escaparate"
