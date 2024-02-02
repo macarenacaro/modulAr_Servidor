@@ -83,15 +83,17 @@ text-align:center;
 <br />
 
 @*BUSQUEDAS *@
-<div class="row mb-3">
+<div class="row mb-3" style="display:flex;flex-wrap:nowrap">
     <div class="col-md-6">
         <form asp-action="Index" method="get" class="form-inline">
             <div class="form-group" style="display:flex; flex-direction:row">
                 <input type="text" name="searchString" value="@ViewBag.CurrentFilter" placeholder="Buscar nombre, precio o categoría" class="form-control" />
                 <button type="submit" class="btn btn-primary" style="margin-left:15px">Buscar</button>
+                
             </div>
         </form>
     </div>
+    <p><a asp-action="Index" asp-controller="Escaparate">Lista Completa</a></p>
 </div>
 
 <div style="display: flex;">
@@ -110,7 +112,7 @@ text-align:center;
     <!-- Sección central con productos -->
     <div style="flex: 3; padding: 10px; overflow-y: auto;"> @*PARA AGREGAR OVERFLOW*@
 
-        <h2>Productos</h2>
+        @*<h2>Productos</h2>*@
 
         <div id="SeccionPaginacion" style="display: flex; flex-wrap: wrap; gap: 20px;">
 
