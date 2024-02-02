@@ -41,7 +41,8 @@ namespace ModulAR.Controllers
                 productos = productos.Where(p =>
                     p.Descripcion.Contains(searchString) ||
                     p.Id.ToString().Contains(searchString) ||
-                    p.PrecioCadena.Contains(searchString)
+                    p.PrecioCadena.Contains(searchString)||
+                    p.Categoria.Descripcion.Contains(searchString)
                 );
             }
 
