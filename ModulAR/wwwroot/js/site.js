@@ -34,10 +34,6 @@
 });
 
 
-
-
-
-
 /*evento carrusel*/
 
 var documentElement = document;
