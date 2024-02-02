@@ -24,7 +24,7 @@
     <header>
 
         <nav id="navegador" class="navbar fixed-top navbar-expand-lg ftco_navbar ftco-navbar-light" style="width:90%; top: 0px; margin:auto; background-color:#ffffffa6; ">
-            <Table id="Table1" class="container" style="border:solid 1px red">
+            <Table id="Table1" class="container">
                 <tr CssClass="navegador">
                     <td CssClass="celdas">
                         <a asp-controller="Home" asp-action="Index">
@@ -253,7 +253,7 @@
  
                     </td>*@
                    
-               <td>
+               <td style="padding-top: 20px">
                <partial name="_LoginPartial" />
                 </td>
                 </tr>
@@ -366,7 +366,7 @@
 
 
     <div class="container">
-        <main role="main" class="pb-3">
+        <main role="main" class="pb-3" style="margin-top:100px">
             @RenderBody()
          </main>
     </div>
