@@ -137,7 +137,7 @@ namespace ModulAR.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Descripcion,Texto,Precio,PrecioCadena,Stock,Escaparate,Imagen,CategoriaId")] Producto producto)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Descripcion,Texto,Precio,PrecioCadena,Stock,Escaparate,CategoriaId")] Producto producto)
         {
             if (id != producto.Id)
             {
@@ -148,6 +148,12 @@ namespace ModulAR.Controllers
             {
                 try
                 {
+                    // Recuperar el producto original de la base de datos con la imagen actual
+                    var originalProducto = await _context.Productos.AsNoTracking().FirstOrDefaultAsync(p => p.Id == id);
+
+                    // Restaurar la propiedad Imagen del producto original al modelo antes de actualizar
+                    producto.Imagen = originalProducto.Imagen;
+
                     _context.Update(producto);
                     await _context.SaveChangesAsync();
                 }
