@@ -82,6 +82,18 @@ text-align:center;
 <h1>Escaparate</h1>
 <br />
 
+@*BUSQUEDAS *@
+<div class="row mb-3">
+    <div class="col-md-6">
+        <form asp-action="Index" method="get" class="form-inline">
+            <div class="form-group" style="display:flex; flex-direction:row">
+                <input type="text" name="searchString" value="@ViewBag.CurrentFilter" placeholder="Buscar nombre, precio o categoría" class="form-control" />
+                <button type="submit" class="btn btn-primary" style="margin-left:15px">Buscar</button>
+            </div>
+        </form>
+    </div>
+</div>
+
 <div style="display: flex;">
 
     <!-- Lateral izquierdo con categorías -->

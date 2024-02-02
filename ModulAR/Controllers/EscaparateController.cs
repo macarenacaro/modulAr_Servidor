@@ -17,27 +17,35 @@ namespace ModulAR.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index(int? categoryId, string strCadenaBusqueda)
+        public async Task<IActionResult> Index(int? categoryId, string searchString)
         {
-            ViewData["BusquedaActual"] = strCadenaBusqueda;
+            ViewData["BusquedaActual"] = searchString;
 
             // Cargar datos de las categorías
             var categorias = await _context.Categorias.ToListAsync();
             ViewData["Categorias"] = categorias;
 
             // Cargar datos de los productos
-            var productosQuery = _context.Productos.Where(p => p.Escaparate == true) // Solo productos con Escaparate = true
-            .AsQueryable();
+            var productosQuery = _context.Productos.Where(p => p.Escaparate == true);
 
-            if (categoryId.HasValue) //cuando se selecciona la categoria que coincide con el producto
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                productosQuery = productosQuery.Where(p =>
+                    p.Descripcion.Contains(searchString) ||
+                    p.Categoria.Descripcion.Contains(searchString) ||
+                    p.PrecioCadena.Contains(searchString)
+                );
+            }
+
+            if (categoryId.HasValue)
             {
                 productosQuery = productosQuery.Where(p => p.CategoriaId == categoryId);
             }
+
             var productos = await productosQuery.ToListAsync();
+            ViewData["Productos"] = productos;
 
-            ViewData["Productos"] = productos;//mostrar productos
-
-            return View(productos); //pasar a la vista
+            return View(productos);
         }
 
         [HttpGet]
