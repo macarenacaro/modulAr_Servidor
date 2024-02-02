@@ -10,7 +10,202 @@
     <!--PARA CREAR VENTANA EMERGENTES-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
           integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyD6u6j4qJzI95gZliznY8me5vmNMNMIYB" crossorigin="anonymous">
+  
+          <!--AÑADIDO POR MACA-->
+    <!--AÑADIDO POR MACA-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />    <!-- Agrega la referencia a Bootstrap CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/styleNav_Footer.css" />
 
+
+
+</head>
+<body>
+    <header>
+
+        <nav id="navegador" class="navbar fixed-top navbar-expand-lg ftco_navbar ftco-navbar-light" style="width:90%; top: 0px; margin:auto; background-color:#ffffffa6; ">
+            <Table id="Table1" class="container">
+                <tr CssClass="navegador">
+                    <td CssClass="celdas">
+                        <a asp-controller="Home" asp-action="Index">
+                            <img class="logonav" src="~/imagenes/generales/logo.png" alt="modulAR" style="margin-top:10px" />
+                            <img class="logonav2" src="~/imagenes/generales/logoiso.png" alt="modulAR" style="margin-top:10px" />
+                        </a>
+                    </td>
+
+                    <td id="listas" style="padding-top: 20px">
+                        <ul id="titulos" class="navbar-nav">
+                            <li class="nav-item active"><a asp-controller="Home" asp-action="Index" class="nav-link">Descubre</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Portafolios</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Empleos</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Compras</a></li>
+                        </ul>
+                    </td>
+
+
+                    <td style="width:700px">
+                        <div class="form-inline d-flex md-form form-sm mt-0">
+                            <input id="buscar" class="form-control form-control-sm ml-3 w-75" type="text"
+                                   placeholder="Buscar.." aria-label="Buscar">
+                            <a id="lupa" href="#" class="search-icon">
+                                <i style="margin-left:-20px; margin-top:-3px" class="fa fa-search"></i>
+                            </a>
+                        </div>
+                    </td>
+
+                    <td>
+                        <!--NAVEGADOR DE CARRITO, NOTIFICACIONES, ETC-->
+                        <div class="social-media order-lg-last">
+                            <div class="mb-0 d-flex" style=" margin-top:12px; display:flex; flex-direction:row; justify-content:center; max-width: 300px;">
+                                <!--/*border: solid pink 2px;*/-->
+
+                                <a id="notificaciones" data-toggle="collapse" data-target="#notif" aria-controls="notif" class="d-flex align-items-center justify-content-center" style="background-image: url(/imagenes/generales/notif.svg);  border: solid 1px #bebebe; "></a>
+
+                                <!--MENSAJES-->
+                                <a id="mensajes" data-toggle="collapse" data-target="#mensColl" aria-controls="mensColl" class="d-flex align-items-center justify-content-center" style="background-image: url(/imagenes/generales/mensaje.svg); background-size: cover; border: solid 1px #bebebe;">
+                                </a>
+
+
+                                <!--COMPRAS-->
+                                <a id="compras" data-toggle="collapse" data-target="#shopColl" aria-controls="shopColl"
+                                   class="d-flex align-items-center justify-content-center" style="background-image: url(/imagenes/generales/shop.svg); background-size: cover; border: solid 1px #bebebe;">
+                                </a>
+
+
+                                <!--CUENTA DE USUARIO LOGIN-->
+                                <a id="login" data-toggle="collapse" data-target="#loginColl"
+                                   aria-controls="loginColl" class="d-flex align-items-center justify-content-center" style="background-image: url(/imagenes/generales/usuario_1.svg); background-size: cover; border: solid 1px #bebebe;">
+                                </a>
+
+                                <!--CUENTA DE USUARIO REGISTRADO-->
+                                <a id="portrait" class="btn btn-secondary dropdown-toggle" data-toggle="collapse" data-target="#cuenta"
+                                   aria-controls="cuenta" style="visibility:hidden ; background-image: url(/imagenes/generales/perfil.svg); background-size: cover; border: solid 1px #bebebe;">
+                                </a>
+
+
+                                <!-- BOTON DE MENU DE NAVEGACION-->
+                                <button id="boton" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-nav"
+                                        aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="fa fa-bars"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- FIN NAVEGADOR DE CARRITO-->
+                    </td>
+
+                </tr>
+            </Table>
+
+            <!-- ************SECCIOÓN COLLAPSE *********** -->
+
+            <table id="Panel1" style=" display:flex; flex-direction:column; justify-content:right; align-items:end; width:60%; margin:auto;margin-top:-10px; height:84px">
+
+                <tr class="mb-0 d-flex dropAll" style=" display:flex; flex-direction:column;  max-width: 300px;">
+
+                    <td id="notificationsColl" style="transition: .3s all ease ; width:250px">
+                        <!-- Collaspse PARA NOTIFICACIONES -->
+                        <div class="collapse navbar-collapse" id="notif">
+                            Notificaciones
+                            <ul style="width:200px; margin-bottom:3px">
+                                <li><a style="font-size:12px" href="index.html">No tienes Notificaciones</a></li>
+
+                            </ul>
+                        </div>
+                    </td>
+
+                    <td id="mensajesColl" style="transition: .3s all ease ; width:250px">
+                        <!-- Collaspse PARA MENSAJES -->
+                        <div class="collapse navbar-collapse" id="mensColl">
+                            Mensajes
+                            <ul style="width:200px; margin-bottom:3px">
+                                <li><a style="font-size:12px" href="index.html">No tienes Mensajes</a></li>
+
+                            </ul>
+                        </div>
+                    </td>
+
+                    <td id="shopingColl" style="transition: .3s all ease ; width:250px">
+                        <!-- DROPDOWN PARA CARRITO -->
+
+                        <div class="collapse navbar-collapse" id="shopColl">
+                            Compras
+                            <ul style="width:200px; margin-bottom:3px">
+                                <li><a style="font-size:12px" href="index.html">Mis Compras</a></li>
+                                <li><a style="font-size:12px" href="#">Moneda</a></li>
+                                <li><a style="font-size:12px" href="#">Lista Favoritos</a></li>
+                                <li><a style="font-size:12px" href="#">Ajustes</a></li>
+
+                            </ul>
+                        </div>
+                    </td>
+
+                    <td id="loginUserColl" style="transition: .3s all ease ; width:250px">
+                        <!-- DROPDOWN PARA LOGIN -->
+                        <div class="collapse navbar-collapse" id="loginColl">
+                            Inicia Sesión
+                            <ul style="width:200px; font-size:12px">
+                                <li><a>Nombre o Usuario</a></li>
+                                <li>
+                                    <form class="form-inline d-flex md-form form-sm mt-0">
+                                        <input id="usuario" type="text" style="width:160px">
+                                    </form>
+                                </li>
+                                <li><a>Contraseña</a></li>
+                                <li>
+                                    <form class="form-inline d-flex md-form form-sm mt-0">
+                                        <input id="contrasena" type="text" style="width:160px">
+                                    </form>
+                                </li>
+                                <li><a id="forgot-password" asp-area="Identity" asp-page="/Account/ForgotPassword" style="font-size: 10px;">¿Has olvidado tu contraseña?</a></li>
+                                <li><a asp-area="Identity" asp-page="/Account/Register" style="font-size: 10px;">¿Eres Nuevo? ¡Registrate!</a></li>
+                            </ul>
+                            <button class="navButton">Iniciar Sesion</button>
+                        </div>
+                    </td>
+
+
+
+                    <td id="perfilColl" style="transition: .3s all ease ; width:250px">
+                        <!-- DROPDOWN PARA SESION INICIADA -->
+                        <div class="collapse navbar-collapse" id="cuenta">
+                            ¡Bienvenido a modulAR!
+                            <ul>
+                                <li><a href="index.html">Mi Cuenta</a></li>
+                                <li><a href="#">Perfil modulAR</a></li>
+                                <li><a href="#">Idioma</a></li>
+                                <li><a href="#">Ajustes</a></li>
+                                <li><a href="#">Ayuda</a></li>
+
+                            </ul>
+                            <button class="navButton">Cerrar Sesion</button>
+                        </div>
+                    </td>
+
+                    <td id="menuColl" style="transition: .3s all ease ; width:250px">
+                        <!-- COLLAPSE PARA MENU -->
+                        <div class="collapse navbar-collapse" id="menu-nav">
+                            Compras
+                            <ul>
+                                <li style="margin-top:2px;"><a href="index.html">Descubre</a></li>
+                                <li style="margin-top:2px;"><a href="#">Portafolios</a></li>
+                                <li style="margin-top:2px;"><a href="#">Empleos</a></li>
+                                <li style="margin-top:2px;"><a href="#">Compras</a></li>
+
+                            </ul>
+                        </div>
+
+
+
+
+
+                    </td>
+                </tr>
+            </table>
+        </nav>
+
+    </header>
+
+@*
 
 </head>
 <body>
@@ -89,8 +284,8 @@
                         @*
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>*@
-                        }
+                        </li>
+    }*@
 
                               
                         @*
@@ -99,23 +294,147 @@
                                asp-action="Index">Detalles</a>
                         </li>*@
 
-                     
+                     @*
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
             </div>
         </nav>
-    </header>
+    </header>*@
+
+
+
+
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
-        </main>
+         </main>
     </div>
-
+   @*
     <footer class="border-top footer text-muted">
         <div class="container"> &copy; 2024 - ModulAR - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacidad</a>
         </div>
     </footer>
+    *@
+
+    
+			<footer class="site-footer" style=" padding-top: 50px;
+    color: white;
+    background-image: url('/imagenes/generales/footer2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 500px;
+    height: 100%;
+    padding-bottom: -500px;
+   margin-bottom: -30px;
+    text-align: center;">
+				<!-- FOOTER -->
+				<div class="container">
+					<div class="row">
+						<br />
+						<div class="col-md-4 col-sm-4">
+							<div class="subscribe-form-wrap" style="display:flex; flex-direction:column; align-items:center ">
+								<a href="#">
+									<img src="/imagenes/generales/logo_b&n.png" alt="" height="55px">
+								</a>
+								<h7 style=" font-size: 1.2vw; color: rgb(0, 204, 153); ">
+
+									<strong>Subscríbete</strong>
+								</h7>
+
+								<form class="custom-form subscribe-form" action="#" method="get" role="form" style=" display: flex;flex-direction: column;justify-content: left; width: 300px;margin-top:10px">
+									<input type="email" name="subscribe-email" id="subscribe-email" class="form-control" placeholder="e-mail" required="">
+
+									<div>
+										<button type="submit" class="form-control" id="submit" style=" font-size: 1vw; background: rgb(0, 204, 153);color: white; border-radius: 5px; border: none; padding: 4px; margin-top:10px">
+											Subscribir
+										</button>
+									</div>
+								</form>
+							</div>
+						</div>
+
+						<div  class="col-md-4 col-sm-4">
+							<br />
+							<h7 style=" font-size: 1.2vw; color: rgb(0, 204, 153);"><strong>Contacto</strong></h7><br>
+
+							<h8 style="font-size: 1vw;">
+								<strong>Teléfono:</strong> 600 77 54 50 <br>
+								<strong>Email:</strong><a href="#"> contacto@modular.es</a>
+							</h8>
+						</div>
+
+                        @*
+						<div class="col-md-4 col-sm-4" style="display: flex; flex-direction: column;justify-content: center; align-items: center;">
+							<br />
+							<h7 style=" font-size: 1.2vw; color: rgb(0, 204, 153);"><strong>Descarga para Móviles</strong></h7><br />
+
+							<div class="site-footer-thumb mb-4 pb-2">
+								<div id="logos" style="  margin-left: 4vw; display: flex;flex-direction: row;justify-content: center">
+
+									<a href="#">
+										<img src="/imagenes/generales/play-store.png" class="img-fluid" alt="" style="margin-top:-20px;width:8vw;height: auto;">
+									</a>
+								</div>
+							</div>
+
+							<h7 style=" font-size: 1.2vw; color: rgb(0, 204, 153); margin-top:-30px"><strong>Redes Sociales</strong></h7>
+
+							<ul class="social-icon" style="margin: 0;padding: 0;">
+								<li class="social-icon-item" style="list-style: none;display: inline-block;vertical-align: top;">
+									<a href="#" class="fa fa-instagram"></a>
+								</li>
+
+								<li class="social-icon-item" style=" list-style: none;display: inline-block;vertical-align: top;">
+									<a href="#" class="fa fa-twitter"></a>
+								</li>
+
+								<li class="social-icon-item" style=" list-style: none;display: inline-block;vertical-align: top;">
+									<a href="#" class="fa fa-facebook-square"></a>
+								</li>
+							</ul>
+
+
+						</div>*@
+
+					</div>
+				</div>
+
+
+				<br />
+
+
+
+				<div>
+					<ul class="site-footer-links" style="font-size: 1.2vw; color: white; margin-bottom: 0; padding-left: 0;">
+						<li class="site-footer-link-item" style=" display: inline-block; list-style: none; margin-right: 10px; margin-left: 10px;">
+							<a asp-controller="Home" asp-action="Index" class="site-footer-link">Inicio</a>
+						</li>
+
+						<li class="site-footer-link-item" style=" display: inline-block; list-style: none; margin-right: 10px; margin-left: 10px;">
+							<a href="#" class="site-footer-link">Quienes Somos</a>
+						</li>
+
+						<li class="site-footer-link-item" style=" display: inline-block; list-style: none; margin-right: 10px; margin-left: 10px;">
+							<a href="#" class="site-footer-link">Centro de Ayuda</a>
+						</li>
+
+						<li class="site-footer-link-item" style=" display: inline-block; list-style: none; margin-right: 10px; margin-left: 10px;">
+							<a href="#" class="site-footer-link">Contáctanos</a>
+						</li>
+					</ul>
+
+					<h8 style="font-size: 1vw;font-family:'GalanoLight'; color: white">Creada y Diseñada por Macarena Caro 2023</h8>
+					<br /><br />
+				</div>
+			</footer>
+
+
+
+
+
+    <!--SCRIPTS DEL PROGRAMA Y EXTRAS PARA FUNCIONES Y MODALES-->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
@@ -126,11 +445,24 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
-
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
             integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyD6u6j4qJzI95gZliznY8me5vmNMNMIYB"
             crossorigin="anonymous"></script>
 
-    @await RenderSectionAsync("Scripts", required: false)
+
+              <!--SCRIPTS EXTRAS AÑADIDOS POR MACA PARA NAV, FOOTER, ETC-->
+    <!--AÑADIDO POR MACA-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- LINK EN VEZ DE JQUERY.MIN -->
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+
+    <!-- Agrega la referencia a jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- Agrega la referencia a Bootstrap JS -->
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)<!--ESTO ES DEL PROGRAMA NO BORRAR-->
 </body>
 </html>
