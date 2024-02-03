@@ -50,12 +50,12 @@ documentElement.addEventListener('DOMContentLoaded', function () {
 
 
 //*PARA SELECCIONAR LOS DIV DEL CARROUSEL!*//
-var disgraf = document.getElementById("box1");
+/*var disgraf = document.getElementById("box1");
 
 // evento de clic al div
 disgraf.addEventListener("click", function () {
   // Redirecciona a una URL cuando se hace clic
-  window.location.href = "https://www.google.com/";
+  window.location.href = "/Home/Index";
 });
 
 var disind = document.getElementById("box2");
@@ -63,8 +63,26 @@ var disind = document.getElementById("box2");
 //evento de clic al div
 disind.addEventListener("click", function () {
   // Redirecciona a una URL cuando se hace clic
-  window.location.href = "/../index.html";
+    window.location.href = "/Home/Index";
 });
+*/
+
+// Define el número total de cajas (box1 hasta box11)
+var numCategorias = 11;
+
+// Recorre cada caja
+for (var i = 1; i <= numCategorias; i++) {
+    // Obtiene el elemento de la caja actual
+    var caja = document.getElementById("box" + i);
+
+    // Asigna el manejador de eventos al hacer clic en la caja actual
+    caja.addEventListener("click", function () {
+        // Redirecciona a la URL deseada cuando se hace clic
+        window.location.href = "/Home/Index";
+    });
+}
+
+
 
 
 //*PARA SELECCIONAR LOS DIV DE PROYECTOS*//
@@ -73,7 +91,7 @@ var pop1 = document.getElementById("popu01");
 // evento de clic al div
 pop1.addEventListener("click", function () {
   // Redirecciona a una URL cuando se hace clic
-  window.location.href = "https://www.google.com/";
+    window.location.href = "/Home/Index";
 });
 
 
