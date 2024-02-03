@@ -233,3 +233,5 @@ boxTriggers.forEach((boxTrigger) => {
         square.style.visibility = 'hidden'; // Cambia la visibilidad a oculto después de un retraso    
     });
 });
+
+

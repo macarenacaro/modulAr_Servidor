@@ -45,14 +45,12 @@
     </div>
 
     <!-- Sección central con productos -->
-    <div style="flex: 4; padding: 10px; overflow-y: auto;"> @*PARA AGREGAR OVERFLOW*@
-           
-        
+    <div class="productos" style="flex: 4; padding: 10px; overflow-y: auto;"> @*PARA AGREGAR OVERFLOW*@          
         <h3>@(ViewData["CategoriaSeleccionada"])</h3>
         <br />
         @*<h2>Productos</h2>*@
 
-        <div id="SeccionPaginacion" style="display: flex; flex-wrap: wrap; gap: 20px;">
+        <div id="productosContainer" style="display: flex; flex-wrap: wrap; gap: 20px;">
 
             @foreach (var producto in ViewData["Productos"] as List<ModulAR.Models.Producto>)
             {
@@ -122,14 +120,6 @@
             }
 
         </div>
-
-        <!--1--> <!--2-->
-
-
-
-
-
-
 
     </div>
 </div>
