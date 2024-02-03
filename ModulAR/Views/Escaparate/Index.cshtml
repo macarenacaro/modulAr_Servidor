@@ -9,13 +9,14 @@
 
 
 <div class="contenedor">
-  <div class="elemento">
-      <h1>Escaparate</h1>
-      <br />
+  <div class="elemento" >
+      
 
       @*BUSQUEDAS *@
-   <div class="row" style="width:100%">
-    <div class="col-8">
+   <div class="row" style="width:80%">
+       <h1>Escaparate</h1>
+      <br />
+     <div class="col-8">
         <form asp-action="Index" method="get" class="form-inline">
             <div class="form-group" style="display:flex; flex-direction:row">
                 <input type="text" name="searchString" value="@ViewBag.CurrentFilter" placeholder="Buscar nombre, precio o categoría" class="form-control" />
@@ -23,9 +24,9 @@
                 
             </div>
         </form>
+     </div>
+     <div class="col-4"><p><a asp-action="Index" asp-controller="Escaparate">Lista Completa</a></p></div> 
     </div>
-    <div class="col-4"><p><a asp-action="Index" asp-controller="Escaparate">Lista Completa</a></p></div> 
-   </div>
   </div>
 
 <br />
@@ -54,7 +55,7 @@
 
             @foreach (var producto in ViewData["Productos"] as List<ModulAR.Models.Producto>)
             {
-                <div class="box2" style="background-image: url('@Url.Content("~/imagenes/" + producto.Imagen)'); background-size: cover">
+                <div class="boxEscaparate" style="background-image: url('@Url.Content("~/imagenes/" + producto.Imagen)'); background-size: cover">
 
                     <!-- Imagen del producto -->
                     @*<img src="~/imagenes/@producto.Imagen" alt="@producto.Descripcion" style="max-width: 100%; max-height: 100px;">*@

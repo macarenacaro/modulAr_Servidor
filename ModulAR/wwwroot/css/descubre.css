@@ -666,7 +666,7 @@ PROYECTOS POPULARES
 
 /*CADA PROYECTO FONDO*/
 .most-popular .item {
-    transition: transform 0.3s;
+    transition: transform 0.3s; 
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -675,7 +675,7 @@ PROYECTOS POPULARES
     margin-bottom: 20px;
     min-width: 185px;
 }
-
+/*EFECTO DE TRANSICIÓN SOBRE CADA UNO*/
     .most-popular .item:hover {
         transform: scale(1.1);
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.263);
