@@ -6,13 +6,13 @@
 <ul class="navbar-nav">
 @if (SignInManager.IsSignedIn(User))
 {
-   @* <li class="nav-item">
-            @* <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hola! @User.Identity?.Name!</a>
-            <a class="nav-link text-dark" asp-area="Identity" asp-page="" title="Manage">Hola! @User.Identity?.Name!</a>
+    <li class="nav-item">
+            @* <a  class="nav-link" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hola! @User.Identity?.Name!</a>*@
+            <a class="nav-link" asp-area="Identity" asp-page="" title="Manage" style="font-size: 13px; margin-top:5px; max-width: 180px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">@User.Identity?.Name</a>
 
         </li>
-        *@
-        <li class="nav-item" style="margin-top:-5px;">
+        
+        <li class="nav-item" style="margin-top:-5px;margin-left:-30px">
         <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
                 <button type="submit" class="nav-link btn btn-link text-dark" style="background-color:rgb(245, 245, 245) !important">Cerrar Sesión</button>
         </form>
