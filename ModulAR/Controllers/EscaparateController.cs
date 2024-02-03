@@ -30,7 +30,6 @@ namespace ModulAR.Controllers
                 return RedirectToAction("Create", "MisDatos");
             }
 
-
             ViewData["BusquedaActual"] = searchString;
 
             // Cargar datos de las categorías
@@ -39,6 +38,11 @@ namespace ModulAR.Controllers
 
             // Cargar datos de los productos
             var productosQuery = _context.Productos.Where(p => p.Escaparate == true);
+
+            if (categoryId.HasValue)
+            {
+                productosQuery = productosQuery.Where(p => p.CategoriaId == categoryId);
+            }
 
             if (!string.IsNullOrEmpty(searchString))
             {
@@ -49,13 +53,22 @@ namespace ModulAR.Controllers
                 );
             }
 
-            if (categoryId.HasValue)
-            {
-                productosQuery = productosQuery.Where(p => p.CategoriaId == categoryId);
-            }
-
             var productos = await productosQuery.ToListAsync();
             ViewData["Productos"] = productos;
+
+            // Título de la categoría seleccionada
+            string categoriaSeleccionada = "Todos los productos"; // Valor predeterminado si no se selecciona ninguna categoría
+
+            if (categoryId.HasValue)
+            {
+                var categoria = await _context.Categorias.FindAsync(categoryId);
+                if (categoria != null)
+                {
+                    categoriaSeleccionada = categoria.Descripcion;
+                }
+            }
+
+            ViewData["CategoriaSeleccionada"] = categoriaSeleccionada;
 
             return View(productos);
         }
