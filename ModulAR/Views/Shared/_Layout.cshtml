@@ -23,243 +23,198 @@
 <body>
     <header>
 
-        <nav id="navegador" class="navbar fixed-top navbar-expand-lg ftco_navbar ftco-navbar-light" style="width:90%; top: 0px; margin:auto; background-color:#ffffffa6; ">
-            <Table id="Table1" class="container">
-                <tr CssClass="navegador">
-                    <td CssClass="celdas">
+        <nav id="navegador" class="navbar fixed-top navbar-expand-lg ftco_navbar ftco-navbar-light" style="width:90%; top: 0px; margin:auto; background-color:#ffffffa6;">
+            <div class="container">
+                <div class="row" style="width:100%">
+
+                    <!--LOGO-->
+                    <div class="col-2 align-self-center celdas">
                         <a asp-controller="Home" asp-action="Index">
                             <img class="logonav" src="~/imagenes/generales/logo.png" alt="modulAR" style="margin-top:10px" />
                             <img class="logonav2" src="~/imagenes/generales/logoiso.png" alt="modulAR" style="margin-top:10px" />
                         </a>
-                    </td>
-
-                    <td id="listas" style="padding-top: 20px">
+                    </div>
+                    
+                    <!--LISTA DE NAVEGACIÓN-->
+                    <div id="listas" class="col" style="padding-top: 20px ;display:flex;justify-content:left;">
                         <ul id="titulos" class="navbar-nav">
-
-                             @if (User.Identity.IsAuthenticated)
+                            @if (User.Identity.IsAuthenticated)
                             {
                                 @if (User.IsInRole("Usuario"))
                                 {
-
-                                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Escaparate"asp-action="Index">Escaparate</a>
-                                    </li>
-
-                                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="MisDatos" asp-action="Edit">Mis Datos</a>
-                                    </li>
-
-                                    <li class="nav-item"><a class="nav-link" asp-controller="Carrito" asp-action="Index">Carrito</a>
-                                    </li>
-
-                                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="MisPedidos" asp-action="Index">Mis Pedidos</a>
-                                    </li>
+                                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Escaparate" asp-action="Index">Escaparate</a></li>
+                                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="MisDatos" asp-action="Edit">Mis Datos</a></li>
+                                    <li class="nav-item"><a class="nav-link" asp-controller="Carrito" asp-action="Index">Carrito</a></li>
+                                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="MisPedidos" asp-action="Index">Mis Pedidos</a></li>
                                 }
                                 @if (User.IsInRole("Administrador"))
                                 {
-                                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Estados" asp-action="Index">Estados</a>
-                                    </li>
-                                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Categorias" asp-action="Index">Categorias</a>
-                                    </li>
-
-                                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Productos" asp-action="Index">Productos</a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link" asp-area="" asp-controller="Clientes" asp-action="Index">Clientes</a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link" asp-area="" asp-controller="Pedidos" asp-action="Index">Pedidos</a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link" asp-area="" asp-controller="Usuarios" asp-action="Index">Usuarios</a>
-                                    </li>
+                                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Estados" asp-action="Index">Estados</a></li>
+                                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Categorias" asp-action="Index">Categorias</a></li>
+                                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Productos" asp-action="Index">Productos</a></li>
+                                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Clientes" asp-action="Index">Clientes</a></li>
+                                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Pedidos" asp-action="Index">Pedidos</a></li>
+                                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Usuarios" asp-action="Index">Usuarios</a></li>
                                 }
                             }
                             else //USUARIO CUALQUIERA
                             {
-                                <li class="nav-item active">
-                                    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Descubre</a>
-                                </li>
+                                <li class="nav-item active"><a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Descubre</a></li>
                             }
-                          @*  <li class="nav-item active"><a asp-controller="Home" asp-action="Index" class="nav-link">Descubre</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Portafolios</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Empleos</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Compras</a></li>*@
                         </ul>
-                    </td>
+                    </div>
 
                     <!--SECCION DE BUSQUEDA OMITIDO D-NONE -->
-                   <td style="width:650px;visibility:hidden">
-                        <div class="form-inline d-flex md-form form-sm mt-0" >
-                           <input id="buscar" class="form-control form-control-sm ml-3 w-75" type="text"
-                                   placeholder="Buscar.." aria-label="Buscar">
+                    <!-- <div style="width:650px;visibility:hidden">
+                        <div class="form-inline d-flex md-form form-sm mt-0">
+                            <input id="buscar" class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Buscar.." aria-label="Buscar">
                             <a id="lupa" href="#" class="search-icon">
                                 <i style="margin-left:-20px; margin-top:-3px" class="fa fa-search"></i>
-                            </a> 
+                            </a>
                         </div>
-                    </td> 
-                   @*  <td>
-                        <!--NAVEGADOR DE CARRITO, NOTIFICACIONES, ETC-->
-                       <div class="social-media order-lg-last">
-                            <div class="mb-0 d-flex" style=" margin-top:12px; display:flex; flex-direction:row; justify-content:center; max-width: 300px;">
-                                <!--/*border: solid pink 2px;*/-->
-                                <!--NOTIFICACIONES HIDDEN-->
-                                <a id="notificaciones" data-toggle="collapse" data-target="#notif" aria-controls="notif" class="d-flex align-items-center justify-content-center" style="visibility:hidden;background-image: url(/imagenes/generales/notif.svg);  border: solid 1px #bebebe; "></a>
+                    </div> -->
 
-                                <!--MENSAJES HIDDEN-->
-                                <a id="mensajes" data-toggle="collapse" data-target="#mensColl" aria-controls="mensColl" class="d-flex align-items-center justify-content-center" style="visibility:hidden;background-image: url(/imagenes/generales/mensaje.svg); background-size: cover; border: solid 1px #bebebe;">
-                                </a>
+
+                @*    @if (User.Identity.IsAuthenticated)
+                    {
+                        <!--ICONOS DE NAVEGADOR DE CARRITO, NOTIFICACIONES, ETC-->
+                        <div class="col-2 align-self-center celdas" style="padding-top: 20px">
+                            <div class="social-media order-lg-last">
+                                <div class="mb-0 d-flex" style="margin-top:12px; display:flex; flex-direction:row; justify-content:center; max-width: 300px;">
+                                    <!--/*border: solid pink 2px;*/-->
+                                    <!--NOTIFICACIONES HIDDEN-->
+                                    <a id="notificaciones" data-toggle="collapse" data-target="#notif" aria-controls="notif" class="d-flex align-items-center justify-content-center" style="visibility:hidden;background-image: url(/imagenes/generales/notif.svg); border: solid 1px #bebebe;"></a>
+                                    <!--MENSAJES HIDDEN-->
+                                    <a id="mensajes" data-toggle="collapse" data-target="#mensColl" aria-controls="mensColl" class="d-flex align-items-center justify-content-center" style="visibility:hidden;background-image: url(/imagenes/generales/mensaje.svg); background-size: cover; border: solid 1px #bebebe;"></a>
+
+
+                                    @if (User.IsInRole("Usuario"))
+                                    {
                                         <!--COMPRAS-->
-                                        <a id="compras" data-toggle="collapse" data-target="#shopColl" aria-controls="shopColl"
-                                   class="d-flex align-items-center justify-content-center" style="visibility:hidden;background-image: url(/imagenes/generales/shop.svg); background-size: cover; border: solid 1px #bebebe;">
-                                        </a>
-                                    
-                                        <!--CUENTA DE USUARIO LOGIN-->
-                                        <a id="login" data-toggle="collapse" data-target="#loginColl"
-                                   aria-controls="loginColl" class="d-flex align-items-center justify-content-center" style="background-image: url(/imagenes/generales/usuario_1.svg); background-size: cover; border: solid 1px #bebebe;">
-                                        </a>
-                              
+                                        <a id="compras" data-toggle="collapse" data-target="#shopColl" aria-controls="shopColl" class="d-flex align-items-center justify-content-center" style="background-image: url(/imagenes/generales/shop.svg); background-size: cover; border: solid 1px #bebebe;"></a>
+                                        <!--CUENTA DE USUARIO LOGIN HIDDEN, NO CREO QUE LO USE-->
+                                        @* <a id="login" data-toggle="collapse" data-target="#loginColl" aria-controls="loginColl" class="d-flex align-items-center justify-content-center" style="background-image: url(/imagenes/generales/usuario_1.svg); background-size: cover; border: solid 1px #bebebe;"></a>
                                         <!--CUENTA DE CLIENTE REGISTRADO-->
-                                        <a id="portrait" class="btn btn-secondary dropdown-toggle" data-toggle="collapse" data-target="#cuenta"
-                                   aria-controls="cuenta" style="visibility:hidden ; background-image: url(/imagenes/generales/perfil.svg); background-size: cover; border: solid 1px #bebebe;">
-                                        </a>
-                
-                                        <!--CUENTA DE ADMIN REGISTRADO-->
-                                        <a id="portrait" class="btn btn-secondary dropdown-toggle" data-toggle="collapse" data-target="#cuenta"
-                                   aria-controls="cuenta" style="visibility:hidden ; background-image: url(/imagenes/generales/perfil.svg); background-size: cover; border: solid 1px #bebebe;">
-                                        </a>
-                         
-                                
-                                        <!-- BOTON DE MENU DE NAVEGACION-->
-                                        <button id="boton" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-nav"
-                                        aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                                        <a id="portrait" class="btn btn-secondary dropdown-toggle" data-toggle="collapse" data-target="#cuenta" aria-controls="cuenta" style=" background-image: url(/imagenes/generales/perfil.svg); background-size: cover; border: solid 1px #bebebe;"></a>
+                                    }
+
+                                    <!--CUENTA DE ADMIN REGISTRADO-->
+                                    @if (User.IsInRole("Administrador"))
+                                    {
+                                        <a id="portrait" class="btn btn-secondary dropdown-toggle" data-toggle="collapse" data-target="#cuenta" aria-controls="cuenta" style="background-image: url(/imagenes/generales/perfil.svg); background-size: cover; border: solid 1px #bebebe;"></a>
+                                    }
+                                    <!-- BOTON DE MENU DE NAVEGACION-->
+                                <button id="boton" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="fa fa-bars"></span>
                                 </button>
-
-                                
-                              
                             </div>
                         </div>
                         <!-- FIN NAVEGADOR DE CARRITO-->
-                    </td>
-
-                </tr>
-            </Table>
-
-            <!-- ************SECCIOÓN COLLAPSE *********** -->
-
-            <table id="Panel1" style=" display:flex; flex-direction:column; justify-content:right; align-items:end; width:60%; margin:auto;margin-top:-10px; height:84px">
-
-                <tr class="mb-0 d-flex dropAll" style=" display:flex; flex-direction:column;  max-width: 300px;">
-
-                    <td id="notificationsColl" style="transition: .3s all ease ; width:250px">
-                        <!-- Collaspse PARA NOTIFICACIONES -->
-                        <div class="collapse navbar-collapse" id="notif">
-                            Notificaciones
-                            <ul style="width:200px; margin-bottom:3px">
-                                <li><a style="font-size:12px" href="index.html">No tienes Notificaciones</a></li>
-
-                            </ul>
-                        </div>
-                    </td>
-
-                    <td id="mensajesColl" style="transition: .3s all ease ; width:250px">
-                        <!-- Collaspse PARA MENSAJES -->
-                        <div class="collapse navbar-collapse" id="mensColl">
-                            Mensajes
-                            <ul style="width:200px; margin-bottom:3px">
-                                <li><a style="font-size:12px" href="index.html">No tienes Mensajes</a></li>
-
-                            </ul>
-                        </div>
-                    </td>
-
-                    <td id="shopingColl" style="transition: .3s all ease ; width:250px">
-                        <!-- DROPDOWN PARA CARRITO -->
-
-                        <div class="collapse navbar-collapse" id="shopColl">
-                            Compras
-                            <ul style="width:200px; margin-bottom:3px">
-                                <li><a style="font-size:12px" href="index.html">Mis Compras</a></li>
-                                <li><a style="font-size:12px" href="#">Moneda</a></li>
-                                <li><a style="font-size:12px" href="#">Lista Favoritos</a></li>
-                                <li><a style="font-size:12px" href="#">Ajustes</a></li>
-
-                            </ul>
-                        </div>
-                    </td>
+                    </div>
+                    }*@
 
 
-                    
-                    <td id="loginUserColl" style="transition: .3s all ease ; width:250px">
-                        <!-- DROPDOWN PARA LOGIN -->
-                        <div class="collapse navbar-collapse" id="loginColl">
-                            Inicia Sesión
-                            <ul style="width:200px; font-size:12px">
-                                <li><a>Nombre o Usuario</a></li>
-                                <li>
-                                    <form class="form-inline d-flex md-form form-sm mt-0">
-                                        <input id="usuario" type="text" style="width:160px">
-                                    </form>
-                                </li>
-                                <li><a>Contraseña</a></li>
-                                <li>
-                                    <form class="form-inline d-flex md-form form-sm mt-0">
-                                        <input id="contrasena" type="text" style="width:160px">
-                                    </form>
-                                </li>
-                                <li><a id="forgot-password" asp-area="Identity" asp-page="/Account/ForgotPassword" style="font-size: 10px;">¿Has olvidado tu contraseña?</a></li>
-                                <li><a asp-area="Identity" asp-page="/Account/Register" style="font-size: 10px;">¿Eres Nuevo? ¡Registrate!</a></li>
-                            </ul>
-                            <button class="navButton">Iniciar Sesion</button>
-                        </div>
-                    </td>
-                    
+                    <!--INICIAR SESION & REGISTRARSE-->
+                    <div class="col ml-auto" style="padding-top: 20px; display:flex;justify-content:flex-end;">
+                        <partial name="_LoginPartial" />
+                    </div>
+                </div>
 
+                <!-- ************SECCIÓN COLLAPSE *********** -->
+                @*
+                <div id="Panel1" class="row" style="display:flex; flex-direction:column; justify-content:right; align-items:end; width:60%; margin:auto;margin-top:-10px; height:84px">
+                    <div class="mb-0 d-flex dropAll" style="display:flex; flex-direction:column; max-width: 300px;">
 
-                    <td id="perfilColl" style="transition: .3s all ease ; width:250px">
-                        <!-- DROPDOWN PARA SESION INICIADA -->
-                        <div class="collapse navbar-collapse" id="cuenta">
-                            ¡Bienvenido a modulAR!
-                            <ul>
-                                <li><a href="index.html">Mi Cuenta</a></li>
-                                <li><a href="#">Perfil modulAR</a></li>
-                                <li><a href="#">Idioma</a></li>
-                                <li><a href="#">Ajustes</a></li>
-                                <li><a href="#">Ayuda</a></li>
-
-                            </ul>
-                            <button class="navButton">Cerrar Sesion</button>
-                        </div>
-                    </td>
-
-                    <td id="menuColl" style="transition: .3s all ease ; width:250px">
-                        <!-- COLLAPSE PARA MENU -->
-                        <div class="collapse navbar-collapse" id="menu-nav">
-                            Compras
-                            <ul>
-                                <li style="margin-top:2px;"><a href="index.html">Descubre</a></li>
-                                <li style="margin-top:2px;"><a href="#">Portafolios</a></li>
-                                <li style="margin-top:2px;"><a href="#">Empleos</a></li>
-                                <li style="margin-top:2px;"><a href="#">Compras</a></li>
-
-                            </ul>
+                        <div id="notificationsColl" style="transition: .3s all ease ; width:250px">
+                            <!-- Collaspse PARA NOTIFICACIONES -->
+                            <div class="collapse navbar-collapse" id="notif">
+                                Notificaciones
+                                <ul style="width:200px; margin-bottom:3px">
+                                    <li><a style="font-size:12px" href="index.html">No tienes Notificaciones</a></li>
+                                </ul>
+                            </div>
                         </div>
 
+                        <div id="mensajesColl" style="transition: .3s all ease ; width:250px">
+                            <!-- Collaspse PARA MENSAJES -->
+                            <div class="collapse navbar-collapse" id="mensColl">
+                                Mensajes
+                                <ul style="width:200px; margin-bottom:3px">
+                                    <li><a style="font-size:12px" href="index.html">No tienes Mensajes</a></li>
+                                </ul>
+                            </div>
+                        </div>
 
+                        <div id="shopingColl" style="transition: .3s all ease ; width:250px">
+                            <!-- DROPDOWN PARA CARRITO -->
+                            <div class="collapse navbar-collapse" id="shopColl">
+                                Compras
+                                <ul style="width:200px; margin-bottom:3px">
+                                    <li><a style="font-size:12px" href="index.html">Mis Compras</a></li>
+                                    <li><a style="font-size:12px" href="#">Moneda</a></li>
+                                    <li><a style="font-size:12px" href="#">Lista Favoritos</a></li>
+                                    <li><a style="font-size:12px" href="#">Ajustes</a></li>
+                                </ul>
+                            </div>
+                        </div>
 
+                        <div id="loginUserColl" style="transition: .3s all ease ; width:250px">
+                            <!-- DROPDOWN PARA LOGIN -->
+                            <div class="collapse navbar-collapse" id="loginColl">
+                                Inicia Sesión
+                                <ul style="width:200px; font-size:12px">
+                                    <li><a>Nombre o Usuario</a></li>
+                                    <li>
+                                        <form class="form-inline d-flex md-form form-sm mt-0">
+                                            <input id="usuario" type="text" style="width:160px">
+                                        </form>
+                                    </li>
+                                    <li><a>Contraseña</a></li>
+                                    <li>
+                                        <form class="form-inline d-flex md-form form-sm mt-0">
+                                            <input id="contrasena" type="text" style="width:160px">
+                                        </form>
+                                    </li>
+                                    <li><a id="forgot-password" asp-area="Identity" asp-page="/Account/ForgotPassword" style="font-size: 10px;">¿Has olvidado tu contraseña?</a></li>
+                                    <li><a asp-area="Identity" asp-page="/Account/Register" style="font-size: 10px;">¿Eres Nuevo? ¡Registrate!</a></li>
+                                </ul>
+                                <button class="navButton">Iniciar Sesion</button>
+                            </div>
+                        </div>
 
- 
-                    </td>*@
-                   
-               <td style="padding-top: 20px">
-               <partial name="_LoginPartial" />
-                </td>
-                </tr>
-            </table>
-            
-            
+                        <div id="perfilColl" style="transition: .3s all ease ; width:250px">
+                            <!-- DROPDOWN PARA SESION INICIADA -->
+                            <div class="collapse navbar-collapse" id="cuenta">
+                                ¡Bienvenido a modulAR!
+                                <ul>
+                                    <li><a href="index.html">Mi Cuenta</a></li>
+                                    <li><a href="#">Perfil modulAR</a></li>
+                                    <li><a href="#">Idioma</a></li>
+                                    <li><a href="#">Ajustes</a></li>
+                                    <li><a href="#">Ayuda</a></li>
+                                </ul>
+                                <button class="navButton">Cerrar Sesion</button>
+                            </div>
+                        </div>
+
+                        <div id="menuColl" style="transition: .3s all ease ; width:250px">
+                            <!-- COLLAPSE PARA MENU -->
+                            <div class="collapse navbar-collapse" id="menu-nav">
+                                Compras
+                                <ul>
+                                    <li style="margin-top:2px;"><a href="index.html">Descubre</a></li>
+                                    <li style="margin-top:2px;"><a href="#">Portafolios</a></li>
+                                    <li style="margin-top:2px;"><a href="#">Empleos</a></li>
+                                    <li style="margin-top:2px;"><a href="#">Compras</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!--FIN SECCION COLLAPSE-->
+                     *@                      
+            </div>
         </nav>
         
     </header>
