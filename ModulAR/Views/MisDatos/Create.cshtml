@@ -4,13 +4,22 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Mis datos</h1>
-@*<h4>Cliente</h4>*@
-<p>Es necesario completar sus datos antes de poder empezar a utilizar la aplicación web</p>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
+<link rel="stylesheet" href="../css/site.css" />
+
+
+<div class="contenedor">
+    <div class="elemento">
+
+
+        <h1>Mis datos</h1>
+    @*<h4>Cliente</h4>*@
+         <p>Es necesario completar sus datos antes de poder empezar a utilizar la aplicación web</p>
+    </div>
+
+    <div class="elemento" style="margin-top:20px">
+     <div class="row">
+       <div class="col-md-4">
+         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Nombre" class="control-label"></label>
@@ -52,10 +61,11 @@
             <div class="form-group">
                 <input type="submit" value="Crear" class="btn btn-primary" />
             </div>
-        </form>
-    </div>
+         </form>
+       </div>
+     </div>
+   </div>
 </div>
-
 @section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");

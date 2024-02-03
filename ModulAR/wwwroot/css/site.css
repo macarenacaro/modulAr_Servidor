@@ -127,10 +127,10 @@ li a:hover {
 }
 
     /*EFECTO DE TRANSICIÓN SOBRE CADA UNO*/
-.boxEscaparate:hover {
+/*.boxEscaparate:hover {
  transform: scale(1.05);
  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.263);
-}
+}*/
 
     .boxEscaparate h4 {
         margin-top: 10px;
@@ -188,3 +188,4 @@ li a:hover {
     width: 100%;
     height: 600px;
 }
+
