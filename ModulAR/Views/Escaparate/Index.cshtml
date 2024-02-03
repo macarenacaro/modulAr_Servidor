@@ -83,8 +83,8 @@ text-align:center;
 <br />
 
 @*BUSQUEDAS *@
-<div class="row mb-3" style="display:flex;flex-wrap:nowrap">
-    <div class="col-md-6">
+<div class="row" style="width:100%">
+    <div class="col-8">
         <form asp-action="Index" method="get" class="form-inline">
             <div class="form-group" style="display:flex; flex-direction:row">
                 <input type="text" name="searchString" value="@ViewBag.CurrentFilter" placeholder="Buscar nombre, precio o categoría" class="form-control" />
@@ -93,9 +93,9 @@ text-align:center;
             </div>
         </form>
     </div>
-    <p><a asp-action="Index" asp-controller="Escaparate">Lista Completa</a></p>
+    <div class="col-4"><p><a asp-action="Index" asp-controller="Escaparate">Lista Completa</a></p></div> 
 </div>
-
+<br />
 <div style="display: flex;">
 
     <!-- Lateral izquierdo con categorías -->

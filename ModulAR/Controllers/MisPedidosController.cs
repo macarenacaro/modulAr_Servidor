@@ -25,7 +25,7 @@ namespace ModulAR.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString, int? pageNumber, decimal? minTotal, decimal? maxTotal)
         {
             var userEmail = User.Identity.Name;
             var cliente = await _context.Clientes.SingleOrDefaultAsync(c => c.Email == userEmail);
@@ -36,11 +36,41 @@ namespace ModulAR.Controllers
                 return RedirectToAction("Create", "MisDatos");
             }
 
-            var pedidos = await _context.Pedidos
-                .Include(p => p.Detalles) // incluir los detalles
+            IQueryable<Pedido> pedidosQuery = _context.Pedidos
+                .Include(p => p.Detalles)
                 .Include(p => p.Cliente)
                 .Include(p => p.Estado)
-                .Where(p => p.ClienteId == cliente.Id & p.EstadoId != 1) //Para que se vean los clientes con el id y estado confimado
+                .Where(p => p.ClienteId == cliente.Id && p.EstadoId != 1);
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                pedidosQuery = pedidosQuery.Where(p => EF.Functions.Like(p.Id.ToString(), $"%{searchString}%") ||
+                                                       EF.Functions.Like(p.Estado.Descripcion, $"%{searchString}%") ||
+                                                       p.Detalles.Any(d => EF.Functions.Like(d.Producto.Descripcion, $"%{searchString}%")));
+            }
+
+            if (minTotal.HasValue)
+            {
+                pedidosQuery = pedidosQuery.Where(p => p.Detalles.Sum(d => d.Cantidad * d.Precio - d.Descuento) >= minTotal.Value);
+            }
+
+            if (maxTotal.HasValue)
+            {
+                pedidosQuery = pedidosQuery.Where(p => p.Detalles.Sum(d => d.Cantidad * d.Precio - d.Descuento) <= maxTotal.Value);
+            }
+
+            int pageSize = 7;
+            int totalItems = await pedidosQuery.CountAsync();
+            int totalPages = (int)Math.Ceiling((double)totalItems / pageSize);
+
+            ViewData["CurrentPage"] = pageNumber ?? 1;
+            ViewData["TotalPages"] = totalPages;
+            ViewData["MinTotal"] = minTotal;
+            ViewData["MaxTotal"] = maxTotal;
+
+            var pedidos = await pedidosQuery
+                .Skip(((pageNumber ?? 1) - 1) * pageSize)
+                .Take(pageSize)
                 .ToListAsync();
 
             return View(pedidos);

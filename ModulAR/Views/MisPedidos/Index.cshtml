@@ -1,7 +1,23 @@
 ﻿@model IEnumerable<ModulAR.Models.Pedido>
 
 <h2>Mis Pedidos Realizados</h2>
+<br />
+<div class="row" style="width:100%">
+    <div class="col-8">
+        <form asp-action="Index" method="get" class="form-inline">
+            <div class="form-group" style="display:flex; flex-direction:row">
+                <input type="text" name="searchString" value="@ViewBag.CurrentFilter" placeholder="Buscar por ID, Estado, Descripción de Producto" class="form-control" />
+                <input type="number" name="minTotal" value="@ViewBag.MinTotal" placeholder="Min" class="form-control" style="width:10vw;margin-left:5px" />
+                <input type="number" name="maxTotal" value="@ViewBag.MaxTotal" placeholder="Max" class="form-control" style="width:10vw;margin-left:5px" />
+                <button type="submit" class="btn btn-primary ml-2" style="margin-left:5px">Buscar</button>
+            </div>
+        </form>       
+    </div>
+    <div class="col-4"><p><a asp-action="Index" asp-controller="MisPedidos">Lista Completa</a></p></div>
 
+</div>
+
+<br />
 <table class="table">
     <thead>
         <tr>
@@ -47,3 +63,14 @@
         }
     </tbody>
 </table>
+
+  <div class="pagination">
+    <ul class="pagination">
+        @for (int i = 1; i <= ViewBag.TotalPages; i++)
+        {
+                <li class="page-item @(ViewBag.CurrentPage == i ? "active" : "")">
+                    <a class="page-link" href="?pageNumber=@i">@i</a>
+                </li>
+        }
+    </ul>
+</div>
