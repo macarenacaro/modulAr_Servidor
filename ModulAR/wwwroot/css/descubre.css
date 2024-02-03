@@ -1,18 +1,19 @@
 /*-------------------
 CONTENIDO
 ---------------------*/
-/*
-.contenedor .row {
+
+
+    /*FONDOS GRISES GENERALES*/
+#categorias,
+.most-popular,
+#categorias2 {
     margin-top: 30px;
+    padding: 10px;
+    padding-bottom: 20px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 15px;
 }
 
-.page-content {
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 15px;
-    width: 90vw;
-    margin: auto;
-}*/
 
 /*     CONTENIDO EN MEDIA, RESPONSIVE        */
 @media (max-width: 600px) {
