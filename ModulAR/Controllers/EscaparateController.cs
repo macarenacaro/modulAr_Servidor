@@ -19,6 +19,18 @@ namespace ModulAR.Controllers
 
         public async Task<IActionResult> Index(int? categoryId, string searchString)
         {
+            // Se seleccionan los datos del cliente correspondiente al usuario actual
+            string? emailUsuario = User.Identity.Name;
+            Cliente? cliente = await _context.Clientes
+                .Where(c => c.Email == emailUsuario)
+                .FirstOrDefaultAsync();
+
+            if (cliente == null)
+            {
+                return RedirectToAction("Create", "MisDatos");
+            }
+
+
             ViewData["BusquedaActual"] = searchString;
 
             // Cargar datos de las categorías

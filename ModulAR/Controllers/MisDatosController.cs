@@ -66,7 +66,7 @@ namespace ModulAR.Controllers
 
             if (cliente == null)
             {
-                return NotFound();
+                return RedirectToAction("Create", "MisDatos");
             }
 
             return View(cliente);

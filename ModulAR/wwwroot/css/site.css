@@ -51,8 +51,8 @@ body {
 .btn-primary, .btn, .btn-carrito {
     background-color: rgb(0, 51, 102) !important; /* El !important puede ser necesario para anular estilos de Bootstrap */
     color: white !important;
-    border: none;
-    border-radius:5px;
+    border: none !important;
+    border-radius: 5px;
 }
 
 .btn-primary:hover, .btn:hover {

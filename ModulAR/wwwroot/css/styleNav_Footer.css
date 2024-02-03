@@ -55,38 +55,22 @@ body {
     margin-left: auto;
 }
 
-#navegador {
-  /*  display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding-left: 0;
-    margin-bottom: 0;*/
-   /* list-style: none;
-    width: 90%;
-    top: 0px;
-    margin: auto*/
-}
 
 
 /* NAV ESTILO*/
 /* HACER NAV STICKY*/
 .fixed-top {
-     position: sticky;
-    margin: auto;
-    width: 90%;
+    /* position: sticky;
+ /*   margin: auto !important;*/
+  /*  width: 90%;
     box-shadow: 0 3px 5px -3px rgba(0, 51, 102, 0.345);
-    position: fixed;
     top: -1px;
-    right: 86px;
-    left: 27px;
     z-index: 1030;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 79px;
+    height: 79px;*/
 }
 
 @media (max-width: 1212px) {
@@ -101,182 +85,6 @@ body {
     }
 }
 
-
-/*HACER NAV STICKY*/
-/*FIXED DE LOS DROPDOWN*/
-/*
-.fixed-top2 {
-    position: sticky;
-    margin: auto;
-    width: 90%;
-    position: fixed;
-    top: -1px;
-    right: 86px;
-    left: 27px;
-    z-index: 1030;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 79px;
-}
-
-@media (max-width: 1212px) {
-    .fixed-top2 {
-        width: 90%;
-    }
-}
-
-@media (max-width: 982px) {
-    .fixed-top2 {
-        width: 100%;
-    }
-}
-
-*/
-
-
-
-/*AQUII ESTA EL DROPWOND PARA GRANDES FORMATOS*/
-@media (min-width: 990px) {
-/*/    .navbar-expand-lg {
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-flow: row nowrap;
-        flex-flow: row nowrap;
-        -webkit-box-pack: start;
-        -ms-flex-pack: start;
-        justify-content: flex-start;
-    }
-    /*LISTA DE TEXTOS*/
- /*       .navbar-expand-lg .navbar-nav {
-            -webkit-box-orient: horizontal;
-            -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-            flex-direction: row;
-            
-        }
-
-            .navbar-expand-lg .navbar-nav .dropdown-menu {
-
-                position: absolute;
-            }
-
-            .navbar-expand-lg .navbar-nav .nav-link {
-                padding-right: 0.5rem;
-                padding-left: 0.5rem;
-            }
-
-        .navbar-expand-lg > .container,
-        .navbar-expand-lg > .container-fluid {
-            -ms-flex-wrap: nowrap;
-            flex-wrap: nowrap;
-        }
-
-        /*ESTE SE ELIMINÓ*/
-   /*     .navbar-expand-lg .navbar-collapse {
-            display: -webkit-box !important;
-    display: -ms-flexbox !important;
-    display: flex !important;
-    flex-basis: auto;
-        }
-
-        .navbar-expand-lg .navbar-toggler {
-            display: none;
-        }*/
-}
-
-/* CREO QUE ESTO NO HACE NADA*/
-/*
-.ftco-nav-bar-light {
-    font-family: 'GalanoMedium';
-    background-color: #fff; 
-    z-index: 3;
-    padding: 10px 10px;
-    border-radius: 5px;
-    -webkit-box-shadow: 0px 5px 20px -17px rgba(0, 0, 0, 0.34);
-    -moz-box-shadow: 0px 5px 20px -17px rgba(0, 0, 0, 0.34);
-    box-shadow: 0px 5px 20px -17px rgba(0, 0, 0, 0.34);
-}
-*/
-
-/*RESPONSIVE GENERALES*/
-/*/
-@media (max-width: 990px) {
-
-    .ftco-nav-bar-light {
-        width: 100%;
-        position: relative;
-        top: 0;
-        padding: 10px 15px;
-    }
-}
-*/
-/*TABLA*/
-/*
-.navbar > .container {
-    height: 60px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-}
-
-@media (max-width: 575.98px) {
-
-    .navbar-expand-sm > .container,
-    .navbar-expand-sm > .container-fluid {
-        padding-right: 0;
-        padding-left: 0;
-    }
-}
-
-.navbar-expand-sm > .container,
-.navbar-expand-sm > .container-fluid {
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-}
-
-@media (max-width: 767.98px) {
-
-    .navbar-expand-md > .container,
-    .navbar-expand-md > .container-fluid {
-        padding-right: 0;
-        padding-left: 0;
-    }
-}
-
-@media (min-width: 768px) {
-    .navbar-expand-md > .container,
-    .navbar-expand-md > .container-fluid {
-        -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    }
-}
-
-@media (max-width: 990px) {
-
-    .navbar-expand-lg > .container,
-    .navbar-expand-lg > .container-fluid {
-        padding-right: 0;
-        padding-left: 0;
-    }
-}
-
-@media (min-width: 990px) {
-        .navbar-expand-lg > .container,
-        .navbar-expand-lg > .container-fluid {
-            -ms-flex-wrap: nowrap;
-            flex-wrap: nowrap;
-        }
-}
-*/
 @media (max-width: 1199.98px) {
 
     .navbar-expand-xl > .container,
@@ -369,19 +177,7 @@ body {
 
     /*BULLETS*/
     .navbar-nav {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        justify-content: flex-start;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        padding-left: 0;
-        margin-bottom: 0;
-        /*list-style: none; */
-        color: rgb(0, 204, 153);
-        /* bullets color*/
+
     }
 
         /*   color: rgb(0, 204, 153)*/
