@@ -32,8 +32,11 @@ namespace ModulAR.Controllers
                 return RedirectToAction("Create", "MisDatos");
             }
 
-            return View();
-        }
+			var productos = _context.Productos.Take(8).ToList();
+
+			// Pasar la lista de productos a la vista
+			return View(productos);
+		}
 
         [HttpPost]
         [ValidateAntiForgeryToken]

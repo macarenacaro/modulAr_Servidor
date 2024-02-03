@@ -641,6 +641,14 @@ PROYECTOS POPULARES
     padding: 20px;
 }
 
+/*ADAPTAR LAS MEDIDAS DE IMAGEN DE CADA PROYECTO/PRODUCTO*/
+.most-popular .item .img-producto {
+    width: 195px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center center;
+}
+
 /*TITULO*/
 .heading-section {
     margin-top: -15px;
