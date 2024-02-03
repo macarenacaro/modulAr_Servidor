@@ -60,17 +60,6 @@ body {
 /* NAV ESTILO*/
 /* HACER NAV STICKY*/
 .fixed-top {
-    /* position: sticky;
- /*   margin: auto !important;*/
-  /*  width: 90%;
-    box-shadow: 0 3px 5px -3px rgba(0, 51, 102, 0.345);
-    top: -1px;
-    z-index: 1030;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    height: 79px;*/
 }
 
 @media (max-width: 1212px) {
@@ -179,10 +168,6 @@ body {
     .navbar-nav {
 
     }
-
-        /*   color: rgb(0, 204, 153)*/
-        /* bullets color
-}*/
 
         /*ELIMINAR FIRST BULLET*/
         .navbar-nav li:first-child {
@@ -512,26 +497,6 @@ body {
         #lupa:hover {
             color: rgb(0, 51, 102);
         }
-    /*
-@media (max-width: 1240px) {
-    #lupa {
-        display: none;
-    }
-
-    #buscar {
-        display: none;
-    }
-}*/
-    /*   
-@media (max-width: 800px) {
-    #lupa {
-        display: none;
-    }
-
-    #buscar {
-        display: none;
-    }
-}*/
 
 
 
@@ -716,27 +681,8 @@ body {
         background: no-repeat center center;
         background-size: 100% 100%;
     }
-    /*
-@media (min-width: 576px) {
-    .navbar-expand-sm .navbar-toggler {
-        display: none;
-    }
-}
+  
 
-@media (min-width: 1200px) {
-    .navbar-expand-md .navbar-toggler {
-        display: none;
-    }
-
-    .navbar-expand-xl .navbar-toggler {
-        display: none;
-    }
-}
-
-.navbar-expand .navbar-toggler {
-    display: none;
-}
-*/
     /** NOSE QUE HACE*/
     .navbar-light .navbar-toggler {
         color: rgba(0, 0, 0, 0.5);
@@ -808,48 +754,6 @@ body {
             background-color: #bebebe3a;
         }
 
-/* PROVISIORIO
-    .navbar-collapse {
-       
-        flex-basis: 100%;
-        -webkit-box-flex: 1;
-        
-        flex-grow: 1;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-    }*/
-
-    @media (min-width: 576px) {
-
-        /* PROVISIORIO
-        .navbar-expand-sm .navbar-collapse {
-            display: -webkit-box !important;
-            display: -ms-flexbox !important;
-            display: flex !important;
-            flex-basis: auto;
-        }*/
-    }
-
-    @media (min-width: 768px) {
-        /* PROVISIORIO
-        .navbar-expand-md .navbar-collapse {
-            display: -webkit-box !important;
-            display: -ms-flexbox !important;
-            display: flex !important;
-            flex-basis: auto;
-        }*/
-    }
-
-    @media (min-width: 1200px) {
-        /* PROVISIORIO
-        .navbar-expand .navbar-collapse {
-            display: -webkit-box !important;
-            display: -ms-flexbox !important;
-            display: flex !important;
-            flex-basis: auto;
-        }*/
-    }
 
     .nav-tabs .dropdown-menu {
         margin-top: -1px;

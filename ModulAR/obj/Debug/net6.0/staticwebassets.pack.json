@@ -213,6 +213,10 @@
       "PackagePath": "staticwebassets\\imagenes\\imagen-no-disponible.jpg"
     },
     {
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\js\\descubre.js",
+      "PackagePath": "staticwebassets\\js\\descubre.js"
+    },
+    {
       "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

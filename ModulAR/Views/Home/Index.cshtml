@@ -1,8 +1,1072 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
+@*
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>*@
+
+
+<link rel="stylesheet" href="../css/descubre.css" />
+
+<!-- Inicio CONTENIDO -->
+<div class="contenedor">
+
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="page-content">
+
+				<!-- ***** Banner Start ***** -->
+				<div class="main-banner">
+					<div class="row">
+
+						<div class="col-lg-7">
+
+							<div class="header-text">
+								<h1>
+									Publica tus proyectos<br>
+									<em> con Realidad Aumentada</em>
+								</h1>
+								<div class="main-button">
+									<a href="index.html">Explorar</a>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="circle">
+							<img src="../img/mobil.gif">
+						</div>
+
+					</div>
+				</div>
+				<!-- ***** Banner End ***** -->
+				<!--SECCION CARROUSEL CATEGORIAS -->
+
+				<div id="categorias" class="mt-4">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="card2 p-4 mt-3">
+								<h3>Selecciona Categoría</h3>
+								<div class="slider">
+									<div class="slider-inner">
+										<div class="slider-item">
+											<div id="box1" class="box"
+												 style="background-image: url(../img/disenograf.png); background-size: cover;">
+												<h4>Diseño Gráfico</h4>
+											</div>
+										</div>
+										<div class="slider-item">
+											<div id="box2" class="box"
+												 style="background-image: url(../img/disenoind.png); background-size: cover;">
+												<h4>Diseño Industrial</h4>
+											</div>
+										</div>
+										<div class="slider-item">
+											<div id="box3" class="box"
+												 style="background-image: url(../img/bellas.png); background-size: cover;">
+												<h4>Bellas Artes</h4>
+											</div>
+										</div>
+										<div class="slider-item">
+											<div id="box4" class="box"
+												 style="background-image: url(../img/mobiliario.png); background-size: cover;">
+												<h4>Mobiliario</h4>
+											</div>
+										</div>
+										<div class="slider-item">
+											<div id="box5" class="box"
+												 style="background-image: url(../img/art3d.png); background-size: cover;">
+												<h4>Arte 3D</h4>
+											</div>
+										</div>
+										<div class="slider-item">
+											<div id="box6" class="box"
+												 style="background-image: url(../img/disjue.png); background-size: cover;">
+												<h4>Diseño de Juegos</h4>
+											</div>
+										</div>
+										<div class="slider-item">
+											<div id="box7" class="box"
+												 style="background-image: url(../img/disint.png); background-size: cover;">
+												<h4>Diseño Interiores</h4>
+											</div>
+										</div>
+										<div class="slider-item">
+											<div id="box8" class="box"
+												 style="background-image: url(../img/pintura.jpg); background-size: cover;">
+												<h4>Pintura</h4>
+											</div>
+										</div>
+										<div class="slider-item">
+											<div id="box9" class="box"
+												 style="background-image: url(../img/escultura.png); background-size: cover;">
+												<h4>Escultura</h4>
+											</div>
+										</div>
+										<div class="slider-item">
+											<div id="box10" class="box"
+												 style="background-image: url(../img/ilus.png); background-size: cover;">
+												<h4>Illustator</h4>
+											</div>
+										</div>
+										<div class="slider-item">
+											<div id="box11" class="box"
+												 style="background-image: url(../img/disenograf.png); background-size: cover;">
+												<h4>Diseño Gráfico</h4>
+											</div>
+										</div>
+									</div>
+									<div class="control">
+										<button id="prev"><span>&ltrif;</span></button>
+										<button id="next"><span>&rtrif;</span></button>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--FIN SECCION CATEGORIAS -->
+				<!-- ***** Most Popular Inicio ***** -->
+				<div class="most-popular" style=" margin-bottom: 30px;">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="heading-section">
+								<h3>Proyectos Populares</h3>
+							</div>
+							<div id="popularesRow" class="row">
+
+								<!--INICIO DE PROYECTOS-->
+								<div class="col-lg-3 col-md-6 col-sm-6 col-12">
+									<div class="item" id="popu01">
+										<img src="../img/popular-01.png" alt="">
+										<div class="detalles">
+											<h4>Alone<br><span>Marcio D.</span></h4>
+											<ul>
+												<li><i class="fa fa-thumbs-up"></i> 8.9</li>
+												<li><i class="fa fa-eye"></i> 9M</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-3 col-md-6 col-sm-6 col-12">
+									<div class="item" id="popu02">
+										<img src="../img/popular-02.png" alt="">
+										<div class="detalles">
+											<h4>Shine<br><span>Anna P.</span></h4>
+											<ul>
+												<li><i class="fa fa-thumbs-up"></i> 8.2</li>
+												<li><i class="fa fa-eye"></i> 7M</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="col-lg-3 col-md-6 col-sm-6 col-12">
+									<div class="item" id="popu03">
+										<img src="../img/popular-03.png" alt="">
+										<div class="detalles">
+											<h4>LBoxd<br><span>John A.</span></h4>
+											<ul>
+												<li><i class="fa fa-thumbs-up"></i> 4.7</li>
+												<li><i class="fa fa-eye"></i> 1.3M</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="col-lg-3 col-md-6 col-sm-6 col-12">
+									<div class="item" id="popu04">
+										<img src="../img/popular-04.png" alt="">
+										<div class="detalles">
+											<h4>Conoco<br><span>Morgan H.</span></h4>
+											<ul>
+												<li><i class="fa fa-thumbs-up"></i> 2.5</li>
+												<li><i class="fa fa-eye"></i> 2.3M</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="col-lg-3 col-md-6 col-sm-6 col-12">
+									<div class="item" id="popu05">
+										<img src="../img/popular-05.png" alt="">
+										<div class="detalles">
+											<h4>EcoBudi<br><span>Camila P.</span></h4>
+											<ul>
+												<li><i class="fa fa-thumbs-up"></i> 4.5</li>
+												<li><i class="fa fa-eye"></i> 3.5M</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="col-lg-3 col-md-6 col-sm-6 col-12">
+									<div class="item" id="popu06">
+										<img src="../img/popular-06.png" alt="">
+										<div class="detalles">
+											<h4>CoFFé<br><span>Xavier J.</span></h4>
+											<ul>
+												<li><i class="fa fa-thumbs-up"></i> 4.2</li>
+												<li><i class="fa fa-eye"></i> 2M</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="col-lg-3 col-md-6 col-sm-6 col-12">
+									<div class="item" id="popu07">
+										<img src="../img/popular-07.png" alt="">
+										<div class="detalles">
+											<h4>Plant Pal<br><span>Dorian H.</span></h4>
+											<ul>
+												<li><i class="fa fa-thumbs-up"></i> 4.8</li>
+												<li><i class="fa fa-eye"></i> 3M</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="col-lg-3 col-md-6 col-sm-6 col-12">
+									<div class="item" id="popu08">
+										<img src="../img/popular-08.png" alt="">
+										<div class="detalles">
+											<h4>Gummy<br><span>Loreto C.</span></h4>
+											<ul>
+												<li><i class="fa fa-thumbs-up"></i> 5.3</li>
+												<li><i class="fa fa-eye"></i>1M</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+
+
+
+								<div class="col-lg-12">
+									<div class="maspop-button">
+										<a href="#">Más Populares</a>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<!-- ***** Most Popular Fin ***** -->
+				<!-- ***** Empleos Start ***** -->
+
+				<div id="categorias2" class="container2 mt-4" style=" margin-bottom: 100px;">
+					<div class="row" style=" margin-bottom: 70px;">
+						<div class="col-lg-12">
+							<div class="card2">
+								<h3>Empleos Más Solicitados</h3><br /><br />
+								<div class="heading">
+									<h3>Diseño Gráfico</h3><br />
+									<a href="#">ver más ofertas</a>
+								</div>
+								<div class="slider2" style="margin-top:20px">
+									<div class="slider-inner2">
+
+										<!---EMPLEO 10-->
+										<div class="slider-item2">
+											<div id="box10" class="box2 box-trigger" style="background-image: url(../img/emp0.png); background-size: cover;">
+												<h4>Rediseño de Logo</h4><br />
+												<ul class="stars">
+													<li id="tipo">FreeLance</li>
+
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star-half-o"></i></li>
+													<li><i class="fa fa-star-o"></i></li>
+												</ul>
+
+												<div id="square10" class="square">
+													<div id="descripcion">
+														<h5>Print Project Shop</h5>
+														<h6>Fecha Publicación: 21.03.2023 <br>Alicante, España</h6>
+														<p>
+															Se necesita persona rediseñar el logo de
+															una empresa Española enfocada en el área de imprenta.
+															Preferiblemente con experiencia rediseño de logos
+														<p>
+													</div>
+												</div>
+
+											</div>
+											<div class="masemp-button">
+												<a href="#">Ver más</a>
+											</div>
+										</div>
+
+										<!--</div> -->
+										<!---EMPLEO 11-->
+										<div class="slider-item2">
+											<div id="box11" class="box2 box-trigger"
+												 style="background-image: url(../img/emp1.png); background-size: cover;">
+												<h4>Manual de Marca</h4><br />
+												<ul class="stars">
+													<li id="tipo">Jornada<br>Parcial</li>
+
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star-half-o"></i></li>
+													<li><i class="fa fa-star-o"></i></li>
+												</ul>
+
+												<div id="square11" class="square">
+													<div id="descripcion">
+														<h5>Print Project Shop</h5>
+														<h6>Fecha Publicación: 21.03.2023<br>Alicante, España</h6>
+														<p>
+															Se necesita persona rediseñar el logo de
+															una empresa Española enfocada en el área de imprenta.
+															Preferiblemente con experiencia rediseño de logos
+														<p>
+													</div>
+												</div>
+
+											</div>
+											<div class="masemp-button">
+												<a href="#">Ver más</a>
+											</div>
+										</div>
+
+
+										<!---	EMPLEO 12-->
+										<div class="slider-item2">
+											<div id="box12" class="box2 box-trigger"
+												 style="background-image: url(../img/emp2.png); background-size: cover;">
+												<h4>Branding</h4><br />
+												<ul class="stars">
+													<li id="tipo">FreeLance</li>
+
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star-half-o"></i></li>
+													<li><i class="fa fa-star-o"></i></li>
+												</ul>
+
+												<div id="square12" class="square">
+													<div id="descripcion">
+														<h5>Print Project Shop</h5>
+														<h6>Fecha Publicación: 21.03.2023<br>Alicante, España</h6>
+														<p>
+															Se necesita persona rediseñar el logo de
+															una empresa Española enfocada en el área de imprenta.
+															Preferiblemente con experiencia rediseño de logos
+														<p>
+													</div>
+												</div>
+
+											</div>
+											<div class="masemp-button">
+												<a href="#">Ver más</a>
+											</div>
+										</div>
+
+
+										<!---	empleo 13 -->
+										<div class="slider-item2">
+											<div id="box13" class="box2 box-trigger"
+												 style="background-image: url(../img/emp3.png); background-size: cover;">
+												<h4>Diseño de Packaging</h4><br />
+												<ul class="stars">
+													<li id="tipo">Jornada<br>Completa</li>
+
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star-half-o"></i></li>
+													<li><i class="fa fa-star-o"></i></li>
+												</ul>
+
+												<div id="square13" class="square">
+													<div id="descripcion">
+														<h5>Print Project Shop</h5>
+														<h6>Fecha Publicación: 21.03.2023<br>Alicante, España</h6>
+														<p>
+															Se necesita persona rediseñar el logo de
+															una empresa Española enfocada en el área de imprenta.
+															Preferiblemente con experiencia rediseño de logos
+														<p>
+													</div>
+												</div>
+
+											</div>
+											<div class="masemp-button">
+												<a href="#">Ver más</a>
+											</div>
+										</div>
+
+
+										<!---	EMPLEO 14 >-->
+										<div class="slider-item2">
+											<div id="box14" class="box2 box-trigger"
+												 style="background-image: url(../img/emp4.png); background-size: cover;">
+												<h4>Diseñador Gráfico</h4><br />
+												<ul class="stars">
+													<li id="tipo">Jornada<br>Completa</li>
+
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star-half-o"></i></li>
+													<li><i class="fa fa-star-o"></i></li>
+												</ul>
+
+												<div id="square14" class="square">
+													<div id="descripcion">
+														<h5>Print Project Shop</h5>
+														<h6>Fecha Publicación: 21.03.2023<br>Alicante, España</h6>
+														<p>
+															Se necesita persona rediseñar el logo de
+															una empresa Española enfocada en el área de imprenta.
+															Preferiblemente con experiencia rediseño de logos
+														<p>
+													</div>
+												</div>
+
+											</div>
+											<div class="masemp-button">
+												<a href="#">Ver más</a>
+											</div>
+										</div>
+
+
+										<!---	EMPLEO 15-->
+										<div class="slider-item2">
+											<div id="box15" class="box2 box-trigger"
+												 style="background-image: url(../img/emp5.png); background-size: cover;">
+												<h4>Etiquetas de vino</h4><br />
+												<ul class="stars">
+													<li id="tipo">FreeLance</li>
+
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star-half-o"></i></li>
+													<li><i class="fa fa-star-o"></i></li>
+												</ul>
+
+												<div id="square15" class="square">
+													<div id="descripcion">
+														<h5>Print Project Shop</h5>
+														<h6>Fecha Publicación: 21.03.2023<br>Alicante, España</h6>
+														<p>
+															Se necesita persona rediseñar el logo de
+															una empresa Española enfocada en el área de imprenta.
+															Preferiblemente con experiencia rediseño de logos
+														<p>
+													</div>
+												</div>
+
+											</div>
+											<div class="masemp-button">
+												<a href="#">Ver más</a>
+											</div>
+										</div>
+
+
+										<!---	EMPLEO 16-->
+										<div class="slider-item2">
+											<div id="box16" class="box2 box-trigger"
+												 style="background-image: url(../img/emp6.png); background-size: cover;">
+												<h4>Diseñador Grafico</h4><br />
+												<ul class="stars">
+													<li id="tipo">FreeLance</li>
+
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star-half-o"></i></li>
+													<li><i class="fa fa-star-o"></i></li>
+												</ul>
+
+												<div id="square16" class="square">
+													<div id="descripcion">
+														<h5>Print Project Shop</h5>
+														<h6>Fecha Publicación: 21.03.2023<br>Alicante, España</h6>
+														<p>
+															Se necesita persona rediseñar el logo de
+															una empresa Española enfocada en el área de imprenta.
+															Preferiblemente con experiencia rediseño de logos
+														<p>
+													</div>
+												</div>
+
+											</div>
+											<div class="masemp-button">
+												<a href="#">Ver más</a>
+											</div>
+										</div>
+
+
+										<!---EMPLEO 17-->
+										<div class="slider-item2">
+											<div id="box17" class="box2 box-trigger"
+												 style="background-image: url(../img/emp7.png); background-size: cover;">
+												<h4>Imprenta</h4><br />
+												<ul class="stars">
+													<li id="tipo">Jornada<br>Completa</li>
+
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star-half-o"></i></li>
+													<li><i class="fa fa-star-o"></i></li>
+												</ul>
+
+												<div id="square17" class="square">
+													<div id="descripcion">
+														<h5>Print Project Shop</h5>
+														<h6>Fecha Publicación: 21.03.2023<br>Alicante, España</h6>
+														<p>
+															Se necesita persona rediseñar el logo de
+															una empresa Española enfocada en el área de imprenta.
+															Preferiblemente con experiencia rediseño de logos
+														<p>
+													</div>
+												</div>
+
+											</div>
+											<div class="masemp-button">
+												<a href="#">Ver más</a>
+											</div>
+										</div>
+
+
+										<!---	EMPLEO 18-->
+										<div class="slider-item2">
+											<div id="box18" class="box2 box-trigger"
+												 style="background-image: url(../img/emp8.png); background-size: cover;">
+												<h4>Diseño de Packaging</h4><br />
+												<ul class="stars">
+													<li id="tipo">FreeLance</li>
+
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star-half-o"></i></li>
+													<li><i class="fa fa-star-o"></i></li>
+												</ul>
+
+												<div id="square18" class="square">
+													<div id="descripcion">
+														<h5>Print Project Shop</h5>
+														<h6>Fecha Publicación: 21.03.2023<br>Alicante, España</h6>
+														<p>
+															Se necesita persona rediseñar el logo de
+															una empresa Española enfocada en el área de imprenta.
+															Preferiblemente con experiencia rediseño de logos
+														<p>
+													</div>
+												</div>
+
+											</div>
+											<div class="masemp-button">
+												<a href="#">Ver más</a>
+											</div>
+										</div>
+
+
+										<!---	EMPLEO 19 -->
+										<div class="slider-item2">
+											<div id="box19" class="box2 box-trigger"
+												 style="background-image: url(../img/emp9.png); background-size: cover;">
+												<h4>Diseño de Packaging</h4><br />
+												<ul class="stars">
+													<li id="tipo">FreeLance</li>
+
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star-half-o"></i></li>
+													<li><i class="fa fa-star-o"></i></li>
+												</ul>
+
+												<div id="square19" class="square">
+													<div id="descripcion">
+														<h5>Print Project Shop</h5>
+														<h6>Fecha Publicación: 21.03.2023<br>Alicante, España</h6>
+														<p>
+															Se necesita persona rediseñar el logo de
+															una empresa Española enfocada en el área de imprenta.
+															Preferiblemente con experiencia rediseño de logos
+														<p>
+													</div>
+												</div>
+
+											</div>
+											<div class="masemp-button">
+												<a href="#">Ver más</a>
+											</div>
+										</div>
+
+
+										<!---	EMPLEO 20 -->
+										<div class="slider-item2">
+											<div id="box20" class="box2 box-trigger"
+												 style="background-image: url(../img/emp10.png); background-size: cover;">
+												<h4>Diseño de Packaging</h4><br />
+												<ul class="stars">
+													<li id="tipo">FreeLance</li>
+
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star-half-o"></i></li>
+													<li><i class="fa fa-star-o"></i></li>
+												</ul>
+
+												<div id="square20" class="square">
+													<div id="descripcion">
+														<h5>Print Project Shop</h5>
+														<h6>Fecha Publicación: 21.03.2023<br>Alicante, España</h6>
+														<p>
+															Se necesita persona rediseñar el logo de
+															una empresa Española enfocada en el área de imprenta.
+															Preferiblemente con experiencia rediseño de logos
+														<p>
+													</div>
+												</div>
+
+											</div>
+											<div class="masemp-button">
+												<a href="#">Ver más</a>
+											</div>
+										</div>
+									</div>
+
+									<div class="control2">
+										<button id="prev2"><span>&ltrif;</span></button>
+										<button id="next2"><span>&rtrif;</span></button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+
+					<!--SEGUNDA CATEGORIA-->
+
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="card2">
+								<div class="heading">
+									<h3>Diseño Industrial</h3>
+									<a href="#">ver más ofertas</a>
+								</div>
+
+								<div class="slider3" style="margin-top:20px">
+									<div class="slider-inner3">
+
+										<!---	EMPLEO 21 -->
+										<div class="slider-item3">
+											<div id="box21" class="box2 box-trigger"
+												 style="background-image: url(../img/emp21.png); background-size: cover;">
+												<h4> Piezas Mecánicas</h4><br />
+												<ul class="stars">
+													<li id="tipo">Jornada<br>Completa</li>
+
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star-o"></i></li>
+												</ul>
+
+												<div id="square21" class="square">
+													<div id="descripcion">
+														<h5>OShip</h5>
+														<h6>
+															Fecha Publicación: 21.03.2023<br>Barcelona, España
+														</h6>
+														<p>
+															Se necesita diseñador industrial para crear piezas
+															mecánicas para empresa automotriz, experiencia
+															requerida
+														<p>
+													</div>
+												</div>
+
+											</div>
+											<div class="masemp-button2">
+												<a href="#">Ver más</a>
+											</div>
+										</div>
+
+										<!---	EMPLEO 22 -->
+										<div class="slider-item3">
+											<div id="box22" class="box2 box-trigger"
+												 style="background-image: url(../img/emp22.png); background-size: cover;">
+												<h4>Dibujo Técnico</h4><br />
+												<ul class="stars">
+													<li id="tipo">FreeLance</li>
+
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star-half-o"></i></li>
+													<li><i class="fa fa-star-o"></i></li>
+												</ul>
+
+												<div id="square22" class="square">
+													<div id="descripcion">
+														<h5>Print Project Shop</h5>
+														<h6>
+															Fecha Publicación: 21.03.2023<br>Alicante, España
+														</h6>
+														<p>
+															Se necesita diseñador industrial para crear piezas
+															mecánicas para empresa automotriz, experiencia
+															requerida
+														<p>
+													</div>
+												</div>
+
+											</div>
+											<div class="masemp-button2">
+												<a href="#">Ver más</a>
+											</div>
+										</div>
+
+										<!---	EMPLEO 23 -->
+										<div class="slider-item3">
+											<div id="box23" class="box2 box-trigger"
+												 style="background-image: url(../img/emp23.png); background-size: cover;">
+												<h4>Impresión 3D</h4><br />
+												<ul class="stars">
+													<li id="tipo">FreeLance</li>
+
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star-half-o"></i></li>
+													<li><i class="fa fa-star-o"></i></li>
+												</ul>
+
+												<div id="square23" class="square">
+													<div id="descripcion">
+														<h5>Print Project Shop</h5>
+														<h6>
+															Fecha Publicación: 21.03.2023<br>Alicante, España
+														</h6>
+														<p>
+															Se necesita diseñador industrial para crear piezas
+															mecánicas para empresa automotriz, experiencia
+															requerida
+														<p>
+													</div>
+												</div>
+											</div>
+
+											<div class="masemp-button2">
+												<a href="#">Ver más</a>
+											</div>
+										</div>
+
+
+										<!---	EMPLEO 24 -->
+										<div class="slider-item3">
+											<div id="box24" class="box2 box-trigger"
+												 style="background-image: url(../img/emp24.png); background-size: cover;">
+												<h4>Diseño de Prototipos</h4><br />
+												<ul class="stars">
+													<li id="tipo">Jornada<br>Parcial</li>
+
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star-o"></i></li>
+													<li><i class="fa fa-star-o"></i></li>
+												</ul>
+
+												<div id="square24" class="square">
+													<div id="descripcion">
+														<h5>Print Project Shop</h5>
+														<h6>
+															Fecha Publicación: 21.03.2023<br>Alicante, España
+														</h6>
+														<p>
+															Se necesita diseñador industrial para crear piezas
+															mecánicas para empresa automotriz, experiencia
+															requerida
+														<p>
+													</div>
+												</div>
+											</div>
+											<div class="masemp-button2">
+												<a href="#">Ver más</a>
+											</div>
+										</div>
+
+
+										<!---	EMPLEO 25 -->
+										<div class="slider-item3">
+											<div id="box25" class="box2 box-trigger"
+												 style="background-image: url(../img/emp25.png); background-size: cover;">
+												<h4>Mobiliario Público</h4><br />
+												<ul class="stars">
+													<li id="tipo">FreeLance</li>
+
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star-half-o"></i></li>
+													<li><i class="fa fa-star-o"></i></li>
+												</ul>
+
+												<div id="square25" class="square">
+													<div id="descripcion">
+														<h5>Print Project Shop</h5>
+														<h6>
+															Fecha Publicación: 21.03.2023<br>Alicante, España
+														</h6>
+														<p>
+															Se necesita diseñador industrial para crear piezas
+															mecánicas para empresa automotriz, experiencia
+															requerida
+														<p>
+													</div>
+												</div>
+											</div>
+											<div class="masemp-button2">
+												<a href="#">Ver más</a>
+											</div>
+										</div>
+
+
+
+										<!---	EMPLEO 26 -->
+										<div class="slider-item3">
+											<div id="box26" class="box2 box-trigger"
+												 style="background-image: url(../img/emp26.png); background-size: cover;">
+												<h4>Maquetación</h4><br />
+												<ul class="stars">
+													<li id="tipo">Jornada<br>Parcial</li>
+
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star-half-o"></i></li>
+													<li><i class="fa fa-star-o"></i></li>
+												</ul>
+
+												<div id="square26" class="square">
+													<div id="descripcion">
+														<h5>Print Project Shop</h5>
+														<h6>
+															Fecha Publicación: 21.03.2023<br>Alicante, España
+														</h6>
+														<p>
+															Se necesita diseñador industrial para crear piezas
+															mecánicas para empresa automotriz, experiencia
+															requerida
+														<p>
+													</div>
+												</div>
+											</div>
+											<div class="masemp-button2">
+												<a href="#">Ver más</a>
+											</div>
+										</div>
+
+
+										<!---	EMPLEO 27 -->
+										<div class="slider-item3">
+											<div id="box27" class="box2 box-trigger"
+												 style="background-image: url(../img/emp27.png); background-size: cover;">
+												<h4>Diseño de Tiendas</h4><br />
+												<ul class="stars">
+													<li id="tipo">Jornada<br>Completa</li>
+
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star-half-o"></i></li>
+													<li><i class="fa fa-star-o"></i></li>
+												</ul>
+
+												<div id="square27" class="square">
+													<div id="descripcion">
+														<h5>Print Project Shop</h5>
+														<h6>
+															Fecha Publicación: 21.03.2023<br>Alicante, España
+														</h6>
+														<p>
+															Se necesita diseñador industrial para crear piezas
+															mecánicas para empresa automotriz, experiencia
+															requerida
+														<p>
+													</div>
+												</div>
+											</div>
+											<div class="masemp-button2">
+												<a href="#">Ver más</a>
+											</div>
+										</div>
+
+
+										<!---	EMPLEO 28 -->
+										<div class="slider-item3">
+											<div id="box28" class="box2 box-trigger"
+												 style="background-image: url(../img/emp28.png); background-size: cover;">
+												<h4>Diseñador Industrial</h4><br />
+												<ul class="stars">
+													<li id="tipo">Jornada<br>Completa</li>
+
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star-half-o"></i></li>
+													<li><i class="fa fa-star-o"></i></li>
+												</ul>
+
+												<div id="square28" class="square">
+													<div id="descripcion">
+														<h5>Print Project Shop</h5>
+														<h6>
+															Fecha Publicación: 21.03.2023<br>Alicante, España
+														</h6>
+														<p>
+															Se necesita diseñador industrial para crear piezas
+															mecánicas para empresa automotriz, experiencia
+															requerida
+														<p>
+													</div>
+												</div>
+											</div>
+											<div class="masemp-button2">
+												<a href="#">Ver más</a>
+											</div>
+										</div>
+
+
+										<!---	EMPLEO 29 -->
+										<div class="slider-item3">
+											<div id="box29" class="box2 box-trigger"
+												 style="background-image: url(../img/emp29.png); background-size: cover;">
+												<h4>Diseño Industrial</h4><br />
+												<ul class="stars">
+													<li id="tipo">FreeLance</li>
+
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star-half-o"></i></li>
+													<li><i class="fa fa-star-o"></i></li>
+												</ul>
+
+												<div id="square29" class="square">
+													<div id="descripcion">
+														<h5>Print Project Shop</h5>
+														<h6>
+															Fecha Publicación: 21.03.2023<br>Alicante, España
+														</h6>
+														<p>
+															Se necesita diseñador industrial para crear piezas
+															mecánicas para empresa automotriz, experiencia
+															requerida
+														<p>
+													</div>
+												</div>
+											</div>
+											<div class="masemp-button2">
+												<a href="#">Ver más</a>
+											</div>
+										</div>
+
+										<!---	EMPLEO 30 -->
+										<div class="slider-item3">
+											<div id="box30" class="box2 box-trigger"
+												 style="background-image: url(../img/emp30.png); background-size: cover;">
+												<h4>Impresion 3D</h4><br />
+												<ul class="stars">
+													<li id="tipo">FreeLance</li>
+
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star-half-o"></i></li>
+													<li><i class="fa fa-star-o"></i></li>
+												</ul>
+
+												<div id="square30" class="square">
+													<div id="descripcion">
+														<h5>Print Project Shop</h5>
+														<h6>
+															Fecha Publicación: 21.03.2023<br>Alicante, España
+														</h6>
+														<p>
+															Se necesita diseñador industrial para crear piezas
+															mecánicas para empresa automotriz, experiencia
+															requerida
+														<p>
+													</div>
+												</div>
+											</div>
+											<div class="masemp-button2">
+												<a href="#">Ver más</a>
+											</div>
+
+										</div>
+
+										<!---	EMPLEO 31 -->
+										<div class="slider-item3">
+											<div id="box31" class="box2 box-trigger"
+												 style="background-image: url(../img/emp31.png); background-size: cover;">
+												<h4>Dibujo Técnico</h4><br />
+												<ul class="stars">
+													<li id="tipo">Jornada<br>Completa</li>
+
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star"></i></li>
+													<li><i class="fa fa-star-half-o"></i></li>
+													<li><i class="fa fa-star-o"></i></li>
+												</ul>
+
+												<div id="square31" class="square">
+													<div id="descripcion">
+														<h5>Print Project Shop</h5>
+														<h6>
+															Fecha Publicación: 21.03.2023<br>Alicante, España
+														</h6>
+														<p>
+															Se necesita diseñador industrial para crear piezas
+															mecánicas para empresa automotriz, experiencia
+															requerida
+														<p>
+													</div>
+												</div>
+											</div>
+											<div class="masemp-button2">
+												<a href="#">Ver más</a>
+											</div>
+										</div>
+
+
+
+									</div>
+									<div class="control3">
+										<button id="prev3"><span>&ltrif;</span></button>
+										<button id="next3"><span>&rtrif;</span></button>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-12">
+							<div class="masemplast-button">
+								<a href="#">Ver más Empleos</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ***** Empleos END ***** -->
+
+
+
+
+			</div> <!-- PAGE CONTENT END-->
+		</div>
+	</div>
 </div>
+
+
+<script src="/js/descubre.js" asp-append-version="true"></script>

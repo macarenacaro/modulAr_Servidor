@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "x0gDX3cyy7YjWWfd2bKjAH54QZH0GrBUhbtXlZEWB+8=",
+  "Hash": "L/cfMViQYSzArVewDVKX9cS1PDogm8uRHv1Zgzx9vl0=",
   "Source": "ModulAR",
   "BasePath": "_content/ModulAR",
   "Mode": "Default",
@@ -1953,6 +1953,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\imagen-no-disponible.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\js\\descubre.js",
+      "SourceId": "ModulAR",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "BasePath": "_content/ModulAR",
+      "RelativePath": "js/descubre.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\descubre.js"
     },
     {
       "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\js\\site.js",
