@@ -162,8 +162,9 @@ li a:hover {
 }
 
 .lado1 {
+    position: relative;
+    padding: 30px;
     width: 50%;
-    height: 35vw;
     overflow: hidden; /* Para ocultar el contenido que sobresale */
     box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.2); /* Agrega sombra en el lado derecho */
 }
