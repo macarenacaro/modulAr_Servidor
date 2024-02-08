@@ -27,7 +27,7 @@ namespace ModulAR.Controllers
         }
 
         // GET: Productos
-        public async Task<IActionResult> Index(string searchString, int? page)
+        public async Task<IActionResult> Index(string searchString, int? page, decimal? minPrice, decimal? maxPrice)
         {
             // Filtro de búsqueda
             ViewData["CurrentFilter"] = searchString;
@@ -41,10 +41,19 @@ namespace ModulAR.Controllers
                 productos = productos.Where(p =>
                     p.Descripcion.Contains(searchString) ||
                     p.Id.ToString().Contains(searchString) ||
-                    p.PrecioCadena.Contains(searchString)||
                     p.Categoria.Descripcion.Contains(searchString)
                 );
             }
+            if (minPrice.HasValue)
+            {
+                productos = productos.Where(p => p.Precio >= minPrice);
+            }
+
+            if (maxPrice.HasValue)
+            {
+                productos = productos.Where(p => p.Precio <= maxPrice);
+            }
+
 
             // Paginación
             int pageSize = 7; // Número de productos por página

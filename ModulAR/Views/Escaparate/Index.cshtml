@@ -19,9 +19,9 @@
      <div class="col-8">
                 <form asp-action="Index" method="get" class="form-inline">
                     <div class="form-group" style="display:flex; flex-direction:row">
-                        <input type="text" name="searchString" value="@ViewBag.CurrentFilter" placeholder="Buscar nombre, precio o categoría" class="form-control" />
-                        <input type="number" name="minPrice" placeholder="Precio mínimo" class="form-control"  style="width:120px"/>
-                        <input type="number" name="maxPrice" placeholder="Precio máximo" class="form-control" style="width:120px" />
+                        <input type="text" name="searchString" value="@ViewBag.CurrentFilter" placeholder="Buscar nombre o categoría" class="form-control" />
+                        <input type="number" name="minPrice" placeholder="Mínimo" class="form-control" style="margin-left: 5px;width:120px"/>
+                        <input type="number" name="maxPrice" placeholder="Máximo" class="form-control" style="margin-left:5px; width:120px" />
                         <button type="submit" class="btn btn-primary" style="margin-left:15px">Buscar</button>
                     </div>
                 </form>
