@@ -17,7 +17,7 @@ namespace ModulAR.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index(int? categoryId, string searchString)
+        public async Task<IActionResult> Index(int? categoryId, string searchString, decimal? minPrice, decimal? maxPrice)
         {
             // Se seleccionan los datos del cliente correspondiente al usuario actual
             string? emailUsuario = User.Identity.Name;
@@ -51,6 +51,16 @@ namespace ModulAR.Controllers
                     p.Categoria.Descripcion.Contains(searchString) ||
                     p.PrecioCadena.Contains(searchString)
                 );
+            }
+
+            if (minPrice.HasValue)
+            {
+                productosQuery = productosQuery.Where(p => p.Precio >= minPrice);
+            }
+
+            if (maxPrice.HasValue)
+            {
+                productosQuery = productosQuery.Where(p => p.Precio <= maxPrice);
             }
 
             var productos = await productosQuery.ToListAsync();
