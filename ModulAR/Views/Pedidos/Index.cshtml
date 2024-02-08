@@ -9,7 +9,7 @@
 <h1>Pedidos</h1>
 
 <p>
-    <a asp-action="Create">Crear Nuevo</a>
+    @* <a asp-action="Create">Crear Nuevo</a>*@
 </p>
 
 @*BUSQUEDAS *@
@@ -95,7 +95,7 @@
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
                     @*   <a asp-action="Details" asp-route-id="@item.Id">Details</a> |*@
-                <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+                    @*   <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>*@
             </td>
         </tr>
 }
