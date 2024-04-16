@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LWvdZL0UOa+hVeg2m/1PRz29r1IyZMz39HH1gDu8l0SBIu+tBL8pTIgZKM+TGfcKxfyDrOh7SU86q4RG58U37A==",
+  "dgSpecHash": "tb7u1RCsIhj7FTDYLIJHG3ePU6dGOdfuAX3BU22BMSEz9AKHCHTYDV9lpD2bjwsVeVMI94uu15LlKwOjrxNIrA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\ModulAR.csproj",
+  "projectFilePath": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\ModulAR.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mcaro\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\mcaro\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

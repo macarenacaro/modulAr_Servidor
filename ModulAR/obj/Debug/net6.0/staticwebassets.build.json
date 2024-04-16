@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Nw4v6nPiWK1/w74Nmu9oIgdDy/xa/ZO0QHCpybzBdrw=",
+  "Hash": "YKYhhhmJmxegZ4o/oZvgF4fjzB87hqjaN9Nl3YYoR4A=",
   "Source": "ModulAR",
   "BasePath": "_content/ModulAR",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "ModulAR\\wwwroot",
       "Source": "ModulAR",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "Pattern": "**"
     }
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "C:\\Users\\mcaro\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.26\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ModulAR.styles.css",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ModulAR.styles.css",
       "SourceId": "ModulAR",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "ModulAR.styles.css",
       "AssetKind": "All",
@@ -1051,13 +1051,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ModulAR.styles.css"
+      "OriginalItemSpec": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ModulAR.styles.css"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ModulAR.bundle.scp.css",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ModulAR.bundle.scp.css",
       "SourceId": "ModulAR",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "ModulAR.bundle.scp.css",
       "AssetKind": "All",
@@ -1068,13 +1068,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ModulAR.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ModulAR.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\css\\descubre.css",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\css\\descubre.css",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "css/descubre.css",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\css\\descubre.css"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\css\\site.css",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\css\\styleNav_Footer.css",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\css\\styleNav_Footer.css",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "css/styleNav_Footer.css",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\css\\styleNav_Footer.css"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\favicon.ico",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\.DS_Store",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\.DS_Store",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "fonts/.DS_Store",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Black.woff",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Black.woff",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "fonts/GalanoGrotesqueAlt-Black.woff",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\GalanoGrotesqueAlt-Black.woff"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Black.woff2",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Black.woff2",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "fonts/GalanoGrotesqueAlt-Black.woff2",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\GalanoGrotesqueAlt-Black.woff2"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Light.woff",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Light.woff",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "fonts/GalanoGrotesqueAlt-Light.woff",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\GalanoGrotesqueAlt-Light.woff"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Light.woff2",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Light.woff2",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "fonts/GalanoGrotesqueAlt-Light.woff2",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\GalanoGrotesqueAlt-Light.woff2"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Medium.woff",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Medium.woff",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "fonts/GalanoGrotesqueAlt-Medium.woff",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\GalanoGrotesqueAlt-Medium.woff"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Medium.woff2",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Medium.woff2",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "fonts/GalanoGrotesqueAlt-Medium.woff2",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\GalanoGrotesqueAlt-Medium.woff2"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesque-Bold.woff",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesque-Bold.woff",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "fonts/GalanoGrotesque-Bold.woff",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\GalanoGrotesque-Bold.woff"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesque-Bold.woff2",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesque-Bold.woff2",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "fonts/GalanoGrotesque-Bold.woff2",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\GalanoGrotesque-Bold.woff2"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GALANO-GROTESQUE-LIGHT.woff",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GALANO-GROTESQUE-LIGHT.woff",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "fonts/GALANO-GROTESQUE-LIGHT.woff",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\GALANO-GROTESQUE-LIGHT.woff"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GALANO-GROTESQUE-MEDIUM.woff",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GALANO-GROTESQUE-MEDIUM.woff",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "fonts/GALANO-GROTESQUE-MEDIUM.woff",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\GALANO-GROTESQUE-MEDIUM.woff"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GALANO-GROTESQUE-SEMI-BOLD.woff",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GALANO-GROTESQUE-SEMI-BOLD.woff",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "fonts/GALANO-GROTESQUE-SEMI-BOLD.woff",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\GALANO-GROTESQUE-SEMI-BOLD.woff"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GALANO-GROTESQUE-THIN.woff",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GALANO-GROTESQUE-THIN.woff",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "fonts/GALANO-GROTESQUE-THIN.woff",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\GALANO-GROTESQUE-THIN.woff"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\NexaSlabDemo-Bold.woff",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\NexaSlabDemo-Bold.woff",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "fonts/NexaSlabDemo-Bold.woff",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\NexaSlabDemo-Bold.woff"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\NexaSlabDemo-Bold.woff2",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\NexaSlabDemo-Bold.woff2",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "fonts/NexaSlabDemo-Bold.woff2",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\NexaSlabDemo-Bold.woff2"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\NexaSlabDemo-Regular.woff",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\NexaSlabDemo-Regular.woff",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "fonts/NexaSlabDemo-Regular.woff",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\NexaSlabDemo-Regular.woff"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\NexaSlabDemo-Regular.woff2",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\NexaSlabDemo-Regular.woff2",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "fonts/NexaSlabDemo-Regular.woff2",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\NexaSlabDemo-Regular.woff2"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\1.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\1.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/1.jpg",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\1.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\117ccb85-c2a7-43f1-8e2c-71b9016157f6.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\117ccb85-c2a7-43f1-8e2c-71b9016157f6.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/117ccb85-c2a7-43f1-8e2c-71b9016157f6.jpg",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\117ccb85-c2a7-43f1-8e2c-71b9016157f6.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\1fe876d0-2cff-47a3-a44f-4337323abe83.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\1fe876d0-2cff-47a3-a44f-4337323abe83.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/1fe876d0-2cff-47a3-a44f-4337323abe83.jpg",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\1fe876d0-2cff-47a3-a44f-4337323abe83.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\2.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\2.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/2.jpg",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\2.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\3.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\3.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/3.jpg",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\3.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\388fdc24-7107-430a-9b0a-a6d598adcb13.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\388fdc24-7107-430a-9b0a-a6d598adcb13.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/388fdc24-7107-430a-9b0a-a6d598adcb13.jpg",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\388fdc24-7107-430a-9b0a-a6d598adcb13.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\492b6204-ee9d-463a-b596-599a13614b90.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\492b6204-ee9d-463a-b596-599a13614b90.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/492b6204-ee9d-463a-b596-599a13614b90.jpg",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\492b6204-ee9d-463a-b596-599a13614b90.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\4bda5bc4-a25e-45d6-8f3e-01554d1edbc4.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\4bda5bc4-a25e-45d6-8f3e-01554d1edbc4.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/4bda5bc4-a25e-45d6-8f3e-01554d1edbc4.jpg",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\4bda5bc4-a25e-45d6-8f3e-01554d1edbc4.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\5.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\5.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/5.jpg",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\5.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\6.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\6.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/6.jpg",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\6.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\60217305-9ab5-4171-bb2a-6e13b0d53244.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\60217305-9ab5-4171-bb2a-6e13b0d53244.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/60217305-9ab5-4171-bb2a-6e13b0d53244.jpg",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\60217305-9ab5-4171-bb2a-6e13b0d53244.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\7.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\7.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/7.jpg",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\7.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\72ebb2ed-cbce-45a6-9575-135cdc4fe872.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\72ebb2ed-cbce-45a6-9575-135cdc4fe872.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/72ebb2ed-cbce-45a6-9575-135cdc4fe872.jpg",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\72ebb2ed-cbce-45a6-9575-135cdc4fe872.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\8.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\8.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/8.jpg",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\8.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\85da3fc9-a3bf-418d-9af2-e88dd5e73278.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\85da3fc9-a3bf-418d-9af2-e88dd5e73278.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/85da3fc9-a3bf-418d-9af2-e88dd5e73278.jpg",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\85da3fc9-a3bf-418d-9af2-e88dd5e73278.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\8cd36fe4-07e1-4aea-a53f-fb2241aa829d.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\8cd36fe4-07e1-4aea-a53f-fb2241aa829d.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/8cd36fe4-07e1-4aea-a53f-fb2241aa829d.jpg",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\8cd36fe4-07e1-4aea-a53f-fb2241aa829d.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\9a9b820f-356c-49e8-873a-af37c31cdb6c.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\9a9b820f-356c-49e8-873a-af37c31cdb6c.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/9a9b820f-356c-49e8-873a-af37c31cdb6c.jpg",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\9a9b820f-356c-49e8-873a-af37c31cdb6c.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\9adb11a8-00ef-4609-9e09-37a0fac7c996.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\9adb11a8-00ef-4609-9e09-37a0fac7c996.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/9adb11a8-00ef-4609-9e09-37a0fac7c996.jpg",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\9adb11a8-00ef-4609-9e09-37a0fac7c996.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\a8672570-192c-42dd-8fb7-3ddc3158f1bd.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\a8672570-192c-42dd-8fb7-3ddc3158f1bd.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/a8672570-192c-42dd-8fb7-3ddc3158f1bd.jpg",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\a8672570-192c-42dd-8fb7-3ddc3158f1bd.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\ad42991f-15b6-4318-99bc-f703776c6593.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\ad42991f-15b6-4318-99bc-f703776c6593.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/ad42991f-15b6-4318-99bc-f703776c6593.jpg",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\ad42991f-15b6-4318-99bc-f703776c6593.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\bbca97be-a595-48a1-9bdf-0da480bbf3f7.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\bbca97be-a595-48a1-9bdf-0da480bbf3f7.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/bbca97be-a595-48a1-9bdf-0da480bbf3f7.jpg",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\bbca97be-a595-48a1-9bdf-0da480bbf3f7.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\bbede116-615f-4dcb-b9e7-32ca29d2d11a.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\bbede116-615f-4dcb-b9e7-32ca29d2d11a.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/bbede116-615f-4dcb-b9e7-32ca29d2d11a.jpg",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\bbede116-615f-4dcb-b9e7-32ca29d2d11a.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\cdb37e61-79a2-4656-b559-ca7038756475.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\cdb37e61-79a2-4656-b559-ca7038756475.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/cdb37e61-79a2-4656-b559-ca7038756475.jpg",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\cdb37e61-79a2-4656-b559-ca7038756475.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\d1bfc6c0-1cef-425b-ad2c-4b28d8184465.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\d1bfc6c0-1cef-425b-ad2c-4b28d8184465.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/d1bfc6c0-1cef-425b-ad2c-4b28d8184465.jpg",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\d1bfc6c0-1cef-425b-ad2c-4b28d8184465.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\e468a91e-6d67-48f6-a656-55e87ea7d08f.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\e468a91e-6d67-48f6-a656-55e87ea7d08f.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/e468a91e-6d67-48f6-a656-55e87ea7d08f.jpg",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\e468a91e-6d67-48f6-a656-55e87ea7d08f.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\e9f53881-5cc5-491c-a945-8ddc1c03b952.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\e9f53881-5cc5-491c-a945-8ddc1c03b952.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/e9f53881-5cc5-491c-a945-8ddc1c03b952.jpg",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\e9f53881-5cc5-491c-a945-8ddc1c03b952.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\ee3c8fcf-0d0b-4582-91eb-1f128f0fca42.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\ee3c8fcf-0d0b-4582-91eb-1f128f0fca42.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/ee3c8fcf-0d0b-4582-91eb-1f128f0fca42.jpg",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\ee3c8fcf-0d0b-4582-91eb-1f128f0fca42.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\f3f6304a-694f-4647-95e8-87fa78f1d6c7.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\f3f6304a-694f-4647-95e8-87fa78f1d6c7.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/f3f6304a-694f-4647-95e8-87fa78f1d6c7.jpg",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\f3f6304a-694f-4647-95e8-87fa78f1d6c7.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\art3d.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\art3d.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/art3d.png",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\art3d.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\banner4.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\banner4.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/banner4.png",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\banner4.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\bellas.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\bellas.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/bellas.png",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\bellas.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\circle1.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\circle1.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/circle1.png",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\circle1.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\disenograf.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\disenograf.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/disenograf.png",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\disenograf.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\disenoind.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\disenoind.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/disenoind.png",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\disenoind.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\disint.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\disint.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/disint.png",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\disint.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\disjue.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\disjue.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/disjue.png",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\disjue.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp10.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp10.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/emp10.png",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\emp10.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp2.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp2.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/emp2.png",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\emp2.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp21.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp21.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/emp21.png",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\emp21.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp22.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp22.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/emp22.png",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\emp22.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp23.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp23.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/emp23.png",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\emp23.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp24.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp24.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/emp24.png",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\emp24.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp25.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp25.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/emp25.png",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\emp25.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp26.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp26.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/emp26.png",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\emp26.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp27.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp27.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/emp27.png",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\emp27.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp28.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp28.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/emp28.png",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\emp28.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp29.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp29.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/emp29.png",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\emp29.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp3.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp3.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/emp3.png",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\emp3.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp30.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp30.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/emp30.png",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\emp30.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp31.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp31.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/emp31.png",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\emp31.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp4.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp4.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/emp4.png",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\emp4.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp5.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp5.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/emp5.png",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\emp5.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp6.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp6.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/emp6.png",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\emp6.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp7.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp7.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/emp7.png",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\emp7.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp8.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp8.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/emp8.png",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\emp8.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp9.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp9.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/emp9.png",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\emp9.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\escultura.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\escultura.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/escultura.png",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\escultura.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\footer.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\footer.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/footer.png",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\footer.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\footer2.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\footer2.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/footer2.png",
       "AssetKind": "All",
@@ -2431,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\footer2.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\ilus.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\ilus.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/ilus.png",
       "AssetKind": "All",
@@ -2448,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\ilus.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\logo.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\logo.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/logo.png",
       "AssetKind": "All",
@@ -2465,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\logo_b&n.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\logo_b&n.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/logo_b&n.png",
       "AssetKind": "All",
@@ -2482,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\logo_b&n.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\logoiso.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\logoiso.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/logoiso.png",
       "AssetKind": "All",
@@ -2499,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\logoiso.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\mensaje.svg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\mensaje.svg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/mensaje.svg",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\mensaje.svg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\menuBtn.svg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\menuBtn.svg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/menuBtn.svg",
       "AssetKind": "All",
@@ -2533,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\menuBtn.svg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\mobil.gif",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\mobil.gif",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/mobil.gif",
       "AssetKind": "All",
@@ -2550,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\mobil.gif"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\mobiliario.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\mobiliario.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/mobiliario.png",
       "AssetKind": "All",
@@ -2567,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\mobiliario.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\notif.svg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\notif.svg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/notif.svg",
       "AssetKind": "All",
@@ -2584,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\notif.svg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\perfil.svg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\perfil.svg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/perfil.svg",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\perfil.svg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\pintura.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\pintura.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/pintura.jpg",
       "AssetKind": "All",
@@ -2618,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\pintura.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\play-store.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\play-store.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/play-store.png",
       "AssetKind": "All",
@@ -2635,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\play-store.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-01.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-01.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/popular-01.jpg",
       "AssetKind": "All",
@@ -2652,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\popular-01.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-01.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-01.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/popular-01.png",
       "AssetKind": "All",
@@ -2669,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\popular-01.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-02.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-02.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/popular-02.png",
       "AssetKind": "All",
@@ -2686,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\popular-02.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-03.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-03.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/popular-03.png",
       "AssetKind": "All",
@@ -2703,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\popular-03.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-04.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-04.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/popular-04.png",
       "AssetKind": "All",
@@ -2720,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\popular-04.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-05.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-05.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/popular-05.png",
       "AssetKind": "All",
@@ -2737,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\popular-05.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-06.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-06.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/popular-06.png",
       "AssetKind": "All",
@@ -2754,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\popular-06.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-07.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-07.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/popular-07.png",
       "AssetKind": "All",
@@ -2771,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\popular-07.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-08.png",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-08.png",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/popular-08.png",
       "AssetKind": "All",
@@ -2788,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\popular-08.png"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\shop.svg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\shop.svg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/shop.svg",
       "AssetKind": "All",
@@ -2805,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\shop.svg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\usuario_1.svg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\usuario_1.svg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/generales/usuario_1.svg",
       "AssetKind": "All",
@@ -2822,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generales\\usuario_1.svg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\imagen-no-disponible.jpg",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\imagen-no-disponible.jpg",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "imagenes/imagen-no-disponible.jpg",
       "AssetKind": "All",
@@ -2839,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\imagen-no-disponible.jpg"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\js\\descubre.js",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\js\\descubre.js",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "js/descubre.js",
       "AssetKind": "All",
@@ -2856,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\js\\descubre.js"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\js\\site.js",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -2873,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -2890,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2907,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2941,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -2958,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -2975,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -2992,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -3009,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -3026,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -3043,10 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -3060,10 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -3077,10 +3077,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -3094,10 +3094,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -3111,10 +3111,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -3128,10 +3128,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -3145,10 +3145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -3162,10 +3162,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -3179,10 +3179,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -3196,10 +3196,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -3213,10 +3213,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -3230,10 +3230,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -3247,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -3264,10 +3264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -3281,10 +3281,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -3298,10 +3298,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -3315,10 +3315,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -3332,10 +3332,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -3349,10 +3349,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -3366,10 +3366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -3383,10 +3383,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -3400,10 +3400,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -3417,10 +3417,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -3434,10 +3434,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -3451,10 +3451,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -3468,10 +3468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -3485,10 +3485,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -3502,10 +3502,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -3519,10 +3519,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -3536,10 +3536,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -3553,10 +3553,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -3570,10 +3570,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -3587,10 +3587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -3604,10 +3604,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -3621,10 +3621,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -3638,10 +3638,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -3655,10 +3655,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -3672,10 +3672,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -3689,10 +3689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -3706,10 +3706,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -3723,10 +3723,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -3740,10 +3740,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -3757,10 +3757,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -3774,10 +3774,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -3791,10 +3791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -3808,10 +3808,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -3825,10 +3825,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "ModulAR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\",
       "BasePath": "_content/ModulAR",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

@@ -1,659 +1,659 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ModulAR.bundle.scp.css",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ModulAR.bundle.scp.css",
       "PackagePath": "staticwebassets\\ModulAR.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\css\\descubre.css",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\css\\descubre.css",
       "PackagePath": "staticwebassets\\css\\descubre.css"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\css\\styleNav_Footer.css",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\css\\styleNav_Footer.css",
       "PackagePath": "staticwebassets\\css\\styleNav_Footer.css"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\.DS_Store",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\.DS_Store",
       "PackagePath": "staticwebassets\\fonts\\.DS_Store"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GALANO-GROTESQUE-LIGHT.woff",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GALANO-GROTESQUE-LIGHT.woff",
       "PackagePath": "staticwebassets\\fonts\\GALANO-GROTESQUE-LIGHT.woff"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GALANO-GROTESQUE-MEDIUM.woff",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GALANO-GROTESQUE-MEDIUM.woff",
       "PackagePath": "staticwebassets\\fonts\\GALANO-GROTESQUE-MEDIUM.woff"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GALANO-GROTESQUE-SEMI-BOLD.woff",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GALANO-GROTESQUE-SEMI-BOLD.woff",
       "PackagePath": "staticwebassets\\fonts\\GALANO-GROTESQUE-SEMI-BOLD.woff"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GALANO-GROTESQUE-THIN.woff",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GALANO-GROTESQUE-THIN.woff",
       "PackagePath": "staticwebassets\\fonts\\GALANO-GROTESQUE-THIN.woff"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesque-Bold.woff",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesque-Bold.woff",
       "PackagePath": "staticwebassets\\fonts\\GalanoGrotesque-Bold.woff"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesque-Bold.woff2",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesque-Bold.woff2",
       "PackagePath": "staticwebassets\\fonts\\GalanoGrotesque-Bold.woff2"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Black.woff",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Black.woff",
       "PackagePath": "staticwebassets\\fonts\\GalanoGrotesqueAlt-Black.woff"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Black.woff2",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Black.woff2",
       "PackagePath": "staticwebassets\\fonts\\GalanoGrotesqueAlt-Black.woff2"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Light.woff",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Light.woff",
       "PackagePath": "staticwebassets\\fonts\\GalanoGrotesqueAlt-Light.woff"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Light.woff2",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Light.woff2",
       "PackagePath": "staticwebassets\\fonts\\GalanoGrotesqueAlt-Light.woff2"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Medium.woff",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Medium.woff",
       "PackagePath": "staticwebassets\\fonts\\GalanoGrotesqueAlt-Medium.woff"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Medium.woff2",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\GalanoGrotesqueAlt-Medium.woff2",
       "PackagePath": "staticwebassets\\fonts\\GalanoGrotesqueAlt-Medium.woff2"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\NexaSlabDemo-Bold.woff",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\NexaSlabDemo-Bold.woff",
       "PackagePath": "staticwebassets\\fonts\\NexaSlabDemo-Bold.woff"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\NexaSlabDemo-Bold.woff2",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\NexaSlabDemo-Bold.woff2",
       "PackagePath": "staticwebassets\\fonts\\NexaSlabDemo-Bold.woff2"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\NexaSlabDemo-Regular.woff",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\NexaSlabDemo-Regular.woff",
       "PackagePath": "staticwebassets\\fonts\\NexaSlabDemo-Regular.woff"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\NexaSlabDemo-Regular.woff2",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\fonts\\NexaSlabDemo-Regular.woff2",
       "PackagePath": "staticwebassets\\fonts\\NexaSlabDemo-Regular.woff2"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\1.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\1.jpg",
       "PackagePath": "staticwebassets\\imagenes\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\117ccb85-c2a7-43f1-8e2c-71b9016157f6.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\117ccb85-c2a7-43f1-8e2c-71b9016157f6.jpg",
       "PackagePath": "staticwebassets\\imagenes\\117ccb85-c2a7-43f1-8e2c-71b9016157f6.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\1fe876d0-2cff-47a3-a44f-4337323abe83.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\1fe876d0-2cff-47a3-a44f-4337323abe83.jpg",
       "PackagePath": "staticwebassets\\imagenes\\1fe876d0-2cff-47a3-a44f-4337323abe83.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\2.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\2.jpg",
       "PackagePath": "staticwebassets\\imagenes\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\3.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\3.jpg",
       "PackagePath": "staticwebassets\\imagenes\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\388fdc24-7107-430a-9b0a-a6d598adcb13.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\388fdc24-7107-430a-9b0a-a6d598adcb13.jpg",
       "PackagePath": "staticwebassets\\imagenes\\388fdc24-7107-430a-9b0a-a6d598adcb13.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\492b6204-ee9d-463a-b596-599a13614b90.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\492b6204-ee9d-463a-b596-599a13614b90.jpg",
       "PackagePath": "staticwebassets\\imagenes\\492b6204-ee9d-463a-b596-599a13614b90.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\4bda5bc4-a25e-45d6-8f3e-01554d1edbc4.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\4bda5bc4-a25e-45d6-8f3e-01554d1edbc4.jpg",
       "PackagePath": "staticwebassets\\imagenes\\4bda5bc4-a25e-45d6-8f3e-01554d1edbc4.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\5.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\5.jpg",
       "PackagePath": "staticwebassets\\imagenes\\5.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\6.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\6.jpg",
       "PackagePath": "staticwebassets\\imagenes\\6.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\60217305-9ab5-4171-bb2a-6e13b0d53244.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\60217305-9ab5-4171-bb2a-6e13b0d53244.jpg",
       "PackagePath": "staticwebassets\\imagenes\\60217305-9ab5-4171-bb2a-6e13b0d53244.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\7.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\7.jpg",
       "PackagePath": "staticwebassets\\imagenes\\7.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\72ebb2ed-cbce-45a6-9575-135cdc4fe872.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\72ebb2ed-cbce-45a6-9575-135cdc4fe872.jpg",
       "PackagePath": "staticwebassets\\imagenes\\72ebb2ed-cbce-45a6-9575-135cdc4fe872.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\8.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\8.jpg",
       "PackagePath": "staticwebassets\\imagenes\\8.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\85da3fc9-a3bf-418d-9af2-e88dd5e73278.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\85da3fc9-a3bf-418d-9af2-e88dd5e73278.jpg",
       "PackagePath": "staticwebassets\\imagenes\\85da3fc9-a3bf-418d-9af2-e88dd5e73278.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\8cd36fe4-07e1-4aea-a53f-fb2241aa829d.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\8cd36fe4-07e1-4aea-a53f-fb2241aa829d.jpg",
       "PackagePath": "staticwebassets\\imagenes\\8cd36fe4-07e1-4aea-a53f-fb2241aa829d.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\9a9b820f-356c-49e8-873a-af37c31cdb6c.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\9a9b820f-356c-49e8-873a-af37c31cdb6c.jpg",
       "PackagePath": "staticwebassets\\imagenes\\9a9b820f-356c-49e8-873a-af37c31cdb6c.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\9adb11a8-00ef-4609-9e09-37a0fac7c996.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\9adb11a8-00ef-4609-9e09-37a0fac7c996.jpg",
       "PackagePath": "staticwebassets\\imagenes\\9adb11a8-00ef-4609-9e09-37a0fac7c996.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\a8672570-192c-42dd-8fb7-3ddc3158f1bd.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\a8672570-192c-42dd-8fb7-3ddc3158f1bd.jpg",
       "PackagePath": "staticwebassets\\imagenes\\a8672570-192c-42dd-8fb7-3ddc3158f1bd.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\ad42991f-15b6-4318-99bc-f703776c6593.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\ad42991f-15b6-4318-99bc-f703776c6593.jpg",
       "PackagePath": "staticwebassets\\imagenes\\ad42991f-15b6-4318-99bc-f703776c6593.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\bbca97be-a595-48a1-9bdf-0da480bbf3f7.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\bbca97be-a595-48a1-9bdf-0da480bbf3f7.jpg",
       "PackagePath": "staticwebassets\\imagenes\\bbca97be-a595-48a1-9bdf-0da480bbf3f7.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\bbede116-615f-4dcb-b9e7-32ca29d2d11a.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\bbede116-615f-4dcb-b9e7-32ca29d2d11a.jpg",
       "PackagePath": "staticwebassets\\imagenes\\bbede116-615f-4dcb-b9e7-32ca29d2d11a.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\cdb37e61-79a2-4656-b559-ca7038756475.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\cdb37e61-79a2-4656-b559-ca7038756475.jpg",
       "PackagePath": "staticwebassets\\imagenes\\cdb37e61-79a2-4656-b559-ca7038756475.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\d1bfc6c0-1cef-425b-ad2c-4b28d8184465.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\d1bfc6c0-1cef-425b-ad2c-4b28d8184465.jpg",
       "PackagePath": "staticwebassets\\imagenes\\d1bfc6c0-1cef-425b-ad2c-4b28d8184465.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\e468a91e-6d67-48f6-a656-55e87ea7d08f.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\e468a91e-6d67-48f6-a656-55e87ea7d08f.jpg",
       "PackagePath": "staticwebassets\\imagenes\\e468a91e-6d67-48f6-a656-55e87ea7d08f.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\e9f53881-5cc5-491c-a945-8ddc1c03b952.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\e9f53881-5cc5-491c-a945-8ddc1c03b952.jpg",
       "PackagePath": "staticwebassets\\imagenes\\e9f53881-5cc5-491c-a945-8ddc1c03b952.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\ee3c8fcf-0d0b-4582-91eb-1f128f0fca42.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\ee3c8fcf-0d0b-4582-91eb-1f128f0fca42.jpg",
       "PackagePath": "staticwebassets\\imagenes\\ee3c8fcf-0d0b-4582-91eb-1f128f0fca42.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\f3f6304a-694f-4647-95e8-87fa78f1d6c7.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\f3f6304a-694f-4647-95e8-87fa78f1d6c7.jpg",
       "PackagePath": "staticwebassets\\imagenes\\f3f6304a-694f-4647-95e8-87fa78f1d6c7.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\art3d.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\art3d.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\art3d.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\banner4.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\banner4.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\banner4.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\bellas.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\bellas.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\bellas.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\circle1.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\circle1.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\circle1.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\disenograf.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\disenograf.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\disenograf.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\disenoind.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\disenoind.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\disenoind.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\disint.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\disint.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\disint.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\disjue.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\disjue.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\disjue.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp10.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp10.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\emp10.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp2.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp2.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\emp2.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp21.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp21.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\emp21.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp22.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp22.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\emp22.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp23.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp23.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\emp23.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp24.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp24.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\emp24.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp25.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp25.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\emp25.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp26.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp26.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\emp26.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp27.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp27.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\emp27.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp28.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp28.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\emp28.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp29.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp29.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\emp29.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp3.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp3.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\emp3.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp30.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp30.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\emp30.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp31.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp31.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\emp31.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp4.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp4.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\emp4.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp5.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp5.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\emp5.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp6.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp6.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\emp6.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp7.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp7.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\emp7.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp8.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp8.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\emp8.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp9.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\emp9.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\emp9.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\escultura.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\escultura.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\escultura.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\footer.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\footer.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\footer.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\footer2.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\footer2.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\footer2.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\ilus.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\ilus.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\ilus.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\logo.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\logo.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\logo.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\logo_b&n.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\logo_b&n.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\logo_b&n.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\logoiso.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\logoiso.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\logoiso.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\mensaje.svg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\mensaje.svg",
       "PackagePath": "staticwebassets\\imagenes\\generales\\mensaje.svg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\menuBtn.svg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\menuBtn.svg",
       "PackagePath": "staticwebassets\\imagenes\\generales\\menuBtn.svg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\mobil.gif",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\mobil.gif",
       "PackagePath": "staticwebassets\\imagenes\\generales\\mobil.gif"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\mobiliario.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\mobiliario.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\mobiliario.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\notif.svg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\notif.svg",
       "PackagePath": "staticwebassets\\imagenes\\generales\\notif.svg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\perfil.svg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\perfil.svg",
       "PackagePath": "staticwebassets\\imagenes\\generales\\perfil.svg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\pintura.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\pintura.jpg",
       "PackagePath": "staticwebassets\\imagenes\\generales\\pintura.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\play-store.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\play-store.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\play-store.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-01.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-01.jpg",
       "PackagePath": "staticwebassets\\imagenes\\generales\\popular-01.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-01.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-01.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\popular-01.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-02.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-02.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\popular-02.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-03.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-03.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\popular-03.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-04.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-04.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\popular-04.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-05.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-05.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\popular-05.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-06.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-06.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\popular-06.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-07.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-07.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\popular-07.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-08.png",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\popular-08.png",
       "PackagePath": "staticwebassets\\imagenes\\generales\\popular-08.png"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\shop.svg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\shop.svg",
       "PackagePath": "staticwebassets\\imagenes\\generales\\shop.svg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\usuario_1.svg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\generales\\usuario_1.svg",
       "PackagePath": "staticwebassets\\imagenes\\generales\\usuario_1.svg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\imagen-no-disponible.jpg",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\imagenes\\imagen-no-disponible.jpg",
       "PackagePath": "staticwebassets\\imagenes\\imagen-no-disponible.jpg"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\js\\descubre.js",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\js\\descubre.js",
       "PackagePath": "staticwebassets\\js\\descubre.js"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\2.IES MARE NOSTRUM\\1.ENTORNO DESARROLLO SERVIDOR\\macarenacaro\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\mcaro\\OneDrive\\Documentos\\4. DESARROLLO PROYECTO FINAL\\4. Aplicación\\modular_Servidor\\Modular2\\modulAr_Servidor\\ModulAR\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
